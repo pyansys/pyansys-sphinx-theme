@@ -71,6 +71,13 @@ html_theme_options = {
         "limit": 7,
         "minMatchCharLength": 3,
     },
+    "whatsnew": {
+        "no_of_headers": 2,
+        "no_of_contents": 3,
+        "whatsnew_file": "whatsnew",
+        "changelog_file": "changelog",
+        "pages": ["changelog"],  # "index"
+    },
 }
 
 index_patterns = {

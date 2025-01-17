@@ -1,0 +1,23 @@
+{% if whatsnew %}
+<div class="whatsnew-sidebar">
+    <ul>
+        {% for whatsnew in whatsnew %}
+        {% set title = whatsnew.get('title') %}
+        {% set url = whatsnew.get('url') %}
+        {% set title_url = whatsnew.get('title_url') %}
+        {% set children = whatsnew.get('children') %}
+        <h2><strong><a href="{{ title_url }}">{{ title }}</a></strong></h2> <!-- Display title as a link -->
+        <!-- current link -->
+        <ui>
+            <!-- child element is dictionary -->
+            {% for child in children %}
+            <li><a href="{{ url }}">{{ child }}</a></li> <!-- Display child element as a link -->
+            {% endfor %}
+        </ui>
+      {% endfor %}
+    </ul>
+  </div>
+  <!-- add style file -->
+  <link rel="stylesheet" href="{{ pathto('_static/css/whatsnew.css', 1) }}">
+
+{% endif %}

@@ -1,0 +1,104 @@
+fragments:
+- title: Launch GUI
+  version: 1.2.1
+  content: |
+    Open the current project with Mechanical GUI.
+
+    .. code-block:: python
+
+        from ansys.mechanical.core import App
+
+        app = App()
+        app.save()
+        app.launch_gui()
+
+    The above code opens up the *temporarily* saved ``.mechdb`` or `.mechdat` files.
+    The files are **deleted** when the ``GUI`` is closed. For more information, check the
+    content ``before`` `launch_gui() <https://mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/core/embedding/app/App.html#App.launch_gui>`_ function `another link <https://google.com>`_ more `words`.
+
+    Opens up the specified project file.
+
+    .. sourcecode:: python
+
+      launch_gui("path/to/project.mechdb")
+
+- title: Print Mechanical tree
+  version: 1.2.0
+  content: |
+    This feature allows you to see the hierarchical Mechanical project tree.
+    It also shows whether an object is suppressed or not.
+
+    .. code::
+
+      import ansys.mechanical.core as mech
+
+      app = mech.App()
+      app.update_globals(globals())
+      app.print_tree()
+
+    .. code:: shell
+
+      ... ├── Project
+      ... |  ├── Model
+      ... |  |  ├── Geometry Imports
+      ... |  |  ├── Geometry
+      ... |  |  ├── Materials
+      ... |  |  ├── Coordinate Systems
+      ... |  |  |  ├── Global Coordinate System
+      ... |  |  ├── Remote Points
+      ... |  |  ├── Mesh
+
+- title: Visualize geometry in 3D
+  version: 1.2.3
+  content: |
+    Visualize imported geometry in 3D. This feature is available only from 24R1 or later.
+
+    .. code:: python
+
+      import ansys.mechanical.core as mech
+
+      app = mech.App(version=242)
+      app.update_globals(globals())
+
+      # Import the geometry
+
+      # visualize
+      app.plot()
+
+- title: title 1
+  version: 1.0.7
+  content: |
+    Title 1 content.
+
+    .. code-block:: python
+
+        print("title 1")
+        print("content")
+
+    Paragraph paragraph
+
+    .. sourcecode:: python
+
+      launch_gui("path/to/project.mechdb")
+
+- title: title 2
+  version: 1.0.4
+  content: |
+    Title 2 sample content.
+
+    .. code::
+
+      print("hello")
+
+    .. code:: shell
+
+      echo world
+
+- title: title 3
+  version: 0.16.5
+  content: |
+    Print hello world.
+
+    .. code:: python
+
+      print("hello world")

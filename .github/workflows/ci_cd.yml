@@ -45,6 +45,19 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - name: "Setup python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.MAIN_PYTHON_VERSION }}
+
+      - name: "Checkout repo"
+        uses: actions/checkout@v4
+
+      - name: "Install dependencies"
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[changelog]
+
       - uses: ansys/actions/doc-changelog@v8
         if: ${{ github.event_name == 'pull_request' }}
         with:
