@@ -1,0 +1,287 @@
+
+
+:class:`ExampleClass`
+=====================
+
+.. py:class:: examples.samples.ExampleClass(param1, param2, param3=0)
+
+   
+   The summary line for a class docstring should fit on one line.
+
+   Attributes should be documented inline with the attribute's
+   declaration.
+
+   Properties created with the ``@property`` decorator should be
+   documented in the property's getter method.
+
+   :Parameters:
+
+       **param1** : :class:`python:str`
+           Description of `param1`.
+
+       **param2** : :obj:`list` :obj:`of` :obj:`str`
+           Description of `param2`. Multiple
+           lines are supported.
+
+       **param3** : :obj:`int`, :obj:`optional`
+           Description of `param3`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   An example of how to initialize this class should be given.
+
+   >>> from ansys_sphinx_theme import samples
+   >>> example = samples.ExampleClass("mystr", ["apple", "orange"], 3)
+
+   ..
+       !! processed by numpydoc !!
+
+
+
+
+.. py:currentmodule:: ExampleClass
+
+Overview
+--------
+
+.. tab-set::
+
+
+
+   .. tab-item:: Methods
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~example_method`
+            - Class methods are similar to regular functions.
+
+
+   .. tab-item:: Properties
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~readonly_property`
+            - Properties should be documented in their getter method.
+          * - :py:attr:`~readwrite_property`
+            - Set or return the readwrite property.
+
+
+   .. tab-item:: Attributes
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~attr1`
+            - 
+          * - :py:attr:`~attr2`
+            - 
+          * - :py:attr:`~attr3`
+            - 
+          * - :py:attr:`~attr4`
+            - 
+          * - :py:attr:`~attr5`
+            - 
+
+
+
+   .. tab-item:: Special methods
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~__special__`
+            - By default special members with docstrings are not included.
+          * - :py:attr:`~__special_without_docstring__`
+            - 
+
+
+
+
+Import detail
+-------------
+
+.. code-block:: python
+
+    from examples.samples import ExampleClass
+
+Property detail
+---------------
+.. py:property:: readonly_property
+   :type: str
+
+   
+   Properties should be documented in their getter method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> example.readonly_property
+   "readonly_property"
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:property:: readwrite_property
+   
+   Set or return the readwrite property.
+
+   Properties with both a getter and setter should only be documented in
+   their getter method.
+
+   If the setter method contains notable behavior, it should be mentioned
+   here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> example.readwrite_property
+   "readwrite_property"
+
+   >>> example.readwrite_property = "hello world"
+   >>> example.readwrite_property
+   'hello world'
+
+   ..
+       !! processed by numpydoc !!
+
+
+
+Attribute detail
+----------------
+.. py:attribute:: attr1
+
+.. py:attribute:: attr2
+
+.. py:attribute:: attr3
+
+.. py:attribute:: attr4
+   :value: ['attr4']
+
+
+.. py:attribute:: attr5
+   :value: None
+
+
+
+
+Method detail
+-------------
+.. py:method:: example_method(param1, param2)
+
+   
+   Class methods are similar to regular functions.
+
+
+   :Parameters:
+
+       **param1** : :class:`python:str`
+           The first parameter.
+
+       **param2** : :class:`python:str`
+           The second parameter.
+
+
+
+   :Returns:
+
+       :ref:`bool <python:bltin-boolean-values>`
+           ``True`` if successful, ``False`` otherwise.
+
+
+
+
+
+
+
+
+   .. rubric:: Notes
+
+   Do not include the ``self`` parameter in the ``Parameters`` section.
+
+
+   .. rubric:: Examples
+
+   >>> example.example_method("foo", "bar")
+   True
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __special__()
+
+   
+   By default special members with docstrings are not included.
+
+   Special members are any methods or attributes that start with and
+   end with a double underscore. Any special member with a docstring
+   will be included in the output, if
+   ``napoleon_include_special_with_doc`` is set to True.
+
+   This behavior can be enabled by changing the following setting in
+   Sphinx's conf.py::
+
+       napoleon_include_special_with_doc = True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __special_without_docstring__()
+
+

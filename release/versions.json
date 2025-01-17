@@ -1,0 +1,19 @@
+[
+    {
+        "version": "dev",
+        "url": "https://sphinxdocs.ansys.com/dev/",
+        "description":"something"
+    },
+    {
+        "version": "0.9 (stable)",
+        "url": "https://sphinxdocs.ansys.com/release/0.9/"
+    },
+    {
+        "version": "0.8",
+        "url": "https://sphinxdocs.ansys.com/release/0.8/"
+    },
+    {
+        "version": "0.7",
+        "url": "https://sphinxdocs.ansys.com/release/0.7/"
+    }
+]

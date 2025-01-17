@@ -1,0 +1,47 @@
+examples.sample_func.func
+=========================
+
+.. py:function:: examples.sample_func.func(arg1, arg2)
+
+   
+   Summary line <should be one one line>.
+
+   Extended description of function.  Can span multiple lines and
+   provides a general overview of the function.
+
+   .. warning::
+      Use the ``.. warning::`` directive within the doc-string for any
+      warnings you would like to explicitly state.  For example, if
+      this method will be deprecated in the next release.
+
+   :Parameters:
+
+       **arg1** : :class:`python:int`
+           Description of arg1.
+
+       **arg2** : :class:`python:str`
+           Description of arg2.
+
+
+
+   :Returns:
+
+       :ref:`bool <python:bltin-boolean-values>`
+           Description of return value.
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> func(1, "foo")
+   True
+
+   ..
+       !! processed by numpydoc !!

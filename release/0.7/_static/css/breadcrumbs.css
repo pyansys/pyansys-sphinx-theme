@@ -1,0 +1,24 @@
+@import "ansys-sphinx-theme.css";
+
+#breadcrumbs{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+
+}
+
+#breadcrumbs-spacer {
+    border-right: 10rem solid var(--pst-color-background);
+}
+
+div.related > ul {
+    padding-left: 0;
+}
+
+body {
+    padding-top: var(--pst-header-height);
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}

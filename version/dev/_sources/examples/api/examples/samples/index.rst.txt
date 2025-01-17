@@ -1,0 +1,87 @@
+
+
+
+
+
+
+The ``samples.py`` module
+=========================
+
+.. py:module:: examples.samples
+
+
+Summary
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+.. py:currentmodule:: samples
+.. tab-set::
+
+
+
+
+    .. tab-item:: Classes
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~examples.samples.ExampleClass`
+            - The summary line for a class docstring should fit on one line.
+
+
+          * - :py:obj:`~examples.samples.Complex`
+            - Custom implementation of a complex number.
+
+
+
+
+
+
+
+
+
+
+
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+    <span class="nf nf-cod-symbol_class"></span> ExampleClass</examples/api/examples/samples/ExampleClass>
+    <span class="nf nf-cod-symbol_class"></span> Complex</examples/api/examples/samples/Complex>
+
+
+
+
+
+
+
+
+
+Description
+-----------
+
+Sample classes and functions for ansys-sphinx-theme.
+
+..
+    !! processed by numpydoc !!
+
+
+
+
+
+
+

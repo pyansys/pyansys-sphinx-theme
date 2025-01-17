@@ -1,0 +1,15 @@
+API reference
+=============
+
+This section describes ansys_sphinx_theme endpoints, their capabilities, and how
+to interact with them programmatically.
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   <span class="nf nf-md-package"></span> examples</examples/api/examples/index>
+   <span class="nf nf-md-package"></span> type_hint_func</examples/api/examples/type_hint_example/type_hint_func>
+   <span class="nf nf-md-package"></span> ExampleClass</examples/api/examples/samples/ExampleClass>
+   <span class="nf nf-md-package"></span> Complex</examples/api/examples/samples/Complex>
+   <span class="nf nf-md-package"></span> func</examples/api/examples/sample_func/func>

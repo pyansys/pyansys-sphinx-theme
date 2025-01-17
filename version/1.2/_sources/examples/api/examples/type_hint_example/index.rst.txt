@@ -1,0 +1,78 @@
+
+
+
+
+
+
+The ``type_hint_example.py`` module
+===================================
+
+.. py:module:: examples.type_hint_example
+
+
+Summary
+-------
+
+
+
+
+
+
+
+
+.. py:currentmodule:: type_hint_example
+.. tab-set::
+
+
+
+
+
+
+
+    .. tab-item:: Functions
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~examples.type_hint_example.type_hint_func`
+            - Summary containing the function description.
+
+
+
+
+
+
+
+
+
+
+
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+    <span class="nf nf-md-function_variant"></span> type_hint_func</examples/api/examples/type_hint_example/type_hint_func>
+
+
+
+
+
+
+Description
+-----------
+
+Module containing an example function using type hinting.
+
+..
+    !! processed by numpydoc !!
+
+
+
+
+
+
+

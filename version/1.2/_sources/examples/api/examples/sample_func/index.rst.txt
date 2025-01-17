@@ -1,0 +1,78 @@
+
+
+
+
+
+
+The ``sample_func.py`` module
+=============================
+
+.. py:module:: examples.sample_func
+
+
+Summary
+-------
+
+
+
+
+
+
+
+
+.. py:currentmodule:: sample_func
+.. tab-set::
+
+
+
+
+
+
+
+    .. tab-item:: Functions
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~examples.sample_func.func`
+            - Summary line <should be one one line>.
+
+
+
+
+
+
+
+
+
+
+
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+    <span class="nf nf-md-function_variant"></span> func</examples/api/examples/sample_func/func>
+
+
+
+
+
+
+Description
+-----------
+
+Sample functions for ansys-sphinx-theme.
+
+..
+    !! processed by numpydoc !!
+
+
+
+
+
+
+

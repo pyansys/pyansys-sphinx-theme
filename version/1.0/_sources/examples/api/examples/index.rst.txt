@@ -1,0 +1,102 @@
+
+
+
+
+
+
+The ``examples`` package
+============================
+
+.. py:module:: examples
+
+
+Summary
+-------
+
+
+
+
+
+
+
+
+.. py:currentmodule:: examples
+.. tab-set::
+
+
+    .. tab-item:: Submodules
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~examples.sample_func`
+            - Sample functions for ansys-sphinx-theme.
+
+
+          * - :py:obj:`~examples.samples`
+            - Sample classes and functions for ansys-sphinx-theme.
+
+
+          * - :py:obj:`~examples.type_hint_example`
+            - Module containing an example function using type hinting.
+
+
+
+
+
+
+
+
+
+
+
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+    <span class="nf nf-fa-file"></span> sample_func</examples/api/examples/sample_func/index>
+    <span class="nf nf-fa-file"></span> samples</examples/api/examples/samples/index>
+    <span class="nf nf-fa-file"></span> type_hint_example</examples/api/examples/type_hint_example/index>
+
+
+
+
+
+
+
+
+
+
+
+Description
+-----------
+
+
+A sub-package containing various examples for checking their rendering.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..
+    !! processed by numpydoc !!
+
+
+
+
+

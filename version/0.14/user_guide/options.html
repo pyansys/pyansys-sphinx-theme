@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>HTML theme options &#8212; Ansys Sphinx Theme</title>
+
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/ansys_sphinx_theme.css?v=4f651e51" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+ 
+<link href="../_static/css/breadcrumbs.css" rel="stylesheet" />
+
+    <script src="../_static/documentation_options.js?v=9f5afd58"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/table.js?v=b64f5182"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'user_guide/options';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://sphinxdocs.ansys.com/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '0.14';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
+    <link rel="icon" href="../_static/ansys-favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="PDF cover page" href="pdf.html" />
+    <link rel="prev" title="CSS" href="css.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <link rel="canonical" href="https://sphinxdocs.ansys.com/version/stable/user_guide/options.html" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container"><!-- Debugging: html_theme_options =  -->
+ 
+<!-- Include the MeiliSearch CSS stylesheet only if theme present -->
+<link href="../_static/css/meilisearch.css" rel="stylesheet" />
+
+<!-- Create a search bar form with a text input and a dropdown selector for the search index -->
+<form
+  class="bd-search d-flex align-items-center"
+  action="../search.html"
+  method="get"
+>
+  <i class="fa fa-search" aria-hidden="true" id="search-icon"></i>
+  <input
+    type="search"
+    placeholder="Search"
+    class="form-control"
+    id="search-bar-input"
+    autofocus
+  />
+  <span class="search-button__kbd-shortcut"
+    ><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span
+  >
+  <style>
+    .bd-search .search-button__kbd-shortcut {
+      right: 33%;
+    }
+  </style>
+  
+  <select id="indexUidSelector" class="index-select">
+    
+    <option value="ansys-sphinx-theme-v0-14">ansys-sphinx-theme</option>
+    
+  </select>
+  
+  <!-- Include the MeiliSearch JavaScript library for the search bar -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+    
+  <script>
+    var HOST_URL = "https://backend.search.pyansys.com/";
+    var API_KEY = "9fbccc76c147935ce2b562a9ee0c6669276987572dc1f22491cea72e9e99f35d";
+    var indexUid = "ansys-sphinx-theme-v0-14";
+  </script>
+
+  <script src="../_static/js/meilisearch_theme_wrap.js"></script>
+</form>
+</div>
+  </div>
+   
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-light" alt="Ansys Sphinx Theme - Home"/>
+    <script>document.write(`<img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-dark" alt="Ansys Sphinx Theme - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../getting_started/index.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        User guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../examples/index.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://github.com/ansys/ansys-sphinx-theme/releases">
+                    Changelog
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/ansys/ansys-sphinx-theme" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+    <div id="announcement_msg"></div>
+<script>
+  fetch("announcement.html")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(
+      (text) => (document.getElementById("announcement_msg").innerHTML = text),
+    )
+    .catch((error) => console.error(`Fetch problem: ${error.message}`));
+</script>  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../getting_started/index.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        User guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../examples/index.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://github.com/ansys/ansys-sphinx-theme/releases">
+                    Changelog
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/ansys/ansys-sphinx-theme" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="css.html">CSS</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">HTML theme options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pdf.html">PDF cover page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="404_page.html">404 page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extensions.html">Extensions</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+         
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="https://docs.pyansys.com/" class="nav-link">PyAnsys</a>
+    </li>
+     
+    <li class="breadcrumb-item">
+      <a
+        href="../index.html"
+        class="nav-link"
+        aria-label="Home"
+      >
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+     
+    <li class="breadcrumb-item">
+      <a href="index.html" class="nav-link">User guide</a>
+    </li>
+      
+    <li class="breadcrumb-item active" aria-current="page">HTML theme options</li>
+    
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="html-theme-options">
+<span id="ref-user-guide-html-theme"></span><h1>HTML theme options<a class="headerlink" href="#html-theme-options" title="Link to this heading">#</a></h1>
+<p>In the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file for Sphinx, you can use the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code> dictionary
+to customize the Ansys Sphinx theme.</p>
+<section id="show-breadcrumbs">
+<h2>Show breadcrumbs<a class="headerlink" href="#show-breadcrumbs" title="Link to this heading">#</a></h2>
+<p>Breadcrumbs make navigation easier. While breadcrumbs are hidden by default,
+you can add <code class="docutils literal notranslate"><span class="pre">&quot;show_breadcrumbs&quot;:</span> <span class="pre">True</span></code> to the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code> dictionary
+to show them.</p>
+<p>If you want to add additional <em>root</em> breadcrumbs, such as to the Ansys
+documentation homepage, you add them to the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code> dictionary as a
+list of tuples with the <code class="docutils literal notranslate"><span class="pre">&quot;additional_breadcrumbs&quot;</span></code> key. The tuples are of the
+form <code class="docutils literal notranslate"><span class="pre">(&quot;Link</span> <span class="pre">text&quot;,</span> <span class="pre">&quot;url&quot;)</span></code>.</p>
+<p>For example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;github_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/ansys/ansys-sphinx-theme&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;show_prev_next&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="s2">&quot;show_breadcrumbs&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;additional_breadcrumbs&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">(</span><span class="s2">&quot;Ansys&quot;</span><span class="p">,</span> <span class="s2">&quot;https://www.ansys.com/&quot;</span><span class="p">),</span>
+    <span class="p">],</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>When you are on the documentation’s homepage, the breadcrumb shows the homepage
+title. Because Sphinx cannot access this title from other documentation pages,
+you must use <code class="docutils literal notranslate"><span class="pre">html_short_title</span></code> to specify the display text for this breadcrumb.</p>
+<p>To ensure a consistent user experience, ensure that the <code class="docutils literal notranslate"><span class="pre">html_short_title</span></code>
+(or optionally <code class="docutils literal notranslate"><span class="pre">html_title</span></code> if <code class="docutils literal notranslate"><span class="pre">html_short_title</span></code> is not used) is set
+to the same value as the title for the main <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> page:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_short_title</span> <span class="o">=</span> <span class="n">html_title</span> <span class="o">=</span> <span class="s2">&quot;Ansys Sphinx Theme&quot;</span>
+</pre></div>
+</div>
+<p>If you want to title for the main <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> file to show the package version,
+include <code class="docutils literal notranslate"><span class="pre">|version|</span></code> in the title:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_short_title</span> <span class="o">=</span> <span class="n">html_title</span> <span class="o">=</span> <span class="s2">&quot;Ansys Sphinx Theme |version|&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="customize-icons">
+<h2>Customize icons<a class="headerlink" href="#customize-icons" title="Link to this heading">#</a></h2>
+<p>The navigation bar shows two icons on the right by default. The first is for
+switching between light and dark modes. The second is for going to the library’s
+GitHub repository.</p>
+<ul class="simple">
+<li><p>For comprehensive information on customizing icons, see
+<a class="reference external" href="https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/header-links.html#add-custom-attributes-to-icon-links">Configure icon links</a>
+in the <em>PyData Theme</em> documentation.</p></li>
+<li><p>For comprehensive information on <a class="reference external" href="https://fontawesome.com/">Font Awesome</a>, an icon
+library and toolkit, see its <a class="reference external" href="https://fontawesome.com/v6/docs">documentation</a>,
+particularly <a class="reference external" href="https://fontawesome.com/v6/docs/web/add-icons/how-to">How To Add Icons</a>.</p></li>
+</ul>
+<p>The following sections explain how you can add icons and hide icons.</p>
+<section id="add-icons">
+<h3>Add icons<a class="headerlink" href="#add-icons" title="Link to this heading">#</a></h3>
+<p>In the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file, the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code> dictionary has a child <code class="docutils literal notranslate"><span class="pre">icon_links</span></code>
+dictionary. To add icons to the navigation bar, add them to the <code class="docutils literal notranslate"><span class="pre">icon_links</span></code>
+dictionary. For each icon to add, specify its <code class="docutils literal notranslate"><span class="pre">name</span></code>, the associated <code class="docutils literal notranslate"><span class="pre">url</span></code>,
+the <code class="docutils literal notranslate"><span class="pre">icon</span></code>, and the <code class="docutils literal notranslate"><span class="pre">type</span></code>.</p>
+<p>This example adds an icon for sending an email:</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="go">html_theme_options = {</span>
+<span class="go"> &quot;icon_links&quot;: [</span>
+<span class="go">     dict(name=&quot;Mail&quot;, url=&quot;mailto:me&quot;, icon=&quot;fas fa-envelope&quot;)</span>
+<span class="go"> ],</span>
+<span class="go"> ...</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</section>
+<section id="hide-icons">
+<h3>Hide icons<a class="headerlink" href="#hide-icons" title="Link to this heading">#</a></h3>
+<p>To hide icons so that they do not show in the navigation bar, add their names
+to the <code class="docutils literal notranslate"><span class="pre">hidden_icons</span></code> list:</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="go">html_theme_options = {</span>
+<span class="go">    &quot;hidden_icons&quot;: [&quot;GitHub&quot;],</span>
+<span class="go">    ...</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<p>If you want to hide all icons, use the <code class="docutils literal notranslate"><span class="pre">show_icons</span></code> boolean variable:</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="go">html_theme_options = {</span>
+<span class="go">    &quot;show_icons&quot;: False,</span>
+<span class="go">    ...</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="use-meilisearch">
+<h2>Use MeiliSearch<a class="headerlink" href="#use-meilisearch" title="Link to this heading">#</a></h2>
+<p>MeiliSearch is an open-source search engine that allows developers to
+easily integrate search functionality into their applications.</p>
+<p>To use MeiliSearch in your Sphinx project, you can add a child
+dictionary called <code class="docutils literal notranslate"><span class="pre">use_meilisearch</span></code> to the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code>
+dictionary in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file.</p>
+<p>This dictionary should contain the following keys:</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">host</span></code>: The host name of your MeiliSearch instance. It is hosted at</dt><dd><p><a class="reference external" href="https://backend.search.pyansys.com">https://backend.search.pyansys.com</a> on port 7700 (default).
+You can set this to an environment variable using
+<code class="docutils literal notranslate"><span class="pre">os.getenv()</span></code> for added security. If no value is provided, the default
+public host for PyAnsys is used.</p>
+</dd>
+</dl>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">api_key</span></code>: The API key for your MeiliSearch instance.
+You can also set this to an environment variable using <code class="docutils literal notranslate"><span class="pre">os.getenv()</span></code>. If no
+value is provided, the default public API key for PyAnsys is used.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">index_uids</span></code>: A dictionary that provides a mapping between the unique
+identifier (UID) of an index and its
+corresponding user-friendly name. Each key-value pair in the dictionary
+represents an index, with the key being the index UID and the value
+being the index name. The index UID points to an index on the server.</p></li>
+</ol>
+<p>Here is an example configuration for using MeiliSearch in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">use_meilisearch</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;host&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MEILISEARCH_HOST_NAME&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">),</span>
+    <span class="s2">&quot;api_key&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MEILISEARCH_API_KEY&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">),</span>
+    <span class="s2">&quot;index_uids&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;index-uid of current project&quot;</span><span class="p">:</span> <span class="s2">&quot;index name to be displayed&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;another-index-uid&quot;</span><span class="p">:</span> <span class="s2">&quot;index name to be displayed&quot;</span><span class="p">,</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>If your project features multiple documentation versions, it’s crucial to adapt the <code class="docutils literal notranslate"><span class="pre">index_uids</span></code>
+mapping to accommodate different versions.
+To ensure seamless search integration across versions,
+use the following format to dynamically generate version-specific index <code class="docutils literal notranslate"><span class="pre">UIDs</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys_sphinx_theme</span> <span class="kn">import</span> <span class="n">convert_version_to_pymeilisearch</span>
+
+<span class="n">use_meilisearch</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;api_key&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MEILISEARCH_PUBLIC_API_KEY&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">),</span>
+    <span class="s2">&quot;index_uids&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="sa">f</span><span class="s2">&quot;ansys-sphinx-theme-v</span><span class="si">{</span><span class="n">convert_version_to_pymeilisearch</span><span class="p">(</span><span class="n">__version__</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">:</span> <span class="s2">&quot;ansys-sphinx-theme&quot;</span><span class="p">,</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Here is the example configuration of using MeiliSearch in
+<code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file of <code class="docutils literal notranslate"><span class="pre">ansys-sphinx-theme</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;use_meilisearch&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;index_uids&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ansys-sphinx-theme-sphinx-docs&quot;</span><span class="p">:</span> <span class="s2">&quot;ansys-sphinx-theme&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;pyansys-docs-all-public&quot;</span><span class="p">:</span> <span class="s2">&quot;PyAnsys&quot;</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>With these options set, your Sphinx project can use MeiliSearch
+to provide search functionality for your documentation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you do not set the “use_meilisearch” option,
+<code class="docutils literal notranslate"><span class="pre">ansys-sphinx-theme</span></code> uses the default search functionality
+inherited from the PyData Sphinx Theme.</p>
+</div>
+</section>
+<section id="cheat-sheets">
+<h2>Cheat sheets<a class="headerlink" href="#cheat-sheets" title="Link to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">cheatsheet</span></code> HTML theme option can be used to enable a cheat sheet in the Ansys Sphinx theme.</p>
+<p>To enable a cheatsheet, in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file for your PyAnsys
+library, you can add a child dictionary named <code class="docutils literal notranslate"><span class="pre">cheatsheet</span></code> to
+the <code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code> dictionary.</p>
+<p>This dictionary should contain these keys, in the order given:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">url</span></code>: URL of the cheat sheet for downloading.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">title</span></code>: Title of the cheat sheet.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">thumbnail</span></code>: Thumbnail image for the cheat sheet.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">needs_download</span></code>: Whether to download the cheat sheet locally during the build. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>, in which case the cheat sheet is accessed directly from the provided URL. If <code class="docutils literal notranslate"><span class="pre">True</span></code>, the cheat sheet is downloaded to the <code class="docutils literal notranslate"><span class="pre">_build/html/_static/</span></code> directory.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pages</span></code>: List of pages to include in the cheat sheet (optional). If no list is provided, the cheat sheet includes the index page of the documentation.</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;cheatsheet&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;your cheat sheet URL&gt;&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;title of your cheat sheet&gt;&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;thumbnail&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;image URL&gt;&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;needs_download&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>  <span class="c1"># True if you want to download the cheatsheet locally in the ``_build/html/_static/`` directory.</span>
+            <span class="s2">&quot;pages&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;list of pages to include the cheat sheet on&gt;&quot;</span><span class="p">,</span>  <span class="c1"># Optional</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Here is an example configuration of using cheatsheet in
+<code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file of <code class="docutils literal notranslate"><span class="pre">PyMAPDL</span></code>:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;cheatsheet&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.pdf&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;PyMAPDL cheatsheet&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;thumbnail&quot;</span><span class="p">:</span> <span class="s2">&quot;https://cheatsheets.docs.pyansys.com/pymapdl_cheat_sheet.png&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;needs_download&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;pages&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;index&quot;</span><span class="p">,</span> <span class="s2">&quot;getting_started/learning&quot;</span><span class="p">],</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>if you set the “needs_download” option, you should provide the “html_static_path” option
+in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file to specify the location of the cheat sheet.</p>
+<p>for example, if you need to download cheat sheet in the <code class="docutils literal notranslate"><span class="pre">_build/html/_static/</span></code> directory,
+you should add the following line in the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="go">html_static_path = [&quot;_static&quot;]</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="css.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">CSS</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="pdf.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">PDF cover page</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#show-breadcrumbs">Show breadcrumbs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-icons">Customize icons</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-icons">Add icons</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hide-icons">Hide icons</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-meilisearch">Use MeiliSearch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cheat-sheets">Cheat sheets</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item"> 
+<div class="tocsection editthispage">
+  <a href="https://github.com/ansys/ansys-sphinx-theme/edit/main/doc/source/user_guide/options.rst">
+    <i class="fa-solid fa-pencil"></i>
+       Edit
+    on GitHub  
+  </a>
+</div>
+
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/user_guide/options.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright (c) 2024 ANSYS, Inc. All rights reserved.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the
+  <a href="https://sphinxdocs.ansys.com/version/stable/index.html"
+    >Ansys Sphinx Theme</a
+  >
+  0.14.1. <br />Last updated on
+  <span id="date"></span>
+</p>
+<script>
+  var options = { day: "numeric", month: "long", year: "numeric" };
+  var lastModifiedDate = new Date(document.lastModified);
+  var date = lastModifiedDate.toLocaleDateString("en-US", options);
+  document.getElementById("date").innerHTML = date;
+</script></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

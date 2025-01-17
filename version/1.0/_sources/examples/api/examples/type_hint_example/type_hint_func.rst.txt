@@ -1,0 +1,45 @@
+examples.type_hint_example.type_hint_func
+=========================================
+
+.. py:function:: examples.type_hint_example.type_hint_func(param1: int = 1, param2: str = 'test', param3: Union[int, float] = 1) -> bool
+
+   
+   Summary containing the function description.
+
+   Extended description of the function. Can span multiple lines and
+   provides a general overview of the function.
+
+   :Parameters:
+
+       **param1**
+           Description of an integer parameter.
+
+       **param2**
+           Description of a string parameter.
+
+       **param3**
+           Parameter that can be either int or float using Union (typing).
+
+
+
+   :Returns:
+
+       :ref:`bool <python:bltin-boolean-values>`
+           Description of the returned value.
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> func(1, 'foo', 1)
+   True
+
+   ..
+       !! processed by numpydoc !!

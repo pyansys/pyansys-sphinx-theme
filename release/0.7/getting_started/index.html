@@ -1,0 +1,531 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Getting started &#8212; Ansys Sphinx Theme</title>
+    
+<script>
+  document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+  document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
+</script>
+
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=92025949c220c2e29695" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=92025949c220c2e29695" rel="stylesheet">
+
+
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/ansys_sphinx_theme.css" />
+
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=92025949c220c2e29695">
+
+    
+        <link href="../_static/css/breadcrumbs.css" rel="stylesheet">
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="User guide" href="../user_guide/index.html" />
+    <link rel="prev" title="Ansys Sphinx Theme documentation 0.7.4" href="../index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="docsearch:language" content="en">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+    <div class="bd-header-announcement container-fluid" id="banner">
+      
+
+    </div>
+
+    
+    
+    <nav class="bd-header navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="bd-header__inner container-xl">
+
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+    <img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-light" alt="Logo image">
+    <img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-dark" alt="Logo image">
+  
+  
+</a>
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fas fa-bars"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 current active nav-item">
+ <a class="current reference internal nav-link" href="#">
+  Getting started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../user_guide/index.html">
+  User guide
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://github.com/ansys/ansys-sphinx-theme/releases">Changelog<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <div class="dropdown" id="version_switcher">
+    <button type="button" class="btn btn-sm navbar-btn dropdown-toggle" id="version_switcher_button" data-toggle="dropdown">
+        0.7  <!-- this text may get changed later by javascript -->
+        <span class="caret"></span>
+    </button>
+    <div id="version_switcher_menu" class="dropdown-menu list-group-flush py-0" aria-labelledby="version_switcher_button">
+    <!-- dropdown will be populated by javascript on page load -->
+    </div>
+</div>
+
+<!-- NOTE: this JS must live here (not in our global JS file) because it relies
+     on being processed by Jinja before it is run (specifically for replacing
+     variables getting_started/index and {'json_url': 'https://sphinxdocs.ansys.com/release/versions.json', 'version_match': '0.7'}.
+-->
+
+<script type="text/javascript">
+// Check if corresponding page path exists in other version of docs
+// and, if so, go there instead of the homepage of the other docs version
+function checkPageExistsAndRedirect(event) {
+    const currentFilePath = "getting_started/index.html",
+          tryUrl = event.target.getAttribute("href");
+    let otherDocsHomepage = tryUrl.replace(currentFilePath, "");
+    $.ajax({
+        type: 'HEAD',
+        url: tryUrl,
+        // if the page exists, go there
+        success: function() {
+            location.href = tryUrl;
+        }
+    }).fail(function() {
+        location.href = otherDocsHomepage;
+    });
+    // this prevents the browser from following the href of the clicked node
+    // (which is fine because this function takes care of redirecting)
+    return false;
+}
+
+// Populate the version switcher from the JSON config file
+(function () {
+    $.getJSON("https://sphinxdocs.ansys.com/release/versions.json", function(data, textStatus, jqXHR) {
+        const currentFilePath = "getting_started/index.html";
+        let btn = document.getElementById("version_switcher_button");
+        // Set empty strings by default so that these attributes exist and can be used in CSS selectors
+        btn.dataset["activeVersionName"] = "";
+        btn.dataset["activeVersion"] = "";
+        // create links to the corresponding page in the other docs versions
+        $.each(data, function(index, entry) {
+            // if no custom name specified (e.g., "latest"), use version string
+            if (!("name" in entry)) {
+                entry.name = entry.version;
+            }
+            // create the node
+            const node = document.createElement("a");
+            node.setAttribute("class", "list-group-item list-group-item-action py-1");
+            node.textContent = `${entry.name}`;
+            node.setAttribute("href", `${entry.url}${currentFilePath}`);
+            // on click, AJAX calls will check if the linked page exists before
+            // trying to redirect, and if not, will redirect to the homepage
+            // for that version of the docs.
+            node.onclick = checkPageExistsAndRedirect;
+            // Add dataset values for the version and name in case people want
+            // to apply CSS styling based on this information.
+            node.dataset["versionName"] = entry.name;
+            node.dataset["version"] = entry.version;
+
+            $("#version_switcher_menu").append(node);
+            // replace dropdown button text with the preferred display name of
+            // this version, rather than using sphinx's 0.7.4 variable.
+            // also highlight the dropdown entry for the currently-viewed
+            // version's entry
+            if (entry.version == "0.7") {
+                node.classList.add("active");
+                btn.innerText = btn.dataset["activeVersionName"] = entry.name;
+                btn.dataset["activeVersion"] = entry.version;
+            }
+        });
+    });
+})();
+</script>
+      </div>
+      
+      <div class="navbar-end-item">
+        <span id="theme-switch" class="btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/ansys/ansys-sphinx-theme" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+    
+        <div class="container-xl">
+    <div class="row">
+        <div class="col-12 col-md-3" id="breadcrumbs-spacer"></div>
+        <div class="col-12 col-md-11 col-xl-9" id="breadcrumbs">
+          
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../user_guide/index.html" title="User guide"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Ansys Sphinx Theme documentation 0.7.4"
+             accesskey="P">previous</a> |</li>
+    
+        <li class="nav-item nav-item-additional-breadcrumb"><a href="https://dev.docs.ansys.com">Ansys Internal Developer Portal</a> » </li>
+    
+    
+        <li class="nav-item nav-item-0"><a href="../index.html">Ansys Sphinx Theme</a> » </li>
+    
+
+        <li class="nav-item nav-item-this"><a href="">Getting started</a></li> 
+      </ul>
+    </div>
+        </div>
+  </div>
+</div>
+    
+
+
+    <div class="bd-container container-xl">
+      <div class="bd-container__inner row">
+          
+
+<!-- Only show if we have sidebars configured, else just a small margin  -->
+<div class="bd-sidebar-primary col-12 col-md-3 bd-sidebar">
+  <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+  </div>
+  <div class="sidebar-end-items">
+  </div>
+</div>
+
+
+          
+
+
+<div class="bd-sidebar-secondary d-none d-xl-block col-xl-2 bd-toc">
+  
+    
+    <div class="toc-item">
+      
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-the-theme">
+   Install the theme
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modify-the-conf-py-file">
+   Modify the
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     conf.py
+    </span>
+   </code>
+   file
+  </a>
+ </li>
+</ul>
+
+</nav>
+    </div>
+    
+    <div class="toc-item">
+      
+    </div>
+    
+  
+</div>
+
+
+          
+          
+          <div class="bd-content col-12 col-md-9 col-xl-7">
+              
+              <article class="bd-article" role="main">
+                
+  <section id="getting-started">
+<span id="ref-getting-started"></span><h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://www.sphinx-doc.org/en/master/">Sphinx</a> is a Python documentation
+generator for creating documentation. If you are new to using Sphinx, see
+<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/quickstart.html">Sphinx Getting Started</a>.</p>
+<p>This section explains how to install the Ansys Sphinx theme and then set up your
+Sphinx <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file to use this theme to generate your documentation.</p>
+<section id="install-the-theme">
+<h2>Install the theme<a class="headerlink" href="#install-the-theme" title="Permalink to this heading">#</a></h2>
+<p>Install the Ansys Sphinx theme with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ansys</span><span class="o">-</span><span class="n">sphinx</span><span class="o">-</span><span class="n">theme</span>
+</pre></div>
+</div>
+</section>
+<section id="modify-the-conf-py-file">
+<h2>Modify the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file<a class="headerlink" href="#modify-the-conf-py-file" title="Permalink to this heading">#</a></h2>
+<p>To use this theme, modify your Sphinx <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span><span class="s1">&#39;ansys_sphinx_theme&#39;</span>
+</pre></div>
+</div>
+<p>Consider using the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> for this repository:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Sphinx documentation configuration file.&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">from</span> <span class="nn">sphinx.builders.latex</span> <span class="kn">import</span> <span class="n">LaTeXBuilder</span>
+
+<span class="n">LaTeXBuilder</span><span class="o">.</span><span class="n">supported_image_types</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;image/png&quot;</span><span class="p">,</span> <span class="s2">&quot;image/pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;image/svg+xml&quot;</span><span class="p">]</span>
+
+<span class="kn">from</span> <span class="nn">ansys_sphinx_theme</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">__version__</span><span class="p">,</span>
+    <span class="n">ansys_favicon</span><span class="p">,</span>
+    <span class="n">ansys_logo_black</span><span class="p">,</span>
+    <span class="n">ansys_logo_white</span><span class="p">,</span>
+    <span class="n">ansys_logo_white_cropped</span><span class="p">,</span>
+    <span class="n">generate_404</span><span class="p">,</span>
+    <span class="n">get_version_match</span><span class="p">,</span>
+    <span class="n">latex</span><span class="p">,</span>
+    <span class="n">watermark</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Project information</span>
+<span class="n">project</span> <span class="o">=</span> <span class="s2">&quot;ansys_sphinx_theme&quot;</span>
+<span class="n">copyright</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;(c) </span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">year</span><span class="si">}</span><span class="s2"> ANSYS, Inc. All rights reserved&quot;</span>
+<span class="n">author</span> <span class="o">=</span> <span class="s2">&quot;Ansys Inc.&quot;</span>
+<span class="n">release</span> <span class="o">=</span> <span class="n">version</span> <span class="o">=</span> <span class="n">__version__</span>
+<span class="n">cname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;DOCUMENTATION_CNAME&quot;</span><span class="p">,</span> <span class="s2">&quot;nocname.com&quot;</span><span class="p">)</span>
+
+<span class="c1"># use the default ansys logo</span>
+<span class="n">html_logo</span> <span class="o">=</span> <span class="n">ansys_logo_black</span>
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s2">&quot;ansys_sphinx_theme&quot;</span>
+
+<span class="c1"># specify the location of your github repo</span>
+<span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;github_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/ansys/ansys-sphinx-theme&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;contact_mail&quot;</span><span class="p">:</span> <span class="s2">&quot;pyansys.support@ansys.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;additional_breadcrumbs&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">(</span><span class="s2">&quot;Ansys Internal Developer Portal&quot;</span><span class="p">,</span> <span class="s2">&quot;https://dev.docs.ansys.com&quot;</span><span class="p">),</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;external_links&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/ansys/ansys-sphinx-theme/releases&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Changelog&quot;</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;switcher&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;json_url&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;https://</span><span class="si">{</span><span class="n">cname</span><span class="si">}</span><span class="s2">/release/versions.json&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;version_match&quot;</span><span class="p">:</span> <span class="n">get_version_match</span><span class="p">(</span><span class="n">__version__</span><span class="p">),</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;navbar_end&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;version-switcher&quot;</span><span class="p">,</span> <span class="s2">&quot;theme-switcher&quot;</span><span class="p">,</span> <span class="s2">&quot;navbar-icon-links&quot;</span><span class="p">],</span>
+<span class="p">}</span>
+
+<span class="n">html_short_title</span> <span class="o">=</span> <span class="n">html_title</span> <span class="o">=</span> <span class="s2">&quot;Ansys Sphinx Theme&quot;</span>
+
+<span class="c1"># Sphinx extensions</span>
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;sphinx.ext.autodoc&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx.ext.autosummary&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;numpydoc&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx.ext.intersphinx&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;notfound.extension&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx_copybutton&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;ansys_sphinx_theme&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="c1"># Intersphinx mapping</span>
+<span class="n">intersphinx_mapping</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;python&quot;</span><span class="p">:</span> <span class="p">(</span><span class="s2">&quot;https://docs.python.org/dev&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+    <span class="c1"># kept here as an example</span>
+    <span class="c1"># &quot;scipy&quot;: (&quot;https://docs.scipy.org/doc/scipy/reference&quot;, None),</span>
+    <span class="c1"># &quot;numpy&quot;: (&quot;https://numpy.org/devdocs&quot;, None),</span>
+    <span class="c1"># &quot;matplotlib&quot;: (&quot;https://matplotlib.org/stable&quot;, None),</span>
+    <span class="c1"># &quot;pandas&quot;: (&quot;https://pandas.pydata.org/pandas-docs/stable&quot;, None),</span>
+    <span class="c1"># &quot;pyvista&quot;: (&quot;https://docs.pyvista.org/&quot;, None),</span>
+<span class="p">}</span>
+
+<span class="c1"># numpydoc configuration</span>
+<span class="n">numpydoc_show_class_members</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">numpydoc_xref_param_type</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="c1"># Consider enabling numpydoc validation. See:</span>
+<span class="c1"># https://numpydoc.readthedocs.io/en/latest/validation.html#</span>
+<span class="n">numpydoc_validate</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">numpydoc_validation_checks</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;GL06&quot;</span><span class="p">,</span>  <span class="c1"># Found unknown section</span>
+    <span class="s2">&quot;GL07&quot;</span><span class="p">,</span>  <span class="c1"># Sections are in the wrong order.</span>
+    <span class="s2">&quot;GL08&quot;</span><span class="p">,</span>  <span class="c1"># The object does not have a docstring</span>
+    <span class="s2">&quot;GL09&quot;</span><span class="p">,</span>  <span class="c1"># Deprecation warning should precede extended summary</span>
+    <span class="s2">&quot;GL10&quot;</span><span class="p">,</span>  <span class="c1"># reST directives {directives} must be followed by two colons</span>
+    <span class="s2">&quot;SS01&quot;</span><span class="p">,</span>  <span class="c1"># No summary found</span>
+    <span class="s2">&quot;SS02&quot;</span><span class="p">,</span>  <span class="c1"># Summary does not start with a capital letter</span>
+    <span class="c1"># &quot;SS03&quot;, # Summary does not end with a period</span>
+    <span class="s2">&quot;SS04&quot;</span><span class="p">,</span>  <span class="c1"># Summary contains heading whitespaces</span>
+    <span class="c1"># &quot;SS05&quot;, # Summary must start with infinitive verb, not third person</span>
+    <span class="s2">&quot;RT02&quot;</span><span class="p">,</span>  <span class="c1"># The first line of the Returns section should contain only the</span>
+    <span class="c1"># type, unless multiple values are being returned&quot;</span>
+<span class="p">}</span>
+
+<span class="c1"># Favicon</span>
+<span class="n">html_favicon</span> <span class="o">=</span> <span class="n">ansys_favicon</span>
+
+<span class="c1"># static path</span>
+<span class="n">html_static_path</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_static&quot;</span><span class="p">]</span>
+
+<span class="c1"># Add any paths that contain templates here, relative to this directory.</span>
+<span class="n">templates_path</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_templates&quot;</span><span class="p">]</span>
+
+<span class="c1"># The suffix(es) of source filenames.</span>
+<span class="n">source_suffix</span> <span class="o">=</span> <span class="s2">&quot;.rst&quot;</span>
+
+<span class="c1"># The master toctree document.</span>
+<span class="n">master_doc</span> <span class="o">=</span> <span class="s2">&quot;index&quot;</span>
+
+<span class="c1"># additional logos for the latex coverpage</span>
+<span class="n">latex_additional_files</span> <span class="o">=</span> <span class="p">[</span><span class="n">watermark</span><span class="p">,</span> <span class="n">ansys_logo_white</span><span class="p">,</span> <span class="n">ansys_logo_white_cropped</span><span class="p">]</span>
+
+<span class="c1"># change the preamble of latex with customized title page</span>
+<span class="c1"># variables are the title of pdf, watermark</span>
+<span class="n">latex_elements</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;preamble&quot;</span><span class="p">:</span> <span class="n">latex</span><span class="o">.</span><span class="n">generate_preamble</span><span class="p">(</span><span class="n">html_title</span><span class="p">)}</span>
+
+<span class="c1"># Not found page</span>
+<span class="n">notfound_context</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;body&quot;</span><span class="p">:</span> <span class="n">generate_404</span><span class="p">(),</span>
+<span class="p">}</span>
+<span class="n">notfound_no_urls_prefix</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+              </article>
+              
+
+              
+              <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="../index.html" title="previous page">
+      <i class="fas fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Ansys Sphinx Theme documentation 0.7.4</p>
+      </div>
+  </a>
+  <a class='right-next' id="next-link" href="../user_guide/index.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">User guide</p>
+  </div>
+  <i class="fas fa-angle-right"></i>
+  </a>
+</div>
+              </footer>
+              
+          </div>
+          
+      </div>
+    </div>
+
+  
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=92025949c220c2e29695"></script>
+
+<footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    <p class="copyright">
+    &copy; Copyright (c) 2022 ANSYS, Inc. All rights reserved.<br>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.3.0.<br>
+</p>
+  </div>
+  
+</div>
+</footer>
+  </body>
+</html>

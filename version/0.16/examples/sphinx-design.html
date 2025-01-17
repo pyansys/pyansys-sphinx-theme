@@ -1,0 +1,1629 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sphinx design &#8212; Ansys Sphinx Theme</title>
+
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/ansys_sphinx_theme.css?v=a362721a" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.nerdfonts.com/assets/css/webfont.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+ 
+<link href="../_static/css/breadcrumbs.css" rel="stylesheet" />
+
+    <script src="../_static/documentation_options.js?v=bee61c60"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/table.js?v=b64f5182"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'examples/sphinx-design';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://sphinxdocs.ansys.com/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '0.16';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
+    <link rel="icon" href="../_static/ansys-favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Table" href="table.html" />
+    <link rel="prev" title="Examples" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <link rel="canonical" href="https://sphinxdocs.ansys.com/version/stable/examples/sphinx-design.html" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container"><!-- Debugging: html_theme_options =  -->
+ 
+<!-- Include the MeiliSearch CSS stylesheet only if theme present -->
+<link href="../_static/css/meilisearch.css" rel="stylesheet" />
+
+<!-- Create a search bar form with a text input and a dropdown selector for the search index -->
+<form
+  class="bd-search d-flex align-items-center"
+  action="../search.html"
+  method="get"
+>
+  <i class="fa fa-search" aria-hidden="true" id="search-icon"></i>
+  <input
+    type="search"
+    placeholder="Search"
+    class="form-control"
+    id="search-bar-input"
+    autofocus
+  />
+  <span class="search-button__kbd-shortcut"
+    ><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span
+  >
+  <style>
+    .bd-search .search-button__kbd-shortcut {
+      right: 33%;
+    }
+  </style>
+  
+  <select id="indexUidSelector" class="index-select">
+    
+    <option value="ansys-sphinx-theme-v0-16">ansys-sphinx-theme</option>
+    
+  </select>
+  
+  <!-- Include the MeiliSearch JavaScript library for the search bar -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+    
+  <script>
+    var HOST_URL = "https://backend.search.pyansys.com/";
+    var API_KEY = "9fbccc76c147935ce2b562a9ee0c6669276987572dc1f22491cea72e9e99f35d";
+    var indexUid = "ansys-sphinx-theme-v0-16";
+  </script>
+
+  <script src="../_static/js/meilisearch_theme_wrap.js"></script>
+</form>
+</div>
+  </div>
+   
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-light" alt="Ansys Sphinx Theme - Home"/>
+    <script>document.write(`<img src="../_static/ansys_logo_black_cropped.jpg" class="logo__image only-dark" alt="Ansys Sphinx Theme - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../getting_started/index.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../user_guide/index.html">
+                        User guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../changelog.html">
+                        Release notes
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/ansys/ansys-sphinx-theme" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+    <div id="announcement_msg"></div>
+<script>
+  fetch("announcement.html")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(
+      (text) => (document.getElementById("announcement_msg").innerHTML = text),
+    )
+    .catch((error) => console.error(`Fetch problem: ${error.message}`));
+</script>  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../getting_started/index.html">
+                        Getting started
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../user_guide/index.html">
+                        User guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Examples
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../changelog.html">
+                        Release notes
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/ansys/ansys-sphinx-theme" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Sphinx design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table.html">Table</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+         
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="https://docs.pyansys.com/" class="nav-link">PyAnsys</a>
+    </li>
+     
+    <li class="breadcrumb-item">
+      <a
+        href="../index.html"
+        class="nav-link"
+        aria-label="Home"
+      >
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+     
+    <li class="breadcrumb-item">
+      <a href="index.html" class="nav-link">Examples</a>
+    </li>
+      
+    <li class="breadcrumb-item active" aria-current="page">Sphinx design</li>
+    
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="sphinx-design">
+<span id="id1"></span><h1>Sphinx design<a class="headerlink" href="#sphinx-design" title="Link to this heading">#</a></h1>
+<p>The rendering of sphinx design with ansys sphinx theme.
+To access the full documentation for the sphinx design package,
+please refer <a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/index.html">sphinx design</a>.</p>
+<section id="badge-basic">
+<h2>Badge-basic<a class="headerlink" href="#badge-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="na">:bdg:</span><span class="nv">`plain badge`</span>
+
+<span class="na">:bdg-primary:</span><span class="nv">`primary`</span>, <span class="na">:bdg-primary-line:</span><span class="nv">`primary-line`</span>
+
+<span class="na">:bdg-secondary:</span><span class="nv">`secondary`</span>, <span class="na">:bdg-secondary-line:</span><span class="nv">`secondary-line`</span>
+
+<span class="na">:bdg-success:</span><span class="nv">`success`</span>, <span class="na">:bdg-success-line:</span><span class="nv">`success-line`</span>
+
+<span class="na">:bdg-info:</span><span class="nv">`info`</span>, <span class="na">:bdg-info-line:</span><span class="nv">`info-line`</span>
+
+<span class="na">:bdg-warning:</span><span class="nv">`warning`</span>, <span class="na">:bdg-warning-line:</span><span class="nv">`warning-line`</span>
+
+<span class="na">:bdg-danger:</span><span class="nv">`danger`</span>, <span class="na">:bdg-danger-line:</span><span class="nv">`danger-line`</span>
+
+<span class="na">:bdg-light:</span><span class="nv">`light`</span>, <span class="na">:bdg-light-line:</span><span class="nv">`light-line`</span>
+
+<span class="na">:bdg-dark:</span><span class="nv">`dark`</span>, <span class="na">:bdg-dark-line:</span><span class="nv">`dark-line`</span>
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<p><span class="sd-sphinx-override sd-badge">plain badge</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary">primary</span>, <span class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary">primary-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-secondary sd-bg-text-secondary">secondary</span>, <span class="sd-sphinx-override sd-badge sd-outline-secondary sd-text-secondary">secondary-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-success sd-bg-text-success">success</span>, <span class="sd-sphinx-override sd-badge sd-outline-success sd-text-success">success-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-info sd-bg-text-info">info</span>, <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">info-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-warning sd-bg-text-warning">warning</span>, <span class="sd-sphinx-override sd-badge sd-outline-warning sd-text-warning">warning-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger">danger</span>, <span class="sd-sphinx-override sd-badge sd-outline-danger sd-text-danger">danger-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-light sd-bg-text-light">light</span>, <span class="sd-sphinx-override sd-badge sd-outline-light sd-text-light">light-line</span></p>
+<p><span class="sd-sphinx-override sd-badge sd-bg-dark sd-bg-text-dark">dark</span>, <span class="sd-sphinx-override sd-badge sd-outline-dark sd-text-dark">dark-line</span></p>
+</section>
+<section id="badge-link">
+<h2>Badge-link<a class="headerlink" href="#badge-link" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="na">:bdg-link-primary:</span><span class="nv">`https://example.com`</span>
+
+<span class="na">:bdg-link-primary-line:</span><span class="nv">`explicit title &lt;https://example.com&gt;`</span>
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<p><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference external" href="https://example.com"><span>https://example.com</span></a></p>
+<p><a class="sd-sphinx-override sd-badge sd-outline-primary sd-text-primary reference external" href="https://example.com"><span>explicit title</span></a></p>
+</section>
+<section id="button-link">
+<h2>Button-link<a class="headerlink" href="#button-link" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">button-link</span><span class="p">::</span> https://example.com
+
+<span class="p">..</span> <span class="ow">button-link</span><span class="p">::</span> https://example.com
+
+    Button text
+
+<span class="p">..</span> <span class="ow">button-link</span><span class="p">::</span> https://example.com
+    <span class="nc">:color:</span> primary
+    <span class="nc">:shadow:</span>
+
+<span class="p">..</span> <span class="ow">button-link</span><span class="p">::</span> https://example.com
+    <span class="nc">:color:</span> primary
+    <span class="nc">:outline:</span>
+
+<span class="p">..</span> <span class="ow">button-link</span><span class="p">::</span> https://example.com
+    <span class="nc">:color:</span> secondary
+    <span class="nc">:expand:</span>
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap reference external" href="https://example.com"><span>https://example.com</span></a></p>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap reference external" href="https://example.com"><span>Button text</span></a></p>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-shadow-sm reference external" href="https://example.com"><span>https://example.com</span></a></p>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-outline-primary reference external" href="https://example.com"><span>https://example.com</span></a></p>
+<p><span class="sd-d-grid"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-secondary reference external" href="https://example.com"><span>https://example.com</span></a></span></p>
+</section>
+<section id="card-basic">
+<h2>Card-basic<a class="headerlink" href="#card-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Card Title
+
+    Card content
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Card Title</div>
+<p class="sd-card-text">Card content</p>
+</div>
+</div>
+</section>
+<section id="card-carousel">
+<h2>Card-carousel<a class="headerlink" href="#card-carousel" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">card-carousel</span><span class="p">::</span> 2
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 1
+
+        content
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 2
+
+        Longer
+
+        content
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 3
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 4
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 5
+
+<span class="p">    ..</span> <span class="ow">card</span><span class="p">::</span> card 6
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 1</div>
+<p class="sd-card-text">content</p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 2</div>
+<p class="sd-card-text">Longer</p>
+<p class="sd-card-text">content</p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 3</div>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 4</div>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 5</div>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+card 6</div>
+</div>
+</div>
+</div>
+</section>
+<section id="card-head-foot">
+<h2>Card-head-foot<a class="headerlink" href="#card-head-foot" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Card Title
+
+    Header
+    ^^^
+    Card content
+    +++
+    Footer
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Header</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Card Title</div>
+<p class="sd-card-text">Card content</p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Footer</p>
+</div>
+</div>
+</section>
+<section id="card-images">
+<h2>Card-images<a class="headerlink" href="#card-images" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 2 3 3 4
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+<span class="p">        ..</span> <span class="ow">card</span><span class="p">::</span> Title
+            <span class="nc">:img-background:</span> images/particle_background.jpg
+            <span class="nc">:class-card:</span> sd-text-black
+            <span class="nc">:img-alt:</span> my text
+
+            Text
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Title
+        <span class="nc">:img-top:</span> images/particle_background.jpg
+        <span class="nc">:img-alt:</span>
+
+        Header
+        ^^^
+        Content
+        +++
+        Footer
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Title
+        <span class="nc">:img-bottom:</span> images/particle_background.jpg
+
+        Header
+        ^^^
+        Content
+        +++
+        Footer
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-text-black docutils">
+<img alt="my text" class="sd-card-img" src="../_images/particle_background.jpg" />
+<div class="sd-card-img-overlay docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Title</div>
+<p class="sd-card-text">Text</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="../_images/particle_background.jpg" />
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Header</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Title</div>
+<p class="sd-card-text">Content</p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Footer</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text">Header</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Title</div>
+<p class="sd-card-text">Content</p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Footer</p>
+</div>
+<img alt="" class="sd-card-img-bottom" src="../_images/particle_background.jpg" />
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="card-link">
+<h2>Card-link<a class="headerlink" href="#card-link" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="nt">_cards-clickable:</span>
+
+<span class="gh">Clickable cards</span>
+<span class="gh">...............</span>
+
+Using the <span class="s">``link``</span> and <span class="s">``link-type``</span> options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:
+
+<span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Clickable Card (external)
+    <span class="nc">:link:</span> https://example.com
+
+    The entire card can be clicked to navigate to https://example.com.
+
+<span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Clickable Card (external)
+    <span class="nc">:link:</span> https://example.com
+    <span class="nc">:link-alt:</span> example.com
+
+    The entire card can be clicked to navigate to https://example.com.
+
+<span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Clickable Card (internal)
+    <span class="nc">:link:</span> cards-clickable
+    <span class="nc">:link-type:</span> ref
+
+    The entire card can be clicked to navigate to the <span class="s">``cards-clickable``</span> reference card-link.txt.
+
+<span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Clickable Card (internal)
+    <span class="nc">:link:</span> cards-clickable
+    <span class="nc">:link-type:</span> ref
+    <span class="nc">:link-alt:</span> clickable cards
+
+    The entire card can be clicked to navigate to the <span class="s">``cards-clickable``</span> reference card-link.txt.
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<section id="clickable-cards">
+<span id="cards-clickable"></span><h3>Clickable cards<a class="headerlink" href="#clickable-cards" title="Link to this heading">#</a></h3>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">link</span></code> and <code class="docutils literal notranslate"><span class="pre">link-type</span></code> options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Clickable Card (external)</div>
+<p class="sd-card-text">The entire card can be clicked to navigate to <a class="reference external" href="https://example.com">https://example.com</a>.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://example.com"><span>https://example.com</span></a></div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Clickable Card (external)</div>
+<p class="sd-card-text">The entire card can be clicked to navigate to <a class="reference external" href="https://example.com">https://example.com</a>.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://example.com"><span>example.com</span></a></div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Clickable Card (internal)</div>
+<p class="sd-card-text">The entire card can be clicked to navigate to the <code class="docutils literal notranslate"><span class="pre">cards-clickable</span></code> reference card-link.txt.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference internal" href="#cards-clickable"><span class="std std-ref">Clickable cards</span></a></div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Clickable Card (internal)</div>
+<p class="sd-card-text">The entire card can be clicked to navigate to the <code class="docutils literal notranslate"><span class="pre">cards-clickable</span></code> reference card-link.txt.</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference internal" href="#cards-clickable"><span class="std std-ref">clickable cards</span></a></div>
+</section>
+</section>
+<section id="card-title-link">
+<h2>Card-title-link<a class="headerlink" href="#card-title-link" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="nt">_card-title-link.txt:</span>
+<span class="p">..</span> <span class="ow">card</span><span class="p">::</span> Card Title https://example.com <span class="na">:ref:</span><span class="nv">`link &lt;card-title-link.txt&gt;`</span>
+
+    Card content
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils" id="card-title-link-txt">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Card Title <a class="reference external" href="https://example.com">https://example.com</a> <a class="reference internal" href="#card-title-link-txt"><span class="std std-ref">link</span></a></div>
+<p class="sd-card-text">Card content</p>
+</div>
+</div>
+</section>
+<section id="div-basic">
+<h2>Div-basic<a class="headerlink" href="#div-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">div</span><span class="p">::</span> sd-text-center sd-font-italic sd-text-primary
+
+    Some CSS styled text
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-text-center sd-font-italic sd-text-primary docutils">
+<p>Some CSS styled text</p>
+</div>
+</section>
+<section id="dropdown-basic">
+<h2>Dropdown-basic<a class="headerlink" href="#dropdown-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">dropdown</span><span class="p">::</span>
+
+    Dropdown content
+
+<span class="p">..</span> <span class="ow">dropdown</span><span class="p">::</span> Dropdown title
+
+    Dropdown content
+
+<span class="p">..</span> <span class="ow">dropdown</span><span class="p">::</span> Open dropdown
+    <span class="nc">:open:</span>
+
+    Dropdown content
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-kebab-horizontal no-title" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14a2 2 0 1 1-.001-3.999A2 2 0 0 1 20 14ZM6 12a2 2 0 1 1-3.999.001A2 2 0 0 1 6 12Zm8 0a2 2 0 1 1-3.999.001A2 2 0 0 1 14 12Z"></path></svg></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Dropdown content</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Dropdown title</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Dropdown content</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Open dropdown</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Dropdown content</p>
+</div>
+</details></section>
+<section id="dropdown-options">
+<h2>Dropdown-options<a class="headerlink" href="#dropdown-options" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">dropdown</span><span class="p">::</span> Title
+    <span class="nc">:name:</span> dropdown-options.txt
+    <span class="nc">:color:</span> info
+    <span class="nc">:icon:</span> alert
+    <span class="nc">:margin:</span> 1
+    <span class="nc">:class-container:</span> class-container
+    <span class="nc">:class-title:</span> class-title
+    <span class="nc">:class-body:</span> class-body
+
+    Dropdown content
+
+<span class="na">:ref:</span><span class="nv">`dropdown-options.txt`</span>, <span class="na">:ref:</span><span class="nv">`text &lt;dropdown-options.txt&gt;`</span>
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-m-1 class-container" id="dropdown-options-txt">
+<summary class="sd-summary-title sd-card-header class-title sd-bg-info sd-bg-text-info">
+<span class="sd-summary-icon"><svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-alert" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg></span><span class="sd-summary-text">Title</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body class-body docutils">
+<p class="sd-card-text">Dropdown content</p>
+</div>
+</details><p><a class="reference internal" href="#dropdown-options-txt"><span class="std std-ref">Title</span></a>, <a class="reference internal" href="#dropdown-options-txt"><span class="std std-ref">text</span></a></p>
+</section>
+<section id="grid-basic">
+<h2>Grid-basic<a class="headerlink" href="#grid-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 1 2 3 4
+    <span class="nc">:outline:</span>
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+        A
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+        B
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+        C
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+        D
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 sd-border-1 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-2 sd-row-cols-md-3 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p>A</p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>B</p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>C</p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>D</p>
+</div>
+</div>
+</div>
+</section>
+<section id="grid-card-columns">
+<h2>Grid-card-columns<a class="headerlink" href="#grid-card-columns" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 2
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+        <span class="nc">:columns:</span> auto
+
+        A
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+        <span class="nc">:columns:</span> 12 6 6 6
+
+        B
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+        <span class="nc">:columns:</span> 12
+
+        C
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row sd-col-auto sd-col-xs-auto sd-col-sm-auto sd-col-md-auto sd-col-lg-auto docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">A</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">B</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-12 sd-col-md-12 sd-col-lg-12 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">C</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="grid-card">
+<h2>Grid-card<a class="headerlink" href="#grid-card" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 2
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>  Title 1
+
+        A
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>  Title 2
+
+        B
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Title 1</div>
+<p class="sd-card-text">A</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Title 2</div>
+<p class="sd-card-text">B</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="grid-gutter">
+<h2>Grid-gutter<a class="headerlink" href="#grid-gutter" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 2
+    <span class="nc">:gutter:</span> 1
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+
+        A
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+
+        B
+
+<span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 2
+    <span class="nc">:gutter:</span> 3 3 4 5
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+
+        A
+
+<span class="p">    ..</span> <span class="ow">grid-item-card</span><span class="p">::</span>
+
+        B
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">A</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">B</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-4 sd-g-lg-5 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">A</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">B</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="grid-nested">
+<h2>Grid-nested<a class="headerlink" href="#grid-nested" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">grid</span><span class="p">::</span> 1 1 2 2
+    <span class="nc">:gutter:</span> 1
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+<span class="p">        ..</span> <span class="ow">grid</span><span class="p">::</span> 1 1 1 1
+            <span class="nc">:gutter:</span> 1
+
+<span class="p">            ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Item 1.1
+
+                Multi-line
+
+                content
+
+<span class="p">            ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Item 1.2
+
+                Content
+
+<span class="p">    ..</span> <span class="ow">grid-item</span><span class="p">::</span>
+
+<span class="p">        ..</span> <span class="ow">grid</span><span class="p">::</span> 1 1 1 1
+            <span class="nc">:gutter:</span> 1
+
+<span class="p">            ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Item 2.1
+
+                Content
+
+<span class="p">            ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Item 2.2
+
+                Content
+
+<span class="p">            ..</span> <span class="ow">grid-item-card</span><span class="p">::</span> Item 2.3
+
+                Content
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-1 sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Item 1.1</div>
+<p class="sd-card-text">Multi-line</p>
+<p class="sd-card-text">content</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Item 1.2</div>
+<p class="sd-card-text">Content</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-1 sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Item 2.1</div>
+<p class="sd-card-text">Content</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Item 2.2</div>
+<p class="sd-card-text">Content</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Item 2.3</div>
+<p class="sd-card-text">Content</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="icon-fontawesome">
+<h2>Icon-fontawesome<a class="headerlink" href="#icon-fontawesome" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>An icon <span class="na">:fas:</span><span class="nv">`spinner;sd-bg-primary sd-bg-text-primary`</span>, some more text.
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<p>An icon <span class="fas fa-spinner sd-bg-primary sd-bg-text-primary"></span>, some more text.</p>
+</section>
+<section id="icon-material-design">
+<h2>Icon-material-design<a class="headerlink" href="#icon-material-design" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="m">-</span> A regular icon: <span class="na">:material-regular:</span><span class="nv">`data_exploration;2em`</span>, some more text
+<span class="m">-</span> A coloured regular icon: <span class="na">:material-regular:</span><span class="nv">`settings;3em;sd-text-success`</span>, some more text.
+<span class="m">-</span> A coloured outline icon: <span class="na">:material-outlined:</span><span class="nv">`settings;3em;sd-text-success`</span>, some more text.
+<span class="m">-</span> A coloured sharp icon: <span class="na">:material-sharp:</span><span class="nv">`settings;3em;sd-text-success`</span>, some more text.
+<span class="m">-</span> A coloured round icon: <span class="na">:material-round:</span><span class="nv">`settings;3em;sd-text-success`</span>, some more text.
+<span class="m">-</span> A coloured two-tone icon: <span class="na">:material-twotone:</span><span class="nv">`settings;3em;sd-text-success`</span>, some more text.
+<span class="m">-</span> A fixed size icon: <span class="na">:material-regular:</span><span class="nv">`data_exploration;24px`</span>, some more text.
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<ul class="simple">
+<li><p>A regular icon: <svg version="4.0.0.63c5cb3" width="2.0em" height="2.0em" class="sd-material-icon sd-material-icon-data_exploration" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"></rect><path d="M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z"></path></svg>, some more text</p></li>
+<li><p>A coloured regular icon: <svg version="4.0.0.63c5cb3" width="3.0em" height="3.0em" class="sd-material-icon sd-material-icon-settings sd-text-success" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M0,0h24v24H0V0z" fill="none"></path><path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z"></path></g></svg>, some more text.</p></li>
+<li><p>A coloured outline icon: <svg version="4.0.0.63c5cb3" width="3.0em" height="3.0em" class="sd-material-icon sd-material-icon-settings sd-text-success" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path></svg>, some more text.</p></li>
+<li><p>A coloured sharp icon: <svg version="4.0.0.63c5cb3" width="3.0em" height="3.0em" class="sd-material-icon sd-material-icon-settings sd-text-success" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M19.44 12.99l-.01.02c.04-.33.08-.67.08-1.01 0-.34-.03-.66-.07-.99l.01.02 2.44-1.92-2.43-4.22-2.87 1.16.01.01c-.52-.4-1.09-.74-1.71-1h.01L14.44 2H9.57l-.44 3.07h.01c-.62.26-1.19.6-1.71 1l.01-.01-2.88-1.17-2.44 4.22 2.44 1.92.01-.02c-.04.33-.07.65-.07.99 0 .34.03.68.08 1.01l-.01-.02-2.1 1.65-.33.26 2.43 4.2 2.88-1.15-.02-.04c.53.41 1.1.75 1.73 1.01h-.03L9.58 22h4.85s.03-.18.06-.42l.38-2.65h-.01c.62-.26 1.2-.6 1.73-1.01l-.02.04 2.88 1.15 2.43-4.2s-.14-.12-.33-.26l-2.11-1.66zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></svg>, some more text.</p></li>
+<li><p>A coloured round icon: <svg version="4.0.0.63c5cb3" width="3.0em" height="3.0em" class="sd-material-icon sd-material-icon-settings sd-text-success" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"></rect><path d="M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z"></path></svg>, some more text.</p></li>
+<li><p>A coloured two-tone icon: <svg version="4.0.0.63c5cb3" width="3.0em" height="3.0em" class="sd-material-icon sd-material-icon-settings sd-text-success" viewBox="0 0 24 24" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M19.28 8.6l-.7-1.21-1.27.51-1.06.43-.91-.7c-.39-.3-.8-.54-1.23-.71l-1.06-.43-.16-1.13L12.7 4h-1.4l-.19 1.35-.16 1.13-1.06.44c-.41.17-.82.41-1.25.73l-.9.68-1.05-.42-1.27-.52-.7 1.21 1.08.84.89.7-.14 1.13c-.03.3-.05.53-.05.73s.02.43.05.73l.14 1.13-.89.7-1.08.84.7 1.21 1.27-.51 1.06-.43.91.7c.39.3.8.54 1.23.71l1.06.43.16 1.13.19 1.36h1.39l.19-1.35.16-1.13 1.06-.43c.41-.17.82-.41 1.25-.73l.9-.68 1.04.42 1.27.51.7-1.21-1.08-.84-.89-.7.14-1.13c.04-.31.05-.52.05-.73 0-.21-.02-.43-.05-.73l-.14-1.13.89-.7 1.1-.84zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" opacity=".3"></path><path d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path></svg>, some more text.</p></li>
+<li><p>A fixed size icon: <svg version="4.0.0.63c5cb3" width="24.0px" height="24.0px" class="sd-material-icon sd-material-icon-data_exploration" viewBox="0 0 24 24" aria-hidden="true"><rect fill="none" height="24" width="24"></rect><path d="M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z"></path></svg>, some more text.</p></li>
+</ul>
+</section>
+<section id="icon-octicon">
+<h2>Icon-octicon<a class="headerlink" href="#icon-octicon" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>A coloured icon: <span class="na">:octicon:</span><span class="nv">`report;1em;sd-text-info`</span>, some more text.
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<p>A coloured icon: <svg version="1.1" width="1.0em" height="1.0em" class="sd-octicon sd-octicon-report sd-text-info" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>, some more text.</p>
+</section>
+<section id="tab-basic">
+<h2>Tab-basic<a class="headerlink" href="#tab-basic" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">tab-set</span><span class="p">::</span>
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label1
+
+        Content 1
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label2
+
+        Content 2
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-0">
+Label1</label><div class="sd-tab-content docutils">
+<p>Content 1</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-1">
+Label2</label><div class="sd-tab-content docutils">
+<p>Content 2</p>
+</div>
+</div>
+</section>
+<section id="tab-code-set">
+<h2>Tab-code-set<a class="headerlink" href="#tab-code-set" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">tab-set-code</span><span class="p">::</span>
+
+<span class="p">    ..</span> <span class="ow">literalinclude</span><span class="p">::</span> ./snippet.py
+        <span class="nc">:language:</span> python
+
+<span class="p">    ..</span> <span class="ow">code-block</span><span class="p">::</span> javascript
+
+        a = 1;
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" data-sync-group="code" data-sync-id="python" for="sd-tab-item-2">
+PYTHON</label><div class="sd-tab-content docutils">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Copyright (C) 2021 - 2024 ANSYS, Inc. and/or its affiliates.</span>
+<span class="c1"># SPDX-License-Identifier: MIT</span>
+<span class="c1">#</span>
+<span class="c1">#</span>
+<span class="c1"># Permission is hereby granted, free of charge, to any person obtaining a copy</span>
+<span class="c1"># of this software and associated documentation files (the &quot;Software&quot;), to deal</span>
+<span class="c1"># in the Software without restriction, including without limitation the rights</span>
+<span class="c1"># to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</span>
+<span class="c1"># copies of the Software, and to permit persons to whom the Software is</span>
+<span class="c1"># furnished to do so, subject to the following conditions:</span>
+<span class="c1">#</span>
+<span class="c1"># The above copyright notice and this permission notice shall be included in all</span>
+<span class="c1"># copies or substantial portions of the Software.</span>
+<span class="c1">#</span>
+<span class="c1"># THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span>
+<span class="c1"># IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span>
+<span class="c1"># FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</span>
+<span class="c1"># AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</span>
+<span class="c1"># LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</span>
+<span class="c1"># OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</span>
+<span class="c1"># SOFTWARE.</span>
+
+<span class="sd">&quot;&quot;&quot;Sample functions for ansys-sphinx-theme.&quot;&quot;&quot;</span>
+
+
+<span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Summary line &lt;should be one one line&gt;.</span>
+
+<span class="sd">    Extended description of function.  Can span multiple lines and</span>
+<span class="sd">    provides a general overview of the function.</span>
+
+<span class="sd">    .. warning::</span>
+<span class="sd">       Use the ``.. warning::`` directive within the doc-string for any</span>
+<span class="sd">       warnings you would like to explicitly state.  For example, if</span>
+<span class="sd">       this method will be deprecated in the next release.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    arg1 : int</span>
+<span class="sd">        Description of arg1.</span>
+<span class="sd">    arg2 : str</span>
+<span class="sd">        Description of arg2.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    bool</span>
+<span class="sd">        Description of return value.</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; func(1, &#39;foo&#39;)</span>
+<span class="sd">    True</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" data-sync-group="code" data-sync-id="javascript" for="sd-tab-item-3">
+JAVASCRIPT</label><div class="sd-tab-content docutils">
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="tab-options">
+<h2>Tab-options<a class="headerlink" href="#tab-options" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">tab-set</span><span class="p">::</span>
+    <span class="nc">:class:</span> class-set
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> <span class="gs">**Label**</span>
+        <span class="nc">:name:</span> tab-options.txt
+        <span class="nc">:selected:</span>
+        <span class="nc">:class-container:</span> class-container
+        <span class="nc">:class-label:</span> class-label
+        <span class="nc">:class-content:</span> class-content
+
+        Content
+
+<span class="na">:ref:</span><span class="nv">`tab-options.txt`</span>, <span class="na">:ref:</span><span class="nv">`text &lt;tab-options.txt&gt;`</span>
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-tab-set class-set docutils">
+<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label class-label" for="sd-tab-item-4" id="tab-options-txt">
+<strong>Label</strong></label><div class="sd-tab-content class-content docutils">
+<p>Content</p>
+</div>
+</div>
+<p><a class="reference internal" href="#tab-options-txt"><span class="std std-ref">Label</span></a>, <a class="reference internal" href="#tab-options-txt"><span class="std std-ref">text</span></a></p>
+</section>
+<section id="tab-sync">
+<h2>Tab-sync<a class="headerlink" href="#tab-sync" title="Link to this heading">#</a></h2>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">tab-set</span><span class="p">::</span>
+    <span class="nc">:sync-group:</span> category
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label1
+        <span class="nc">:sync:</span> key1
+
+        Content 1
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label2
+        <span class="nc">:sync:</span> key2
+
+        Content 2
+
+<span class="p">..</span> <span class="ow">tab-set</span><span class="p">::</span>
+    <span class="nc">:sync-group:</span> category
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label1
+        <span class="nc">:sync:</span> key1
+
+        Content 1
+
+<span class="p">    ..</span> <span class="ow">tab-item</span><span class="p">::</span> Label2
+        <span class="nc">:sync:</span> key2
+
+        Content 2
+</pre></div>
+</div>
+<p>This directive renders as follows:</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" data-sync-group="category" data-sync-id="key1" for="sd-tab-item-5">
+Label1</label><div class="sd-tab-content docutils">
+<p>Content 1</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" data-sync-group="category" data-sync-id="key2" for="sd-tab-item-6">
+Label2</label><div class="sd-tab-content docutils">
+<p>Content 2</p>
+</div>
+</div>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-7" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" data-sync-group="category" data-sync-id="key1" for="sd-tab-item-7">
+Label1</label><div class="sd-tab-content docutils">
+<p>Content 1</p>
+</div>
+<input id="sd-tab-item-8" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" data-sync-group="category" data-sync-id="key2" for="sd-tab-item-8">
+Label2</label><div class="sd-tab-content docutils">
+<p>Content 2</p>
+</div>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Examples</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="table.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Table</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#badge-basic">Badge-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#badge-link">Badge-link</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#button-link">Button-link</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-basic">Card-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-carousel">Card-carousel</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-head-foot">Card-head-foot</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-images">Card-images</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-link">Card-link</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clickable-cards">Clickable cards</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#card-title-link">Card-title-link</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#div-basic">Div-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown-basic">Dropdown-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown-options">Dropdown-options</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid-basic">Grid-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid-card-columns">Grid-card-columns</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid-card">Grid-card</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid-gutter">Grid-gutter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid-nested">Grid-nested</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#icon-fontawesome">Icon-fontawesome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#icon-material-design">Icon-material-design</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#icon-octicon">Icon-octicon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tab-basic">Tab-basic</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tab-code-set">Tab-code-set</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tab-options">Tab-options</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tab-sync">Tab-sync</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item"> 
+<div class="tocsection editthispage">
+  <a href="https://github.com/ansys/ansys-sphinx-theme/edit/main/doc/source/examples/sphinx-design.rst">
+    <i class="fa-solid fa-pencil"></i>
+       Edit
+    on GitHub  
+  </a>
+</div>
+
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/examples/sphinx-design.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright (c) 2024 ANSYS, Inc. All rights reserved.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the
+  <a href="https://sphinxdocs.ansys.com/version/stable/index.html"
+    >Ansys Sphinx Theme</a
+  >
+  0.16.6. <br />Last updated on
+  <span id="date"></span>
+</p>
+<script>
+  var options = { day: "numeric", month: "long", year: "numeric" };
+  var lastModifiedDate = new Date(document.lastModified);
+  var date = lastModifiedDate.toLocaleDateString("en-US", options);
+  document.getElementById("date").innerHTML = date;
+</script></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

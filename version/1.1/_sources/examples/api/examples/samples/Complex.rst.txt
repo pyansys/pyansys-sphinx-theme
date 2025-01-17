@@ -1,0 +1,291 @@
+
+
+:class:`Complex`
+================
+
+.. py:class:: examples.samples.Complex(real, imag=0.0)
+
+   Bases: :py:obj:`object`
+
+
+   
+   Custom implementation of a complex number.
+
+
+   :Parameters:
+
+       **real** : :class:`python:float`
+           Real component of the complex number.
+
+       **imag** : :class:`python:float`, :obj:`optional`
+           Imaginary component of the complex number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> my_num = Complex(real=1, imag=-1.0)
+   >>> my_num
+   (1.0 + 1.0j)
+
+   ..
+       !! processed by numpydoc !!
+
+
+
+
+
+
+
+.. py:currentmodule:: Complex
+
+Overview
+--------
+
+.. tab-set::
+
+
+
+
+   .. tab-item:: Properties
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~real`
+            - Real component of this complex number.
+          * - :py:attr:`~imag`
+            - Real component of this complex number.
+          * - :py:attr:`~abs`
+            - Return the absolute value of this number.
+
+
+
+
+   .. tab-item:: Special methods
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~__add__`
+            - Add two complex numbers.
+          * - :py:attr:`~__sub__`
+            - Subtract two complex numbers.
+          * - :py:attr:`~__mul__`
+            - Multiply two complex numbers.
+          * - :py:attr:`~__truediv__`
+            - Divide two complex numbers.
+          * - :py:attr:`~__repr__`
+            - 
+
+
+
+
+Import detail
+-------------
+
+.. code-block:: python
+
+    from examples.samples import Complex
+
+Property detail
+---------------
+.. py:property:: real
+   
+   Real component of this complex number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> my_num = Complex(real=1, imag=-1.0)
+   >>> my_num.real
+   1.0
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:property:: imag
+   
+   Real component of this complex number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> my_num = Complex(real=1, imag=-1.0)
+   >>> my_num.imag
+   -1.0
+
+   Set the imaginary component
+
+   >>> my_num.imag = 2.0
+   >>> my_num.imag
+   2.0
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:property:: abs
+   
+   Return the absolute value of this number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .. rubric:: Examples
+
+   >>> my_num = Complex(real=1, imag=1.0)
+   >>> my_num.abs
+
+   ..
+       !! processed by numpydoc !!
+
+
+
+
+
+Method detail
+-------------
+.. py:method:: __add__(other)
+
+   
+   Add two complex numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __sub__(other)
+
+   
+   Subtract two complex numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __mul__(other)
+
+   
+   Multiply two complex numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __truediv__(other)
+
+   
+   Divide two complex numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:method:: __repr__()
+
+

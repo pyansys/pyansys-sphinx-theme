@@ -1,0 +1,1465 @@
+[
+    {
+        "objectID": "examples/nbsphinx",
+        "href": "examples/nbsphinx.html#jupyter-notebook---nbsphinx",
+        "title": "Examples > Jupyter notebook - nbsphinx",
+        "section": "Jupyter notebook - nbsphinx",
+        "text": "This example shows how the Ansys Sphinx Theme renders a Jupyter notebook using the nbspinx extension."
+    },
+    {
+        "objectID": "examples/api/examples/sample_func/index",
+        "href": "examples/api/examples/sample_func/index.html#the-sample_funcpy-module",
+        "title": "Examples > Examples > The sample_func.py module",
+        "section": "The sample_func.py module",
+        "text": "func\nSummary line <should be one one line>.\nSample functions for ansys-sphinx-theme."
+    },
+    {
+        "objectID": "examples/api/examples/sample_func/index",
+        "href": "examples/api/examples/sample_func/index.html#summary",
+        "title": "Examples > Examples > The sample_func.py module > Summary",
+        "section": "Summary",
+        "text": "func\nSummary line <should be one one line>."
+    },
+    {
+        "objectID": "examples/api/examples/sample_func/index",
+        "href": "examples/api/examples/sample_func/index.html#description",
+        "title": "Examples > Examples > The sample_func.py module > Description",
+        "section": "Description",
+        "text": "Sample functions for ansys-sphinx-theme."
+    },
+    {
+        "objectID": "sg_execution_times",
+        "href": "sg_execution_times.html#computation-times",
+        "title": "Computation times",
+        "section": "Computation times",
+        "text": "00:00.000 total execution time for 1 file from all galleries:\nExample\nTime\nMem (MB)\nsphx_glr_examples_gallery-examples_sphinx-gallery.py (examples/sphinx-gallery/sphinx-gallery.py)\n00:00.000\n0.0"
+    },
+    {
+        "objectID": "examples/api/examples/sample_func/func",
+        "href": "examples/api/examples/sample_func/func.html#examplessample_funcfunc",
+        "title": "Examples > Examples > examples.sample_func.func",
+        "section": "examples.sample_func.func",
+        "text": "Summary line <should be one one line>.\nExtended description of function.  Can span multiple lines and\nprovides a general overview of the function.\nUse the .. warning:: directive within the doc-string for any\nwarnings you would like to explicitly state.  For example, if\nthis method will be deprecated in the next release.\nDescription of arg1.\nDescription of arg2.\nDescription of return value."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#sphinx-design",
+        "title": "Examples > Sphinx design",
+        "section": "Sphinx design",
+        "text": "This example shows how the Ansys Sphinx Theme renders documentation components\nusing the sphinx-design extension. For comprehensive information, see its\ndocumentation.\nThe examples presented below are sourced from the Sphinx Design project\nCopyright (c) by Chris Sewell (2023),\navailable at sphinx design examples.\nThis project is licensed under the MIT License.\nThis directive renders as follows:\nplain badge\nprimary, primary-line\nsecondary, secondary-line\nsuccess, success-line\ninfo, info-line\nwarning, warning-line\ndanger, danger-line\nlight, light-line\nmuted, muted-line\ndark, dark-line\nwhite, white-line\nblack, black-line\nThis directive renders as follows:\nhttps://example.com\nexplicit title\nThis directive renders as follows:\nhttps://example.com\nButton text\nhttps://example.com\nhttps://example.com\nhttps://example.com\nThis directive renders as follows:\nCard content\nThis directive renders as follows:\ncontent\nLonger\ncontent\nThis directive renders as follows:\nHeader\nCard content\nFooter\nThis directive renders as follows:\nText\nHeader\nContent\nFooter\nHeader\nContent\nFooter\nThis directive renders as follows:\nUsing the link and link-type options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThis directive renders as follows:\nCard content\nThis directive renders as follows:\nSome CSS styled text\nThis directive renders as follows:\nDropdown content\nDropdown content\nDropdown content\nThis directive renders as follows:\nDropdown content\ndropdown-options.txt, text\nThis directive renders as follows:\nA\nB\nC\nD\nThis directive renders as follows:\nA\nB\nC\nThis directive renders as follows:\nA\nB\nThis directive renders as follows:\nA\nB\nA\nB\nThis directive renders as follows:\nMulti-line\ncontent\nContent\nContent\nContent\nContent\nThis directive renders as follows:\nAn icon , some more text.\nThis directive renders as follows:\nA regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"2.0em\" height=\"2.0em\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text\nA coloured regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z\"></path></g></svg>, some more text.\nA coloured outline icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA coloured sharp icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.44 12.99l-.01.02c.04-.33.08-.67.08-1.01 0-.34-.03-.66-.07-.99l.01.02 2.44-1.92-2.43-4.22-2.87 1.16.01.01c-.52-.4-1.09-.74-1.71-1h.01L14.44 2H9.57l-.44 3.07h.01c-.62.26-1.19.6-1.71 1l.01-.01-2.88-1.17-2.44 4.22 2.44 1.92.01-.02c-.04.33-.07.65-.07.99 0 .34.03.68.08 1.01l-.01-.02-2.1 1.65-.33.26 2.43 4.2 2.88-1.15-.02-.04c.53.41 1.1.75 1.73 1.01h-.03L9.58 22h4.85s.03-.18.06-.42l.38-2.65h-.01c.62-.26 1.2-.6 1.73-1.01l-.02.04 2.88 1.15 2.43-4.2s-.14-.12-.33-.26l-2.11-1.66zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z\"></path></svg>, some more text.\nA coloured round icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z\"></path></svg>, some more text.\nA coloured two-tone icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.28 8.6l-.7-1.21-1.27.51-1.06.43-.91-.7c-.39-.3-.8-.54-1.23-.71l-1.06-.43-.16-1.13L12.7 4h-1.4l-.19 1.35-.16 1.13-1.06.44c-.41.17-.82.41-1.25.73l-.9.68-1.05-.42-1.27-.52-.7 1.21 1.08.84.89.7-.14 1.13c-.03.3-.05.53-.05.73s.02.43.05.73l.14 1.13-.89.7-1.08.84.7 1.21 1.27-.51 1.06-.43.91.7c.39.3.8.54 1.23.71l1.06.43.16 1.13.19 1.36h1.39l.19-1.35.16-1.13 1.06-.43c.41-.17.82-.41 1.25-.73l.9-.68 1.04.42 1.27.51.7-1.21-1.08-.84-.89-.7.14-1.13c.04-.31.05-.52.05-.73 0-.21-.02-.43-.05-.73l-.14-1.13.89-.7 1.1-.84zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z\" opacity=\".3\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA fixed size icon: <svg version=\"4.0.0.63c5cb3\" width=\"24.0px\" height=\"24.0px\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text.\nThis directive renders as follows:\nA coloured icon: <svg version=\"1.1\" width=\"1.0em\" height=\"1.0em\" class=\"sd-octicon sd-octicon-report sd-text-info\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg>, some more text.\nThis directive renders as follows:\nContent 1\nContent 2\nThis directive renders as follows:\nThis directive renders as follows:\nContent\ntab-options.txt, text\nThis directive renders as follows:\nContent 1\nContent 2\nContent 1\nContent 2\n:bdg:`plain badge`\n\n:bdg-primary:`primary`, :bdg-primary-line:`primary-line`\n\n:bdg-secondary:`secondary`, :bdg-secondary-line:`secondary-line`\n\n:bdg-success:`success`, :bdg-success-line:`success-line`\n\n:bdg-info:`info`, :bdg-info-line:`info-line`\n\n:bdg-warning:`warning`, :bdg-warning-line:`warning-line`\n\n:bdg-danger:`danger`, :bdg-danger-line:`danger-line`\n\n:bdg-light:`light`, :bdg-light-line:`light-line`\n\n:bdg-muted:`muted`, :bdg-muted-line:`muted-line`\n\n:bdg-dark:`dark`, :bdg-dark-line:`dark-line`\n\n:bdg-white:`white`, :bdg-white-line:`white-line`\n\n:bdg-black:`black`, :bdg-black-line:`black-line`\n:bdg-link-primary:`https://example.com`\n\n:bdg-link-primary-line:`explicit title <https://example.com>`\n.. button-link:: https://example.com\n\n.. button-link:: https://example.com\n\n    Button text\n\n.. button-link:: https://example.com\n    :color: primary\n    :shadow:\n\n.. button-link:: https://example.com\n    :color: primary\n    :outline:\n\n.. button-link:: https://example.com\n    :color: secondary\n    :expand:\n.. card:: Card Title\n\n    Card content\n.. card-carousel:: 2\n\n    .. card:: card 1\n\n        content\n\n    .. card:: card 2\n\n        Longer\n\n        content\n\n    .. card:: card 3\n\n    .. card:: card 4\n\n    .. card:: card 5\n\n    .. card:: card 6\n.. card:: Card Title\n\n    Header\n    ^^^\n    Card content\n    +++\n    Footer\n.. grid:: 2 3 3 4\n\n    .. grid-item::\n\n        .. card:: Title\n            :img-background: images/particle_background.jpg\n            :class-card: sd-text-black\n            :img-alt: my text\n\n            Text\n\n    .. grid-item-card:: Title\n        :img-top: images/particle_background.jpg\n        :img-alt:\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer\n\n    .. grid-item-card:: Title\n        :img-bottom: images/particle_background.jpg\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer\n.. _cards-clickable:\n\nClickable cards\n...............\n\nUsing the ``link`` and ``link-type`` options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n    :link-alt: example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n    :link-alt: clickable cards\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt.\n.. _card-title-link.txt:\n.. card:: Card Title https://example.com :ref:`link <card-title-link.txt>`\n\n    Card content\n.. div:: sd-text-center sd-font-italic sd-text-primary\n\n    Some CSS styled text\n.. dropdown::\n\n    Dropdown content\n\n.. dropdown:: Dropdown title\n\n    Dropdown content\n\n.. dropdown:: Open dropdown\n    :open:\n\n    Dropdown content\n.. dropdown:: Title\n    :name: dropdown-options.txt\n    :color: info\n    :icon: alert\n    :margin: 1\n    :class-container: class-container\n    :class-title: class-title\n    :class-body: class-body\n\n    Dropdown content\n\n:ref:`dropdown-options.txt`, :ref:`text <dropdown-options.txt>`\n.. grid:: 1 2 3 4\n    :outline:\n\n    .. grid-item::\n\n        A\n\n    .. grid-item::\n\n        B\n\n    .. grid-item::\n\n        C\n\n    .. grid-item::\n\n        D\n.. grid:: 2\n\n    .. grid-item-card::\n        :columns: auto\n\n        A\n\n    .. grid-item-card::\n        :columns: 12 6 6 6\n\n        B\n\n    .. grid-item-card::\n        :columns: 12\n\n        C\n.. grid:: 2\n\n    .. grid-item-card::  Title 1\n\n        A\n\n    .. grid-item-card::  Title 2\n\n        B\n.. grid:: 2\n    :gutter: 1\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B\n\n.. grid:: 2\n    :gutter: 3 3 4 5\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B\n.. grid:: 1 1 2 2\n    :gutter: 1\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 1.1\n\n                Multi-line\n\n                content\n\n            .. grid-item-card:: Item 1.2\n\n                Content\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 2.1\n\n                Content\n\n            .. grid-item-card:: Item 2.2\n\n                Content\n\n            .. grid-item-card:: Item 2.3\n\n                Content\nAn icon :fas:`spinner;sd-bg-primary sd-bg-text-primary`, some more text.\n- A regular icon: :material-regular:`data_exploration;2em`, some more text\n- A coloured regular icon: :material-regular:`settings;3em;sd-text-success`, some more text.\n- A coloured outline icon: :material-outlined:`settings;3em;sd-text-success`, some more text.\n- A coloured sharp icon: :material-sharp:`settings;3em;sd-text-success`, some more text.\n- A coloured round icon: :material-round:`settings;3em;sd-text-success`, some more text.\n- A coloured two-tone icon: :material-twotone:`settings;3em;sd-text-success`, some more text.\n- A fixed size icon: :material-regular:`data_exploration;24px`, some more text.\nA coloured icon: :octicon:`report;1em;sd-text-info`, some more text.\n.. tab-set::\n\n    .. tab-item:: Label1\n\n        Content 1\n\n    .. tab-item:: Label2\n\n        Content 2\n.. tab-set-code::\n\n    .. literalinclude:: ./snippet.py\n        :language: python\n\n    .. code-block:: javascript\n\n        a = 1;\n# Copyright (C) 2021 - 2024 ANSYS, Inc. and/or its affiliates.\n# SPDX-License-Identifier: MIT\n#\n#\n# Permission is hereby granted, free of charge, to any person obtaining a copy\n# of this software and associated documentation files (the \"Software\"), to deal\n# in the Software without restriction, including without limitation the rights\n# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n# copies of the Software, and to permit persons to whom the Software is\n# furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in all\n# copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n# SOFTWARE.\n\n\"\"\"Sample functions for ansys-sphinx-theme.\"\"\"\n\n\ndef func(arg1, arg2):\n    \"\"\"Summary line <should be one one line>.\n\n    Extended description of function.  Can span multiple lines and\n    provides a general overview of the function.\n\n    .. warning::\n       Use the ``.. warning::`` directive within the doc-string for any\n       warnings you would like to explicitly state.  For example, if\n       this method will be deprecated in the next release.\n\n    Parameters\n    ----------\n    arg1 : int\n        Description of arg1.\n    arg2 : str\n        Description of arg2.\n\n    Returns\n    -------\n    bool\n        Description of return value.\n\n    Examples\n    --------\n    >>> func(1, \"foo\")\n    True\n\n    \"\"\"\n    return True\n\na = 1;\n.. tab-set::\n    :class: class-set\n\n    .. tab-item:: **Label**\n        :name: tab-options.txt\n        :selected:\n        :class-container: class-container\n        :class-label: class-label\n        :class-content: class-content\n\n        Content\n\n:ref:`tab-options.txt`, :ref:`text <tab-options.txt>`\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2\n\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#credits-and-acknowledgments",
+        "title": "Examples > Sphinx design > Credits and acknowledgments",
+        "section": "Credits and acknowledgments",
+        "text": "The examples presented below are sourced from the Sphinx Design project\nCopyright (c) by Chris Sewell (2023),\navailable at sphinx design examples.\nThis project is licensed under the MIT License.\nThis directive renders as follows:\nplain badge\nprimary, primary-line\nsecondary, secondary-line\nsuccess, success-line\ninfo, info-line\nwarning, warning-line\ndanger, danger-line\nlight, light-line\nmuted, muted-line\ndark, dark-line\nwhite, white-line\nblack, black-line\nThis directive renders as follows:\nhttps://example.com\nexplicit title\nThis directive renders as follows:\nhttps://example.com\nButton text\nhttps://example.com\nhttps://example.com\nhttps://example.com\nThis directive renders as follows:\nCard content\nThis directive renders as follows:\ncontent\nLonger\ncontent\nThis directive renders as follows:\nHeader\nCard content\nFooter\nThis directive renders as follows:\nText\nHeader\nContent\nFooter\nHeader\nContent\nFooter\nThis directive renders as follows:\nUsing the link and link-type options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThis directive renders as follows:\nCard content\nThis directive renders as follows:\nSome CSS styled text\nThis directive renders as follows:\nDropdown content\nDropdown content\nDropdown content\nThis directive renders as follows:\nDropdown content\ndropdown-options.txt, text\nThis directive renders as follows:\nA\nB\nC\nD\nThis directive renders as follows:\nA\nB\nC\nThis directive renders as follows:\nA\nB\nThis directive renders as follows:\nA\nB\nA\nB\nThis directive renders as follows:\nMulti-line\ncontent\nContent\nContent\nContent\nContent\nThis directive renders as follows:\nAn icon , some more text.\nThis directive renders as follows:\nA regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"2.0em\" height=\"2.0em\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text\nA coloured regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z\"></path></g></svg>, some more text.\nA coloured outline icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA coloured sharp icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.44 12.99l-.01.02c.04-.33.08-.67.08-1.01 0-.34-.03-.66-.07-.99l.01.02 2.44-1.92-2.43-4.22-2.87 1.16.01.01c-.52-.4-1.09-.74-1.71-1h.01L14.44 2H9.57l-.44 3.07h.01c-.62.26-1.19.6-1.71 1l.01-.01-2.88-1.17-2.44 4.22 2.44 1.92.01-.02c-.04.33-.07.65-.07.99 0 .34.03.68.08 1.01l-.01-.02-2.1 1.65-.33.26 2.43 4.2 2.88-1.15-.02-.04c.53.41 1.1.75 1.73 1.01h-.03L9.58 22h4.85s.03-.18.06-.42l.38-2.65h-.01c.62-.26 1.2-.6 1.73-1.01l-.02.04 2.88 1.15 2.43-4.2s-.14-.12-.33-.26l-2.11-1.66zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z\"></path></svg>, some more text.\nA coloured round icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z\"></path></svg>, some more text.\nA coloured two-tone icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.28 8.6l-.7-1.21-1.27.51-1.06.43-.91-.7c-.39-.3-.8-.54-1.23-.71l-1.06-.43-.16-1.13L12.7 4h-1.4l-.19 1.35-.16 1.13-1.06.44c-.41.17-.82.41-1.25.73l-.9.68-1.05-.42-1.27-.52-.7 1.21 1.08.84.89.7-.14 1.13c-.03.3-.05.53-.05.73s.02.43.05.73l.14 1.13-.89.7-1.08.84.7 1.21 1.27-.51 1.06-.43.91.7c.39.3.8.54 1.23.71l1.06.43.16 1.13.19 1.36h1.39l.19-1.35.16-1.13 1.06-.43c.41-.17.82-.41 1.25-.73l.9-.68 1.04.42 1.27.51.7-1.21-1.08-.84-.89-.7.14-1.13c.04-.31.05-.52.05-.73 0-.21-.02-.43-.05-.73l-.14-1.13.89-.7 1.1-.84zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z\" opacity=\".3\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA fixed size icon: <svg version=\"4.0.0.63c5cb3\" width=\"24.0px\" height=\"24.0px\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text.\nThis directive renders as follows:\nA coloured icon: <svg version=\"1.1\" width=\"1.0em\" height=\"1.0em\" class=\"sd-octicon sd-octicon-report sd-text-info\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg>, some more text.\nThis directive renders as follows:\nContent 1\nContent 2\nThis directive renders as follows:\nThis directive renders as follows:\nContent\ntab-options.txt, text\nThis directive renders as follows:\nContent 1\nContent 2\nContent 1\nContent 2\n:bdg:`plain badge`\n\n:bdg-primary:`primary`, :bdg-primary-line:`primary-line`\n\n:bdg-secondary:`secondary`, :bdg-secondary-line:`secondary-line`\n\n:bdg-success:`success`, :bdg-success-line:`success-line`\n\n:bdg-info:`info`, :bdg-info-line:`info-line`\n\n:bdg-warning:`warning`, :bdg-warning-line:`warning-line`\n\n:bdg-danger:`danger`, :bdg-danger-line:`danger-line`\n\n:bdg-light:`light`, :bdg-light-line:`light-line`\n\n:bdg-muted:`muted`, :bdg-muted-line:`muted-line`\n\n:bdg-dark:`dark`, :bdg-dark-line:`dark-line`\n\n:bdg-white:`white`, :bdg-white-line:`white-line`\n\n:bdg-black:`black`, :bdg-black-line:`black-line`\n:bdg-link-primary:`https://example.com`\n\n:bdg-link-primary-line:`explicit title <https://example.com>`\n.. button-link:: https://example.com\n\n.. button-link:: https://example.com\n\n    Button text\n\n.. button-link:: https://example.com\n    :color: primary\n    :shadow:\n\n.. button-link:: https://example.com\n    :color: primary\n    :outline:\n\n.. button-link:: https://example.com\n    :color: secondary\n    :expand:\n.. card:: Card Title\n\n    Card content\n.. card-carousel:: 2\n\n    .. card:: card 1\n\n        content\n\n    .. card:: card 2\n\n        Longer\n\n        content\n\n    .. card:: card 3\n\n    .. card:: card 4\n\n    .. card:: card 5\n\n    .. card:: card 6\n.. card:: Card Title\n\n    Header\n    ^^^\n    Card content\n    +++\n    Footer\n.. grid:: 2 3 3 4\n\n    .. grid-item::\n\n        .. card:: Title\n            :img-background: images/particle_background.jpg\n            :class-card: sd-text-black\n            :img-alt: my text\n\n            Text\n\n    .. grid-item-card:: Title\n        :img-top: images/particle_background.jpg\n        :img-alt:\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer\n\n    .. grid-item-card:: Title\n        :img-bottom: images/particle_background.jpg\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer\n.. _cards-clickable:\n\nClickable cards\n...............\n\nUsing the ``link`` and ``link-type`` options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n    :link-alt: example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n    :link-alt: clickable cards\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt.\n.. _card-title-link.txt:\n.. card:: Card Title https://example.com :ref:`link <card-title-link.txt>`\n\n    Card content\n.. div:: sd-text-center sd-font-italic sd-text-primary\n\n    Some CSS styled text\n.. dropdown::\n\n    Dropdown content\n\n.. dropdown:: Dropdown title\n\n    Dropdown content\n\n.. dropdown:: Open dropdown\n    :open:\n\n    Dropdown content\n.. dropdown:: Title\n    :name: dropdown-options.txt\n    :color: info\n    :icon: alert\n    :margin: 1\n    :class-container: class-container\n    :class-title: class-title\n    :class-body: class-body\n\n    Dropdown content\n\n:ref:`dropdown-options.txt`, :ref:`text <dropdown-options.txt>`\n.. grid:: 1 2 3 4\n    :outline:\n\n    .. grid-item::\n\n        A\n\n    .. grid-item::\n\n        B\n\n    .. grid-item::\n\n        C\n\n    .. grid-item::\n\n        D\n.. grid:: 2\n\n    .. grid-item-card::\n        :columns: auto\n\n        A\n\n    .. grid-item-card::\n        :columns: 12 6 6 6\n\n        B\n\n    .. grid-item-card::\n        :columns: 12\n\n        C\n.. grid:: 2\n\n    .. grid-item-card::  Title 1\n\n        A\n\n    .. grid-item-card::  Title 2\n\n        B\n.. grid:: 2\n    :gutter: 1\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B\n\n.. grid:: 2\n    :gutter: 3 3 4 5\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B\n.. grid:: 1 1 2 2\n    :gutter: 1\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 1.1\n\n                Multi-line\n\n                content\n\n            .. grid-item-card:: Item 1.2\n\n                Content\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 2.1\n\n                Content\n\n            .. grid-item-card:: Item 2.2\n\n                Content\n\n            .. grid-item-card:: Item 2.3\n\n                Content\nAn icon :fas:`spinner;sd-bg-primary sd-bg-text-primary`, some more text.\n- A regular icon: :material-regular:`data_exploration;2em`, some more text\n- A coloured regular icon: :material-regular:`settings;3em;sd-text-success`, some more text.\n- A coloured outline icon: :material-outlined:`settings;3em;sd-text-success`, some more text.\n- A coloured sharp icon: :material-sharp:`settings;3em;sd-text-success`, some more text.\n- A coloured round icon: :material-round:`settings;3em;sd-text-success`, some more text.\n- A coloured two-tone icon: :material-twotone:`settings;3em;sd-text-success`, some more text.\n- A fixed size icon: :material-regular:`data_exploration;24px`, some more text.\nA coloured icon: :octicon:`report;1em;sd-text-info`, some more text.\n.. tab-set::\n\n    .. tab-item:: Label1\n\n        Content 1\n\n    .. tab-item:: Label2\n\n        Content 2\n.. tab-set-code::\n\n    .. literalinclude:: ./snippet.py\n        :language: python\n\n    .. code-block:: javascript\n\n        a = 1;\n# Copyright (C) 2021 - 2024 ANSYS, Inc. and/or its affiliates.\n# SPDX-License-Identifier: MIT\n#\n#\n# Permission is hereby granted, free of charge, to any person obtaining a copy\n# of this software and associated documentation files (the \"Software\"), to deal\n# in the Software without restriction, including without limitation the rights\n# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n# copies of the Software, and to permit persons to whom the Software is\n# furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in all\n# copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n# SOFTWARE.\n\n\"\"\"Sample functions for ansys-sphinx-theme.\"\"\"\n\n\ndef func(arg1, arg2):\n    \"\"\"Summary line <should be one one line>.\n\n    Extended description of function.  Can span multiple lines and\n    provides a general overview of the function.\n\n    .. warning::\n       Use the ``.. warning::`` directive within the doc-string for any\n       warnings you would like to explicitly state.  For example, if\n       this method will be deprecated in the next release.\n\n    Parameters\n    ----------\n    arg1 : int\n        Description of arg1.\n    arg2 : str\n        Description of arg2.\n\n    Returns\n    -------\n    bool\n        Description of return value.\n\n    Examples\n    --------\n    >>> func(1, \"foo\")\n    True\n\n    \"\"\"\n    return True\n\na = 1;\n.. tab-set::\n    :class: class-set\n\n    .. tab-item:: **Label**\n        :name: tab-options.txt\n        :selected:\n        :class-container: class-container\n        :class-label: class-label\n        :class-content: class-content\n\n        Content\n\n:ref:`tab-options.txt`, :ref:`text <tab-options.txt>`\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2\n\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#badge-basic",
+        "title": "Examples > Sphinx design > Badge-basic",
+        "section": "Badge-basic",
+        "text": "This directive renders as follows:\nplain badge\nprimary, primary-line\nsecondary, secondary-line\nsuccess, success-line\ninfo, info-line\nwarning, warning-line\ndanger, danger-line\nlight, light-line\nmuted, muted-line\ndark, dark-line\nwhite, white-line\nblack, black-line\n:bdg:`plain badge`\n\n:bdg-primary:`primary`, :bdg-primary-line:`primary-line`\n\n:bdg-secondary:`secondary`, :bdg-secondary-line:`secondary-line`\n\n:bdg-success:`success`, :bdg-success-line:`success-line`\n\n:bdg-info:`info`, :bdg-info-line:`info-line`\n\n:bdg-warning:`warning`, :bdg-warning-line:`warning-line`\n\n:bdg-danger:`danger`, :bdg-danger-line:`danger-line`\n\n:bdg-light:`light`, :bdg-light-line:`light-line`\n\n:bdg-muted:`muted`, :bdg-muted-line:`muted-line`\n\n:bdg-dark:`dark`, :bdg-dark-line:`dark-line`\n\n:bdg-white:`white`, :bdg-white-line:`white-line`\n\n:bdg-black:`black`, :bdg-black-line:`black-line`"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#badge-link",
+        "title": "Examples > Sphinx design > Badge-link",
+        "section": "Badge-link",
+        "text": "This directive renders as follows:\nhttps://example.com\nexplicit title\n:bdg-link-primary:`https://example.com`\n\n:bdg-link-primary-line:`explicit title <https://example.com>`"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#button-link",
+        "title": "Examples > Sphinx design > Button-link",
+        "section": "Button-link",
+        "text": "This directive renders as follows:\nhttps://example.com\nButton text\nhttps://example.com\nhttps://example.com\nhttps://example.com\n.. button-link:: https://example.com\n\n.. button-link:: https://example.com\n\n    Button text\n\n.. button-link:: https://example.com\n    :color: primary\n    :shadow:\n\n.. button-link:: https://example.com\n    :color: primary\n    :outline:\n\n.. button-link:: https://example.com\n    :color: secondary\n    :expand:"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-basic",
+        "title": "Examples > Sphinx design > Card-basic",
+        "section": "Card-basic",
+        "text": "This directive renders as follows:\nCard content\n.. card:: Card Title\n\n    Card content"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-carousel",
+        "title": "Examples > Sphinx design > Card-carousel",
+        "section": "Card-carousel",
+        "text": "This directive renders as follows:\ncontent\nLonger\ncontent\n.. card-carousel:: 2\n\n    .. card:: card 1\n\n        content\n\n    .. card:: card 2\n\n        Longer\n\n        content\n\n    .. card:: card 3\n\n    .. card:: card 4\n\n    .. card:: card 5\n\n    .. card:: card 6"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-head-foot",
+        "title": "Examples > Sphinx design > Card-head-foot",
+        "section": "Card-head-foot",
+        "text": "This directive renders as follows:\nHeader\nCard content\nFooter\n.. card:: Card Title\n\n    Header\n    ^^^\n    Card content\n    +++\n    Footer"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-images",
+        "title": "Examples > Sphinx design > Card-images",
+        "section": "Card-images",
+        "text": "This directive renders as follows:\nText\nHeader\nContent\nFooter\nHeader\nContent\nFooter\n.. grid:: 2 3 3 4\n\n    .. grid-item::\n\n        .. card:: Title\n            :img-background: images/particle_background.jpg\n            :class-card: sd-text-black\n            :img-alt: my text\n\n            Text\n\n    .. grid-item-card:: Title\n        :img-top: images/particle_background.jpg\n        :img-alt:\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer\n\n    .. grid-item-card:: Title\n        :img-bottom: images/particle_background.jpg\n\n        Header\n        ^^^\n        Content\n        +++\n        Footer"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-link",
+        "title": "Examples > Sphinx design > Card-link",
+        "section": "Card-link",
+        "text": "This directive renders as follows:\nUsing the link and link-type options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\n.. _cards-clickable:\n\nClickable cards\n...............\n\nUsing the ``link`` and ``link-type`` options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (external)\n    :link: https://example.com\n    :link-alt: example.com\n\n    The entire card can be clicked to navigate to https://example.com.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt.\n\n.. card:: Clickable Card (internal)\n    :link: cards-clickable\n    :link-type: ref\n    :link-alt: clickable cards\n\n    The entire card can be clicked to navigate to the ``cards-clickable`` reference card-link.txt."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#clickable-cards",
+        "title": "Examples > Sphinx design > Clickable cards",
+        "section": "Clickable cards",
+        "text": "Using the link and link-type options, you can turn an entire card into a clickable link. Try hovering over then clicking on the cards below:\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to https://example.com.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt.\nThe entire card can be clicked to navigate to the cards-clickable reference card-link.txt."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#card-title-link",
+        "title": "Examples > Sphinx design > Card-title-link",
+        "section": "Card-title-link",
+        "text": "This directive renders as follows:\nCard content\n.. _card-title-link.txt:\n.. card:: Card Title https://example.com :ref:`link <card-title-link.txt>`\n\n    Card content"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#div-basic",
+        "title": "Examples > Sphinx design > Div-basic",
+        "section": "Div-basic",
+        "text": "This directive renders as follows:\nSome CSS styled text\n.. div:: sd-text-center sd-font-italic sd-text-primary\n\n    Some CSS styled text"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#dropdown-basic",
+        "title": "Examples > Sphinx design > Dropdown-basic",
+        "section": "Dropdown-basic",
+        "text": "This directive renders as follows:\nDropdown content\nDropdown content\nDropdown content\n.. dropdown::\n\n    Dropdown content\n\n.. dropdown:: Dropdown title\n\n    Dropdown content\n\n.. dropdown:: Open dropdown\n    :open:\n\n    Dropdown content"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#dropdown-options",
+        "title": "Examples > Sphinx design > Dropdown-options",
+        "section": "Dropdown-options",
+        "text": "This directive renders as follows:\nDropdown content\ndropdown-options.txt, text\n.. dropdown:: Title\n    :name: dropdown-options.txt\n    :color: info\n    :icon: alert\n    :margin: 1\n    :class-container: class-container\n    :class-title: class-title\n    :class-body: class-body\n\n    Dropdown content\n\n:ref:`dropdown-options.txt`, :ref:`text <dropdown-options.txt>`"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#grid-basic",
+        "title": "Examples > Sphinx design > Grid-basic",
+        "section": "Grid-basic",
+        "text": "This directive renders as follows:\nA\nB\nC\nD\n.. grid:: 1 2 3 4\n    :outline:\n\n    .. grid-item::\n\n        A\n\n    .. grid-item::\n\n        B\n\n    .. grid-item::\n\n        C\n\n    .. grid-item::\n\n        D"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#grid-card-columns",
+        "title": "Examples > Sphinx design > Grid-card-columns",
+        "section": "Grid-card-columns",
+        "text": "This directive renders as follows:\nA\nB\nC\n.. grid:: 2\n\n    .. grid-item-card::\n        :columns: auto\n\n        A\n\n    .. grid-item-card::\n        :columns: 12 6 6 6\n\n        B\n\n    .. grid-item-card::\n        :columns: 12\n\n        C"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#grid-card",
+        "title": "Examples > Sphinx design > Grid-card",
+        "section": "Grid-card",
+        "text": "This directive renders as follows:\nA\nB\n.. grid:: 2\n\n    .. grid-item-card::  Title 1\n\n        A\n\n    .. grid-item-card::  Title 2\n\n        B"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#grid-gutter",
+        "title": "Examples > Sphinx design > Grid-gutter",
+        "section": "Grid-gutter",
+        "text": "This directive renders as follows:\nA\nB\nA\nB\n.. grid:: 2\n    :gutter: 1\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B\n\n.. grid:: 2\n    :gutter: 3 3 4 5\n\n    .. grid-item-card::\n\n        A\n\n    .. grid-item-card::\n\n        B"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#grid-nested",
+        "title": "Examples > Sphinx design > Grid-nested",
+        "section": "Grid-nested",
+        "text": "This directive renders as follows:\nMulti-line\ncontent\nContent\nContent\nContent\nContent\n.. grid:: 1 1 2 2\n    :gutter: 1\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 1.1\n\n                Multi-line\n\n                content\n\n            .. grid-item-card:: Item 1.2\n\n                Content\n\n    .. grid-item::\n\n        .. grid:: 1 1 1 1\n            :gutter: 1\n\n            .. grid-item-card:: Item 2.1\n\n                Content\n\n            .. grid-item-card:: Item 2.2\n\n                Content\n\n            .. grid-item-card:: Item 2.3\n\n                Content"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#icon-fontawesome",
+        "title": "Examples > Sphinx design > Icon-fontawesome",
+        "section": "Icon-fontawesome",
+        "text": "This directive renders as follows:\nAn icon , some more text.\nAn icon :fas:`spinner;sd-bg-primary sd-bg-text-primary`, some more text."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#icon-material-design",
+        "title": "Examples > Sphinx design > Icon-material-design",
+        "section": "Icon-material-design",
+        "text": "This directive renders as follows:\nA regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"2.0em\" height=\"2.0em\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text\nA coloured regular icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z\"></path></g></svg>, some more text.\nA coloured outline icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA coloured sharp icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.44 12.99l-.01.02c.04-.33.08-.67.08-1.01 0-.34-.03-.66-.07-.99l.01.02 2.44-1.92-2.43-4.22-2.87 1.16.01.01c-.52-.4-1.09-.74-1.71-1h.01L14.44 2H9.57l-.44 3.07h.01c-.62.26-1.19.6-1.71 1l.01-.01-2.88-1.17-2.44 4.22 2.44 1.92.01-.02c-.04.33-.07.65-.07.99 0 .34.03.68.08 1.01l-.01-.02-2.1 1.65-.33.26 2.43 4.2 2.88-1.15-.02-.04c.53.41 1.1.75 1.73 1.01h-.03L9.58 22h4.85s.03-.18.06-.42l.38-2.65h-.01c.62-.26 1.2-.6 1.73-1.01l-.02.04 2.88 1.15 2.43-4.2s-.14-.12-.33-.26l-2.11-1.66zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z\"></path></svg>, some more text.\nA coloured round icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z\"></path></svg>, some more text.\nA coloured two-tone icon: <svg version=\"4.0.0.63c5cb3\" width=\"3.0em\" height=\"3.0em\" class=\"sd-material-icon sd-material-icon-settings sd-text-success\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\"></path><path d=\"M19.28 8.6l-.7-1.21-1.27.51-1.06.43-.91-.7c-.39-.3-.8-.54-1.23-.71l-1.06-.43-.16-1.13L12.7 4h-1.4l-.19 1.35-.16 1.13-1.06.44c-.41.17-.82.41-1.25.73l-.9.68-1.05-.42-1.27-.52-.7 1.21 1.08.84.89.7-.14 1.13c-.03.3-.05.53-.05.73s.02.43.05.73l.14 1.13-.89.7-1.08.84.7 1.21 1.27-.51 1.06-.43.91.7c.39.3.8.54 1.23.71l1.06.43.16 1.13.19 1.36h1.39l.19-1.35.16-1.13 1.06-.43c.41-.17.82-.41 1.25-.73l.9-.68 1.04.42 1.27.51.7-1.21-1.08-.84-.89-.7.14-1.13c.04-.31.05-.52.05-.73 0-.21-.02-.43-.05-.73l-.14-1.13.89-.7 1.1-.84zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z\" opacity=\".3\"></path><path d=\"M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z\"></path></svg>, some more text.\nA fixed size icon: <svg version=\"4.0.0.63c5cb3\" width=\"24.0px\" height=\"24.0px\" class=\"sd-material-icon sd-material-icon-data_exploration\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect fill=\"none\" height=\"24\" width=\"24\"></rect><path d=\"M12,2C6.48,2,2,6.48,2,12c0,1.33,0.26,2.61,0.74,3.77L8,10.5l3.3,2.78L14.58,10H13V8h5v5h-2v-1.58L11.41,16l-3.29-2.79 l-4.4,4.4C5.52,20.26,8.56,22,12,22h8c1.1,0,2-0.9,2-2v-8C22,6.48,17.52,2,12,2z M19.5,20.5c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S20.05,20.5,19.5,20.5z\"></path></svg>, some more text.\n- A regular icon: :material-regular:`data_exploration;2em`, some more text\n- A coloured regular icon: :material-regular:`settings;3em;sd-text-success`, some more text.\n- A coloured outline icon: :material-outlined:`settings;3em;sd-text-success`, some more text.\n- A coloured sharp icon: :material-sharp:`settings;3em;sd-text-success`, some more text.\n- A coloured round icon: :material-round:`settings;3em;sd-text-success`, some more text.\n- A coloured two-tone icon: :material-twotone:`settings;3em;sd-text-success`, some more text.\n- A fixed size icon: :material-regular:`data_exploration;24px`, some more text."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#icon-octicon",
+        "title": "Examples > Sphinx design > Icon-octicon",
+        "section": "Icon-octicon",
+        "text": "This directive renders as follows:\nA coloured icon: <svg version=\"1.1\" width=\"1.0em\" height=\"1.0em\" class=\"sd-octicon sd-octicon-report sd-text-info\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg>, some more text.\nA coloured icon: :octicon:`report;1em;sd-text-info`, some more text."
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#tab-basic",
+        "title": "Examples > Sphinx design > Tab-basic",
+        "section": "Tab-basic",
+        "text": "This directive renders as follows:\nContent 1\nContent 2\n.. tab-set::\n\n    .. tab-item:: Label1\n\n        Content 1\n\n    .. tab-item:: Label2\n\n        Content 2"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#tab-code-set",
+        "title": "Examples > Sphinx design > Tab-code-set",
+        "section": "Tab-code-set",
+        "text": "This directive renders as follows:\n.. tab-set-code::\n\n    .. literalinclude:: ./snippet.py\n        :language: python\n\n    .. code-block:: javascript\n\n        a = 1;\n# Copyright (C) 2021 - 2024 ANSYS, Inc. and/or its affiliates.\n# SPDX-License-Identifier: MIT\n#\n#\n# Permission is hereby granted, free of charge, to any person obtaining a copy\n# of this software and associated documentation files (the \"Software\"), to deal\n# in the Software without restriction, including without limitation the rights\n# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n# copies of the Software, and to permit persons to whom the Software is\n# furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in all\n# copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n# SOFTWARE.\n\n\"\"\"Sample functions for ansys-sphinx-theme.\"\"\"\n\n\ndef func(arg1, arg2):\n    \"\"\"Summary line <should be one one line>.\n\n    Extended description of function.  Can span multiple lines and\n    provides a general overview of the function.\n\n    .. warning::\n       Use the ``.. warning::`` directive within the doc-string for any\n       warnings you would like to explicitly state.  For example, if\n       this method will be deprecated in the next release.\n\n    Parameters\n    ----------\n    arg1 : int\n        Description of arg1.\n    arg2 : str\n        Description of arg2.\n\n    Returns\n    -------\n    bool\n        Description of return value.\n\n    Examples\n    --------\n    >>> func(1, \"foo\")\n    True\n\n    \"\"\"\n    return True\n\na = 1;"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#tab-options",
+        "title": "Examples > Sphinx design > Tab-options",
+        "section": "Tab-options",
+        "text": "This directive renders as follows:\nContent\ntab-options.txt, text\n.. tab-set::\n    :class: class-set\n\n    .. tab-item:: **Label**\n        :name: tab-options.txt\n        :selected:\n        :class-container: class-container\n        :class-label: class-label\n        :class-content: class-content\n\n        Content\n\n:ref:`tab-options.txt`, :ref:`text <tab-options.txt>`"
+    },
+    {
+        "objectID": "examples/sphinx-design",
+        "href": "examples/sphinx-design.html#tab-sync",
+        "title": "Examples > Sphinx design > Tab-sync",
+        "section": "Tab-sync",
+        "text": "This directive renders as follows:\nContent 1\nContent 2\nContent 1\nContent 2\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2\n\n.. tab-set::\n    :sync-group: category\n\n    .. tab-item:: Label1\n        :sync: key1\n\n        Content 1\n\n    .. tab-item:: Label2\n        :sync: key2\n\n        Content 2"
+    },
+    {
+        "objectID": "examples/api/examples/samples/Complex",
+        "href": "examples/api/examples/samples/Complex.html#complex",
+        "title": "Examples > Examples > Complex",
+        "section": "Complex",
+        "text": "Bases: object\nCustom implementation of a complex number.\nReal component of the complex number.\nImaginary component of the complex number.\nreal\nReal component of this complex number.\nimag\nReal component of this complex number.\nabs\nReturn the absolute value of this number.\n__add__\nAdd two complex numbers.\n__sub__\nSubtract two complex numbers.\n__mul__\nMultiply two complex numbers.\n__truediv__\nDivide two complex numbers.\n__repr__\nReal component of this complex number.\nReal component of this complex number.\nSet the imaginary component\nReturn the absolute value of this number.\nAdd two complex numbers.\nSubtract two complex numbers.\nMultiply two complex numbers.\nDivide two complex numbers.\nfrom examples.samples import Complex"
+    },
+    {
+        "objectID": "examples/api/examples/samples/Complex",
+        "href": "examples/api/examples/samples/Complex.html#overview",
+        "title": "Examples > Examples > Complex > Overview",
+        "section": "Overview",
+        "text": "real\nReal component of this complex number.\nimag\nReal component of this complex number.\nabs\nReturn the absolute value of this number.\n__add__\nAdd two complex numbers.\n__sub__\nSubtract two complex numbers.\n__mul__\nMultiply two complex numbers.\n__truediv__\nDivide two complex numbers.\n__repr__"
+    },
+    {
+        "objectID": "examples/api/examples/samples/Complex",
+        "href": "examples/api/examples/samples/Complex.html#import-detail",
+        "title": "Examples > Examples > Complex > Import detail",
+        "section": "Import detail",
+        "text": "from examples.samples import Complex"
+    },
+    {
+        "objectID": "examples/api/examples/samples/Complex",
+        "href": "examples/api/examples/samples/Complex.html#property-detail",
+        "title": "Examples > Examples > Complex > Property detail",
+        "section": "Property detail",
+        "text": "Real component of this complex number.\nReal component of this complex number.\nSet the imaginary component\nReturn the absolute value of this number."
+    },
+    {
+        "objectID": "examples/api/examples/samples/Complex",
+        "href": "examples/api/examples/samples/Complex.html#method-detail",
+        "title": "Examples > Examples > Complex > Method detail",
+        "section": "Method detail",
+        "text": "Add two complex numbers.\nSubtract two complex numbers.\nMultiply two complex numbers.\nDivide two complex numbers."
+    },
+    {
+        "objectID": "getting-started",
+        "href": "getting-started.html#getting-started",
+        "title": "Getting started",
+        "section": "Getting started",
+        "text": "Learn how to download and install the theme."
+    },
+    {
+        "objectID": "examples/gallery-examples/sg_execution_times",
+        "href": "examples/gallery-examples/sg_execution_times.html#computation-times",
+        "title": "Examples > Computation times",
+        "section": "Computation times",
+        "text": "00:00.000 total execution time for 1 file from examples/gallery-examples:\nExample\nTime\nMem (MB)\nsphx_glr_examples_gallery-examples_sphinx-gallery.py (sphinx-gallery.py)\n00:00.000\n0.0"
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#exampleclass",
+        "title": "Examples > Examples > ExampleClass",
+        "section": "ExampleClass",
+        "text": "The summary line for a class docstring should fit on one line.\nAttributes should be documented inline with the attribute’s\ndeclaration.\nProperties created with the @property decorator should be\ndocumented in the property’s getter method.\nDescription of param1.\nDescription of param2. Multiple\nlines are supported.\nDescription of param3.\nAn example of how to initialize this class should be given.\nexample_method\nClass methods are similar to regular functions.\nreadonly_property\nProperties should be documented in their getter method.\nreadwrite_property\nSet or return the readwrite property.\nattr1\nattr2\nattr3\nattr4\nattr5\n__special__\nBy default special members with docstrings are not included.\n__special_without_docstring__\nProperties should be documented in their getter method.\nSet or return the readwrite property.\nProperties with both a getter and setter should only be documented in\ntheir getter method.\nIf the setter method contains notable behavior, it should be mentioned\nhere.\nClass methods are similar to regular functions.\nThe first parameter.\nThe second parameter.\nTrue if successful, False otherwise.\nDo not include the self parameter in the Parameters section.\nBy default special members with docstrings are not included.\nSpecial members are any methods or attributes that start with and\nend with a double underscore. Any special member with a docstring\nwill be included in the output, if\nnapoleon_include_special_with_doc is set to True.\nThis behavior can be enabled by changing the following setting in\nSphinx’s conf.py:\nfrom examples.samples import ExampleClass\nnapoleon_include_special_with_doc = True"
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#overview",
+        "title": "Examples > Examples > ExampleClass > Overview",
+        "section": "Overview",
+        "text": "example_method\nClass methods are similar to regular functions.\nreadonly_property\nProperties should be documented in their getter method.\nreadwrite_property\nSet or return the readwrite property.\nattr1\nattr2\nattr3\nattr4\nattr5\n__special__\nBy default special members with docstrings are not included.\n__special_without_docstring__"
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#import-detail",
+        "title": "Examples > Examples > ExampleClass > Import detail",
+        "section": "Import detail",
+        "text": "from examples.samples import ExampleClass"
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#property-detail",
+        "title": "Examples > Examples > ExampleClass > Property detail",
+        "section": "Property detail",
+        "text": "Properties should be documented in their getter method.\nSet or return the readwrite property.\nProperties with both a getter and setter should only be documented in\ntheir getter method.\nIf the setter method contains notable behavior, it should be mentioned\nhere."
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#attribute-detail",
+        "title": "Examples > Examples > ExampleClass > Attribute detail",
+        "section": "Attribute detail",
+        "text": ""
+    },
+    {
+        "objectID": "examples/api/examples/samples/ExampleClass",
+        "href": "examples/api/examples/samples/ExampleClass.html#method-detail",
+        "title": "Examples > Examples > ExampleClass > Method detail",
+        "section": "Method detail",
+        "text": "Class methods are similar to regular functions.\nThe first parameter.\nThe second parameter.\nTrue if successful, False otherwise.\nDo not include the self parameter in the Parameters section.\nBy default special members with docstrings are not included.\nSpecial members are any methods or attributes that start with and\nend with a double underscore. Any special member with a docstring\nwill be included in the output, if\nnapoleon_include_special_with_doc is set to True.\nThis behavior can be enabled by changing the following setting in\nSphinx’s conf.py:\nnapoleon_include_special_with_doc = True"
+    },
+    {
+        "objectID": "examples/gallery-examples/index",
+        "href": "examples/gallery-examples/index.html#sphinx-gallery",
+        "title": "Examples > Sphinx-Gallery",
+        "section": "Sphinx-Gallery",
+        "text": "This example shows how the Ansys Sphinx Theme renders examples\nusing Sphinx-Gallery.\nsphx_glr_examples_gallery-examples_sphinx-gallery.py\nGallery generated by Sphinx-Gallery"
+    },
+    {
+        "objectID": "examples/sphinx-autoapi",
+        "href": "examples/sphinx-autoapi.html#sphinx-autoapi",
+        "title": "Examples > Sphinx AutoAPI",
+        "section": "Sphinx AutoAPI",
+        "text": "This example shows how the Ansys Sphinx Theme renders API documentation using the Sphinx AutoAPI extension."
+    },
+    {
+        "objectID": "getting-started/installation",
+        "href": "getting-started/installation.html#installation",
+        "title": "Getting started > Installation",
+        "section": "Installation",
+        "text": "There are multiple sources for installing the latest stable version of the Ansys Sphinx Theme. These\ninclude public PyPI, Ansys PyPI, and GitHub.\npython -m pip install ansys-sphinx-theme\nPIP_EXTRA_INDEX_URL=\"https://${PYANSYS_PYPI_PRIVATE_PAT}@pkgs.dev.azure.com/pyansys/_packaging/pyansys/pypi/simple/\"\npython -m pip install ansys-sphinx-theme\npython -m pip install git+https://github.com/ansys/ansys-sphinx-theme.git@v1.1.7"
+    },
+    {
+        "objectID": "examples/table",
+        "href": "examples/table.html#table",
+        "title": "Examples > Table",
+        "section": "Table",
+        "text": "The table directive with ansys sphinx theme allows for rendering of tables.\nThere are different types of tables, such as the data table, longtable-centered,\nand table-centered, each serving different purposes.\nA\nB\nC\nFalse\nFalse\nFalse\nThis is an example of a data table that can be rendered using the table directive.\nIt consists of three columns representing the variables A, B, and A and B respectively.\nEach row represents a different combination of True and False for variables A and B.\nThe datatable class can be used to style the data table.\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue\nThe longtable-centered class can be used to create a table that\nspans multiple pages and is centered horizontally.\nThis is useful for tables that have a large number of rows or columns.\nHere is an example of a longtable-centered:\nMAPDL Command\nGUI commands\nGUI commands\nGUI commands\n*ASK\n*ASK\n*ASK\nThe table-centered class can be used to create a table that is horizontally centered.\nThis is useful for tables that have only a few columns.\nHere is an example of a table-centered:\nMAPDL Command\nGUI commands\n*ASK\nGUI commands\n*ASK\nGUI commands\n*ASK\n.. table::\n    :class: datatable\n\n    =====  =====  =======\n    A      B      A and B\n    =====  =====  =======\n    False  False  False\n    True   False  False\n    False  True   False\n    True   True   True\n    =====  =====  =======\n.. table::\n    :class: longtable-centered\n\n    +---------------------------+-------------------+\n    |                           | MAPDL Command     |\n    +===========================+===================+\n    | **GUI commands**          | * ``*ASK``        |\n    |                           |                   |\n    | **GUI commands**          | * ``*ASK``        |\n    |                           |                   |\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+\n.. table::\n    :class: table-centered\n\n    +---------------------------+-------------------+\n    |                           | MAPDL Command     |\n    +===========================+===================+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+"
+    },
+    {
+        "objectID": "examples/table",
+        "href": "examples/table.html#normal-table",
+        "title": "Examples > Table > Normal table",
+        "section": "Normal table",
+        "text": "A\nB\nC\nFalse\nFalse\nFalse"
+    },
+    {
+        "objectID": "examples/table",
+        "href": "examples/table.html#data-table",
+        "title": "Examples > Table > Data table",
+        "section": "Data table",
+        "text": "This is an example of a data table that can be rendered using the table directive.\nIt consists of three columns representing the variables A, B, and A and B respectively.\nEach row represents a different combination of True and False for variables A and B.\nThe datatable class can be used to style the data table.\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue\n.. table::\n    :class: datatable\n\n    =====  =====  =======\n    A      B      A and B\n    =====  =====  =======\n    False  False  False\n    True   False  False\n    False  True   False\n    True   True   True\n    =====  =====  ======="
+    },
+    {
+        "objectID": "examples/table",
+        "href": "examples/table.html#longtable-centered",
+        "title": "Examples > Table > Longtable-centered",
+        "section": "Longtable-centered",
+        "text": "The longtable-centered class can be used to create a table that\nspans multiple pages and is centered horizontally.\nThis is useful for tables that have a large number of rows or columns.\nHere is an example of a longtable-centered:\nMAPDL Command\nGUI commands\nGUI commands\nGUI commands\n*ASK\n*ASK\n*ASK\n.. table::\n    :class: longtable-centered\n\n    +---------------------------+-------------------+\n    |                           | MAPDL Command     |\n    +===========================+===================+\n    | **GUI commands**          | * ``*ASK``        |\n    |                           |                   |\n    | **GUI commands**          | * ``*ASK``        |\n    |                           |                   |\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+"
+    },
+    {
+        "objectID": "examples/table",
+        "href": "examples/table.html#table-centered",
+        "title": "Examples > Table > Table-centered",
+        "section": "Table-centered",
+        "text": "The table-centered class can be used to create a table that is horizontally centered.\nThis is useful for tables that have only a few columns.\nHere is an example of a table-centered:\nMAPDL Command\nGUI commands\n*ASK\nGUI commands\n*ASK\nGUI commands\n*ASK\n.. table::\n    :class: table-centered\n\n    +---------------------------+-------------------+\n    |                           | MAPDL Command     |\n    +===========================+===================+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+\n    | **GUI commands**          | * ``*ASK``        |\n    +---------------------------+-------------------+"
+    },
+    {
+        "objectID": "examples/nbsphinx/jupyter-notebook",
+        "href": "examples/nbsphinx/jupyter-notebook.html#nbsphinx-example",
+        "title": "Examples > Nbsphinx example",
+        "section": "Nbsphinx example",
+        "text": "This example renders a Jupyter notebook using the nbsphinx extension.\nThis is an example to render the table inside the notebook\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue\n[1]:\nimport pyvista as pv\n\npv.set_jupyter_backend(\"html\")\n\nsphere = pv.Sphere()\nsphere.plot()\n[2]:\nplotter = pv.Plotter(notebook=True)\nplotter.add_mesh(sphere, color=\"white\", show_edges=True)\nplotter.title = \"3D Sphere Visualization\"\nplotter.show()\n[3]:\nfrom IPython.display import Math\n\neq = Math(r\"\\int\\limits_{-\\infty}^\\infty f(x) \\delta(x - x_0) dx = f(x_0)\")\neq\n[3]:\n[4]:\nfrom IPython.display import Latex\n\nLatex(r\"This is a \\LaTeX{} equation: $a^2 + b^2 = c^2$\")\n[4]:"
+    },
+    {
+        "objectID": "examples/nbsphinx/jupyter-notebook",
+        "href": "examples/nbsphinx/jupyter-notebook.html#plot-a-simple-sphere-using-pyvista",
+        "title": "Examples > Nbsphinx example > Plot a simple sphere using PyVista.",
+        "section": "Plot a simple sphere using PyVista.",
+        "text": "[1]:\nimport pyvista as pv\n\npv.set_jupyter_backend(\"html\")\n\nsphere = pv.Sphere()\nsphere.plot()\n[2]:\nplotter = pv.Plotter(notebook=True)\nplotter.add_mesh(sphere, color=\"white\", show_edges=True)\nplotter.title = \"3D Sphere Visualization\"\nplotter.show()"
+    },
+    {
+        "objectID": "examples/nbsphinx/jupyter-notebook",
+        "href": "examples/nbsphinx/jupyter-notebook.html#render-equations-using-the-ipython-math-module",
+        "title": "Examples > Nbsphinx example > Render equations using the IPython math module.",
+        "section": "Render equations using the IPython math module.",
+        "text": "[3]:\nfrom IPython.display import Math\n\neq = Math(r\"\\int\\limits_{-\\infty}^\\infty f(x) \\delta(x - x_0) dx = f(x_0)\")\neq\n[3]:\n[4]:\nfrom IPython.display import Latex\n\nLatex(r\"This is a \\LaTeX{} equation: $a^2 + b^2 = c^2$\")\n[4]:"
+    },
+    {
+        "objectID": "examples/nbsphinx/jupyter-notebook",
+        "href": "examples/nbsphinx/jupyter-notebook.html#render-a-table-in-markdown",
+        "title": "Examples > Nbsphinx example > Render a table in markdown.",
+        "section": "Render a table in markdown.",
+        "text": "This is an example to render the table inside the notebook\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue"
+    },
+    {
+        "objectID": "examples/nbsphinx/jupyter-notebook",
+        "href": "examples/nbsphinx/jupyter-notebook.html#render-a-data-frame",
+        "title": "Examples > Nbsphinx example > Render a data frame",
+        "section": "Render a data frame",
+        "text": "[5]:\nimport pandas as pd\n\n# Create a dictionary of data\ndata = {\n    \"A\": [True, False, True, False],\n    \"B\": [False, True, False, True],\n    \"C\": [True, True, False, False],\n}\n\n# Create DataFrame from the dictionary\ndf = pd.DataFrame(data)\n\n# Display the DataFrame\ndf.head()\n[5]:\n[5]:"
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#404-page",
+        "title": "User guide > 404 page",
+        "section": "404 page",
+        "text": "Because Sphinx does not create a 404 page by default, you can use the\nsphinx-notfound-page extension\nfor 404 pages. While originally developed to be used with Read the Docs,\nthis extension can be used in other hosting services. For more\ninformation, see the extension’s documentation.\nInstall and enable the sphinx-notfound-page extension with:\nConsider adding this extension to your requirements_doc.txt file.\nAfter installing the sphinx-notfound-page extension, add it to\nyour conf.py file:\nYou can use the default 404 page that the ansys-sphinx-theme package supplies\nor create and use a custom 404 page.\nTo use the default 404 page, you can use the generate_404 function in the\nansys_sphinx_theme module to create and use a custom cover page:\nTo create and use a custom 404 page, do the following:\nCreate a 404.rst file next to the conf.py file.\nTo suppress the spurious document isn't included in any toctree Sphinx\nwarning, include the :orphan: attribute at the top of this 404.rst file:\nUpdate the notfound_template variable in the conf.py to the location of\nyour 404.rst file:\npython -m pip install sphinx-notfound-page\n# Add the extension\nextensions = [\n    ...,\n    \"notfound.extension\",\n]\nfrom ansys_sphinx_theme import generate_404\n\n\n# Configure sphinx-notfound-page\nnotfound_context = {\n'body': generate_404(<organisation_which_the_project_belongs_to>,\n        <name_of_the_project>,\n        <mail_id_for_the_project>,\n        <name_of_team_managing_the_project>\n        )\n}\n:orphan:\n\nError 404 Not Found\n===================\nThe page you are requesting does not exist.\n# Configure sphinx-notfound-page\nnotfound_template = \"path/to/404.rst\""
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#install-the-extension",
+        "title": "User guide > 404 page > Install the extension",
+        "section": "Install the extension",
+        "text": "Install and enable the sphinx-notfound-page extension with:\nConsider adding this extension to your requirements_doc.txt file.\npython -m pip install sphinx-notfound-page"
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#add-the-extension-to-the-confpy-file",
+        "title": "User guide > 404 page > Add the extension to the conf.py file",
+        "section": "Add the extension to the conf.py file",
+        "text": "After installing the sphinx-notfound-page extension, add it to\nyour conf.py file:\n# Add the extension\nextensions = [\n    ...,\n    \"notfound.extension\",\n]"
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#configure-your-404-page",
+        "title": "User guide > 404 page > Configure your 404 page",
+        "section": "Configure your 404 page",
+        "text": "You can use the default 404 page that the ansys-sphinx-theme package supplies\nor create and use a custom 404 page.\nTo use the default 404 page, you can use the generate_404 function in the\nansys_sphinx_theme module to create and use a custom cover page:\nTo create and use a custom 404 page, do the following:\nCreate a 404.rst file next to the conf.py file.\nTo suppress the spurious document isn't included in any toctree Sphinx\nwarning, include the :orphan: attribute at the top of this 404.rst file:\nUpdate the notfound_template variable in the conf.py to the location of\nyour 404.rst file:\nfrom ansys_sphinx_theme import generate_404\n\n\n# Configure sphinx-notfound-page\nnotfound_context = {\n'body': generate_404(<organisation_which_the_project_belongs_to>,\n        <name_of_the_project>,\n        <mail_id_for_the_project>,\n        <name_of_team_managing_the_project>\n        )\n}\n:orphan:\n\nError 404 Not Found\n===================\nThe page you are requesting does not exist.\n# Configure sphinx-notfound-page\nnotfound_template = \"path/to/404.rst\""
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#use-the-default-404-page",
+        "title": "User guide > 404 page > Use the default 404 page",
+        "section": "Use the default 404 page",
+        "text": "To use the default 404 page, you can use the generate_404 function in the\nansys_sphinx_theme module to create and use a custom cover page:\nfrom ansys_sphinx_theme import generate_404\n\n\n# Configure sphinx-notfound-page\nnotfound_context = {\n'body': generate_404(<organisation_which_the_project_belongs_to>,\n        <name_of_the_project>,\n        <mail_id_for_the_project>,\n        <name_of_team_managing_the_project>\n        )\n}"
+    },
+    {
+        "objectID": "user-guide/404-page",
+        "href": "user-guide/404-page.html#create-and-use-a-custom-404-page",
+        "title": "User guide > 404 page > Create and use a custom 404 page",
+        "section": "Create and use a custom 404 page",
+        "text": "To create and use a custom 404 page, do the following:\nCreate a 404.rst file next to the conf.py file.\nTo suppress the spurious document isn't included in any toctree Sphinx\nwarning, include the :orphan: attribute at the top of this 404.rst file:\nUpdate the notfound_template variable in the conf.py to the location of\nyour 404.rst file:\n:orphan:\n\nError 404 Not Found\n===================\nThe page you are requesting does not exist.\n# Configure sphinx-notfound-page\nnotfound_template = \"path/to/404.rst\""
+    },
+    {
+        "objectID": "examples",
+        "href": "examples.html#examples",
+        "title": "Examples",
+        "section": "Examples",
+        "text": "This section provides examples that show how the Ansys Sphinx Theme renders different Sphinx extensions and documentation components.\nThese examples show how the Ansys Sphinx Theme renders different Sphinx extensions.\nExamples of how the Sphinx design is rendered.\nExamples of how notebooks are rendered.\nExamples of how the Sphinx gallery is rendered.\nExamples of how Sphinx AutoAPI documentation is rendered.\nThese examples show how the Ansys Sphinx Theme renders different documentation components.\nExamples of tables with JavaScript and RST rendered using the ansys-sphinx-theme.\nExamples of how admonitions are rendered."
+    },
+    {
+        "objectID": "examples",
+        "href": "examples.html#sphinx-extensions",
+        "title": "Examples > Sphinx extensions",
+        "section": "Sphinx extensions",
+        "text": "These examples show how the Ansys Sphinx Theme renders different Sphinx extensions.\nExamples of how the Sphinx design is rendered.\nExamples of how notebooks are rendered.\nExamples of how the Sphinx gallery is rendered.\nExamples of how Sphinx AutoAPI documentation is rendered."
+    },
+    {
+        "objectID": "examples",
+        "href": "examples.html#documentation-components",
+        "title": "Examples > Documentation components",
+        "section": "Documentation components",
+        "text": "These examples show how the Ansys Sphinx Theme renders different documentation components.\nExamples of tables with JavaScript and RST rendered using the ansys-sphinx-theme.\nExamples of how admonitions are rendered."
+    },
+    {
+        "objectID": "examples/gallery-examples/sphinx-gallery",
+        "href": "examples/gallery-examples/sphinx-gallery.html#sphinx-gallery",
+        "title": "Examples > Sphinx-Gallery",
+        "section": "Sphinx-Gallery",
+        "text": "This example shows how to add a new example when using Sphinx-Gallery.\nTo use Sphinx-Gallery, first install the package with this command:\nThen, add the package to the extensions variable in your Sphinx conf.py file:\nThis code plots a simple sphere using PyVista.\nPlot a simple sphere using PyVista with a plotter\nThis example shows how to render equations using the IPython math module.\nThis is an example to render a table inside the markdown with Sphinx-Gallery.\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue\nRender a table using pandas\nDownload Jupyter notebook: sphinx-gallery.ipynb\nDownload Python source code: sphinx-gallery.py\nDownload zipped: sphinx-gallery.zip\nGallery generated by Sphinx-Gallery\npip install sphinx-gallery\nextensions = [\n    \"sphinx_gallery.gen_gallery\",\n]\nimport pyvista as pv\n\npv.set_jupyter_backend(\"html\")\n\nsphere = pv.Sphere()\nsphere.plot()\nplotter = pv.Plotter(notebook=True)\nplotter.add_mesh(sphere, color=\"white\", show_edges=True)\nplotter.title = \"3D Sphere Visualization\"\nplotter.show()\nfrom IPython.display import Math, display\n\n# LaTeX formatted equation\nequation = r\"\\int\\limits_{-\\infty}^\\infty f(x) \\delta(x - x_0) \\, dx = f(x_0)\"\n# Display the equation\ndisplay(Math(equation))\nfrom IPython.display import Latex\n\nLatex(r\"This is a \\LaTeX{} equation: $a^2 + b^2 = c^2$\")\nimport pandas as pd\n\n# Create a dictionary of data\ndata = {\n    \"A\": [True, False, True, False],\n    \"B\": [False, True, False, True],\n    \"C\": [True, True, False, False],\n}\n\n# Create DataFrame from the dictionary\ndf = pd.DataFrame(data)\n\n# Display the DataFrame\ndf.head()"
+    },
+    {
+        "objectID": "examples/gallery-examples/sphinx-gallery",
+        "href": "examples/gallery-examples/sphinx-gallery.html#plot-a-simple-sphere-using-pyvista",
+        "title": "Examples > Sphinx-Gallery > Plot a simple sphere using PyVista",
+        "section": "Plot a simple sphere using PyVista",
+        "text": "This code plots a simple sphere using PyVista.\nPlot a simple sphere using PyVista with a plotter\nimport pyvista as pv\n\npv.set_jupyter_backend(\"html\")\n\nsphere = pv.Sphere()\nsphere.plot()\nplotter = pv.Plotter(notebook=True)\nplotter.add_mesh(sphere, color=\"white\", show_edges=True)\nplotter.title = \"3D Sphere Visualization\"\nplotter.show()"
+    },
+    {
+        "objectID": "examples/gallery-examples/sphinx-gallery",
+        "href": "examples/gallery-examples/sphinx-gallery.html#render-equations-using-ipython-math",
+        "title": "Examples > Sphinx-Gallery > Render equations using IPython math",
+        "section": "Render equations using IPython math",
+        "text": "This example shows how to render equations using the IPython math module.\nfrom IPython.display import Math, display\n\n# LaTeX formatted equation\nequation = r\"\\int\\limits_{-\\infty}^\\infty f(x) \\delta(x - x_0) \\, dx = f(x_0)\"\n# Display the equation\ndisplay(Math(equation))\nfrom IPython.display import Latex\n\nLatex(r\"This is a \\LaTeX{} equation: $a^2 + b^2 = c^2$\")"
+    },
+    {
+        "objectID": "examples/gallery-examples/sphinx-gallery",
+        "href": "examples/gallery-examples/sphinx-gallery.html#render-a-table-in-markdown",
+        "title": "Examples > Sphinx-Gallery > Render a table in markdown",
+        "section": "Render a table in markdown",
+        "text": "This is an example to render a table inside the markdown with Sphinx-Gallery.\nA\nB\nA and B\nFalse\nFalse\nFalse\nTrue\nFalse\nFalse\nFalse\nTrue\nFalse\nTrue\nTrue\nTrue\nRender a table using pandas\nDownload Jupyter notebook: sphinx-gallery.ipynb\nDownload Python source code: sphinx-gallery.py\nDownload zipped: sphinx-gallery.zip\nGallery generated by Sphinx-Gallery\nimport pandas as pd\n\n# Create a dictionary of data\ndata = {\n    \"A\": [True, False, True, False],\n    \"B\": [False, True, False, True],\n    \"C\": [True, True, False, False],\n}\n\n# Create DataFrame from the dictionary\ndf = pd.DataFrame(data)\n\n# Display the DataFrame\ndf.head()"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#release-notes",
+        "title": "Release notes",
+        "section": "Release notes",
+        "text": "This document contains the release notes for the project.\nfix: ensure app.builder.outdir is a Path object #565\nfix: add the default search options in the config env #557\nuse ansys-sphinx-theme variables in CSS files #537\nfix: static search performance #525\nfix: add default enter for search #542\nfix: add version as params in cheatsheet #521\nfix(ci): update to Ansys actions v8 #517\nfix: update the token and email of bot for changelog actions #519\nfeat: add static search #487\nchore: update CHANGELOG for v1.0.0 #445\nchore: update CHANGELOG for v1.0.1 #447\nchore: update CHANGELOG for v1.0.2 #451\nchore: update CHANGELOG for v1.0.3 #455\nmaint: update tooling, cleanup and drop python 3.9 #484\nfeat: implement default search bar expansion behavior #496\nfix: the anchor url of search with the switcher version #497\nfix: change file location for search.json file #509\nmaint: styles for dark theme search bar #511\nfix: style for smaller media #513\nfix: navigation end columns #514\nfix: add title breadcrumbs #515\nmaint: version 1.1.dev0 #448\nbuild(deps): bump pygithub from 2.3.0 to 2.4.0 #480\nbuild(deps): bump notebook from 7.2.1 to 7.2.2 #482\nbuild(deps): bump sphinx-autoapi from 3.2.1 to 3.3.0 #485\nbuild(deps): bump sphinx-autoapi from 3.3.0 to 3.3.1 #488\nbuild(deps): bump pandas from 2.2.2 to 2.2.3 #508\nbuild(deps): bump sphinx-autoapi from 3.3.1 to 3.3.2 #512\nchore: update CHANGELOG for v1.0.4 #463\nchore: update CHANGELOG for v1.0.6 #476\nchore: update CHANGELOG for v1.0.7 #478\nchore: update CHANGELOG for v1.0.8 #491\nchore: update CHANGELOG for v1.0.9 #501\nchore: update CHANGELOG for v1.0.10 #504\nchore: update CHANGELOG for v1.0.11 #507\nfix: location of nbsphinx #506\nfix: do not display captions for nbgallery #503\nfeat: add member_order to autoapi #495\nfix: autoapi relative directory path wrt tox env #494\nfix: Align jupyter cell output #489\nfix: the download in sphinx gallery #490\nfix: autoapi extension #472\nfix: admonitions styles for topic admonition #477\nfix: download icon with sphinx-gallery and nbsphinx #471\nfeat: add different width for different media for main content #473\nfix: the scrollbar on sidebar #474\nchore: update CHANGELOG for v1.0.5 #470\nfeat: add default logo links for Ansys and PyAnsys logos #469\nbuild(deps): bump nbsphinx from 0.9.4 to 0.9.5 #465\nfix: tables and cell output #460\nci: bump ansys/actions from 6 to 7 #457\nbuild(deps): bump numpydoc from 1.7.0 to 1.8.0 #459\nfix: minor style changes #452\nfix: downgrade the autoapi and keep autoapi toctree to True by default #453\nfix: pygment_styles with dark and light theme and dark theme table #454\nmaint: update ansys actions #449\nfix: sphinx design image background #450\nfix: stable docs indexing package name #446\nfix: update the github icon #401\nfeat: add default logo and update logo option with theme #425\nfeat: add quarto cheat sheet extension with cheat sheet option #428\nchore: update CHANGELOG for v0.16.2 #381\nchore: update CHANGELOG for v0.16.3 #389\nchore: update CHANGELOG for v0.16.4 #390\nchore: update CHANGELOG for v0.16.5 #394\nchore: update CHANGELOG for v0.16.6 #402\nfix: Align cheat sheet center #382\nfix: reformat the style files #406\nfix: reformat the table styles #408\nfix: reformat navigation bar and background #409\nfix: primary ,`secondary` sidebars and links #411\nfix: sphinx design reformat #412\nfix: update the breadcrumbs #419\nfix: admonitions style #424\nfix: sidebar borders and overflow #427\nfix: search bar styles #429\nfix: updated the logo options #431\nfix: add dropdown styles for the header navigation bar #437\nfix: dark theme variables #438\nfix: sphinx card box shadow on focus #439\nfix: focus links with keyboard #440\nfix: search bar style for dark theme, icons links #442\nbuild(deps-dev): update pydata-sphinx-theme requirement from <0.15,>=0.14 to >=0.15 #336\nchore: version 0.17.dev0 #386\nchore(deps): bump requests from 2.32.2 to 2.32.3 #391\ndocs: reformat the documentation #396\nchore(deps): bump sphinx-autoapi from 3.1.1 to 3.1.2 #405\nbuild(deps): bump pyvista[jupyter] from 0.43.10 to 0.44.0 #413\nbuild(deps): bump jupytext from 1.16.2 to 1.16.3 #415\nbuild(deps): bump sphinx from 7.3.7 to 7.4.4 #416\nbuild(deps): bump sphinx from 7.4.4 to 7.4.5 #417\nbuild(deps): bump sphinx from 7.4.5 to 7.4.6 #418\nbuild(deps): bump sphinx-autoapi from 3.1.2 to 3.2.0 #420\nbuild(deps): bump sphinx-gallery from 0.16.0 to 0.17.0 #421\nbuild(deps): bump pyvista[jupyter] from 0.44.0 to 0.44.1 #422\nbuild(deps): bump sphinx from 7.4.6 to 7.4.7 #423\nbuild(deps): bump sphinx-autoapi from 3.2.0 to 3.2.1 #426\nbuild(deps): bump sphinx-notfound-page from 1.0.2 to 1.0.3 #432\nbuild(deps): bump jupytext from 1.16.3 to 1.16.4 #433\nbuild(deps): bump sphinx-notfound-page from 1.0.3 to 1.0.4 #434\nbuild(deps): bump sphinx-design from 0.6.0 to 0.6.1 #435\nbuild(deps): bump sphinx from 7.4.7 to 8.0.2 #436\nbuild(deps): bump sphinx-gallery from 0.17.0 to 0.17.1 #441\nrefactor: remove function duplicate #407\ndocs: Update mail id in README.rst #414\nfix: wrong env var name for PACKAGE_NAME #395\nfix:  sphinx design card font size #393\nfeat: adapt package to general PyAnsys repository layout #387\nchore(deps): bump sphinx-design from 0.5.0 to 0.6.0 #383\nchore(deps): bump sphinx-notfound-page from 1.0.1 to 1.0.2 #384\nchore(deps): bump sphinx-autoapi from 3.1.0 to 3.1.1 #385\nfix: update the sphinx design style to disable display of name #388\nchore: update CHANGELOG for v0.16.1 #379\ndocs: update changelog_template.jinja #380\nfeat: add nerd fonts for autoapi templates icon #362\nfeat: add the changelog action #370\nfeat: add autoapi extension #372\nfix: add changelog action in ci-cd #378\nchore(deps): bump requests from 2.31.0 to 2.32.1 #374\nmaint: update the sphinx-autoapi version #375\nchore(deps): bump sphinx-notfound-page from 1.0.0 to 1.0.1 #376\nchore(deps): bump requests from 2.32.1 to 2.32.2 #377"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#117---2024-10-23",
+        "title": "Release notes > 1.1.7 - 2024-10-23",
+        "section": "1.1.7 - 2024-10-23",
+        "text": "fix: ensure app.builder.outdir is a Path object #565"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#miscellaneous",
+        "title": "Release notes > Miscellaneous",
+        "section": "Miscellaneous",
+        "text": "fix: ensure app.builder.outdir is a Path object #565"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#116---2024-10-18",
+        "title": "Release notes > 1.1.6 - 2024-10-18",
+        "section": "1.1.6 - 2024-10-18",
+        "text": "fix: add the default search options in the config env #557"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: add the default search options in the config env #557"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#115---2024-10-15",
+        "title": "Release notes > 1.1.5 - 2024-10-15",
+        "section": "1.1.5 - 2024-10-15",
+        "text": "use ansys-sphinx-theme variables in CSS files #537"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "use ansys-sphinx-theme variables in CSS files #537"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#114---2024-10-14",
+        "title": "Release notes > 1.1.4 - 2024-10-14",
+        "section": "1.1.4 - 2024-10-14",
+        "text": "fix: static search performance #525"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: static search performance #525"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#113---2024-10-11",
+        "title": "Release notes > 1.1.3 - 2024-10-11",
+        "section": "1.1.3 - 2024-10-11",
+        "text": "fix: add default enter for search #542"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: add default enter for search #542"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#112---2024-10-02",
+        "title": "Release notes > 1.1.2 - 2024-10-02",
+        "section": "1.1.2 - 2024-10-02",
+        "text": "fix: add version as params in cheatsheet #521"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: add version as params in cheatsheet #521"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#111---2024-10-01",
+        "title": "Release notes > 1.1.1 - 2024-10-01",
+        "section": "1.1.1 - 2024-10-01",
+        "text": "fix(ci): update to Ansys actions v8 #517\nfix: update the token and email of bot for changelog actions #519"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix(ci): update to Ansys actions v8 #517\nfix: update the token and email of bot for changelog actions #519"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#110---2024-10-01",
+        "title": "Release notes > 1.1.0 - 2024-10-01",
+        "section": "1.1.0 - 2024-10-01",
+        "text": "feat: add static search #487\nchore: update CHANGELOG for v1.0.0 #445\nchore: update CHANGELOG for v1.0.1 #447\nchore: update CHANGELOG for v1.0.2 #451\nchore: update CHANGELOG for v1.0.3 #455\nmaint: update tooling, cleanup and drop python 3.9 #484\nfeat: implement default search bar expansion behavior #496\nfix: the anchor url of search with the switcher version #497\nfix: change file location for search.json file #509\nmaint: styles for dark theme search bar #511\nfix: style for smaller media #513\nfix: navigation end columns #514\nfix: add title breadcrumbs #515\nmaint: version 1.1.dev0 #448\nbuild(deps): bump pygithub from 2.3.0 to 2.4.0 #480\nbuild(deps): bump notebook from 7.2.1 to 7.2.2 #482\nbuild(deps): bump sphinx-autoapi from 3.2.1 to 3.3.0 #485\nbuild(deps): bump sphinx-autoapi from 3.3.0 to 3.3.1 #488\nbuild(deps): bump pandas from 2.2.2 to 2.2.3 #508\nbuild(deps): bump sphinx-autoapi from 3.3.1 to 3.3.2 #512\nchore: update CHANGELOG for v1.0.4 #463\nchore: update CHANGELOG for v1.0.6 #476\nchore: update CHANGELOG for v1.0.7 #478\nchore: update CHANGELOG for v1.0.8 #491\nchore: update CHANGELOG for v1.0.9 #501\nchore: update CHANGELOG for v1.0.10 #504\nchore: update CHANGELOG for v1.0.11 #507"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#added",
+        "title": "Release notes > Added",
+        "section": "Added",
+        "text": "feat: add static search #487"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#changed",
+        "title": "Release notes > Changed",
+        "section": "Changed",
+        "text": "chore: update CHANGELOG for v1.0.0 #445\nchore: update CHANGELOG for v1.0.1 #447\nchore: update CHANGELOG for v1.0.2 #451\nchore: update CHANGELOG for v1.0.3 #455"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "maint: update tooling, cleanup and drop python 3.9 #484\nfeat: implement default search bar expansion behavior #496\nfix: the anchor url of search with the switcher version #497\nfix: change file location for search.json file #509\nmaint: styles for dark theme search bar #511\nfix: style for smaller media #513\nfix: navigation end columns #514\nfix: add title breadcrumbs #515"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "maint: version 1.1.dev0 #448\nbuild(deps): bump pygithub from 2.3.0 to 2.4.0 #480\nbuild(deps): bump notebook from 7.2.1 to 7.2.2 #482\nbuild(deps): bump sphinx-autoapi from 3.2.1 to 3.3.0 #485\nbuild(deps): bump sphinx-autoapi from 3.3.0 to 3.3.1 #488\nbuild(deps): bump pandas from 2.2.2 to 2.2.3 #508\nbuild(deps): bump sphinx-autoapi from 3.3.1 to 3.3.2 #512"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#documentation",
+        "title": "Release notes > Documentation",
+        "section": "Documentation",
+        "text": "chore: update CHANGELOG for v1.0.4 #463\nchore: update CHANGELOG for v1.0.6 #476\nchore: update CHANGELOG for v1.0.7 #478\nchore: update CHANGELOG for v1.0.8 #491\nchore: update CHANGELOG for v1.0.9 #501\nchore: update CHANGELOG for v1.0.10 #504\nchore: update CHANGELOG for v1.0.11 #507"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#1011---2024-09-19",
+        "title": "Release notes > 1.0.11 - 2024-09-19",
+        "section": "1.0.11 - 2024-09-19",
+        "text": "fix: location of nbsphinx #506"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: location of nbsphinx #506"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#1010---2024-09-18",
+        "title": "Release notes > 1.0.10 - 2024-09-18",
+        "section": "1.0.10 - 2024-09-18",
+        "text": "fix: do not display captions for nbgallery #503"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: do not display captions for nbgallery #503"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#109---2024-09-16",
+        "title": "Release notes > 1.0.9 - 2024-09-16",
+        "section": "1.0.9 - 2024-09-16",
+        "text": "feat: add member_order to autoapi #495\nfix: autoapi relative directory path wrt tox env #494"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#added",
+        "title": "Release notes > Added",
+        "section": "Added",
+        "text": "feat: add member_order to autoapi #495"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: autoapi relative directory path wrt tox env #494"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#108---2024-09-03",
+        "title": "Release notes > 1.0.8 - 2024-09-03",
+        "section": "1.0.8 - 2024-09-03",
+        "text": "fix: Align jupyter cell output #489\nfix: the download in sphinx gallery #490"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: Align jupyter cell output #489\nfix: the download in sphinx gallery #490"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#107---2024-08-23",
+        "title": "Release notes > 1.0.7 - 2024-08-23",
+        "section": "1.0.7 - 2024-08-23",
+        "text": "fix: autoapi extension #472\nfix: admonitions styles for topic admonition #477"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: autoapi extension #472\nfix: admonitions styles for topic admonition #477"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#106---2024-08-23",
+        "title": "Release notes > 1.0.6 - 2024-08-23",
+        "section": "1.0.6 - 2024-08-23",
+        "text": "fix: download icon with sphinx-gallery and nbsphinx #471\nfeat: add different width for different media for main content #473\nfix: the scrollbar on sidebar #474\nchore: update CHANGELOG for v1.0.5 #470"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: download icon with sphinx-gallery and nbsphinx #471\nfeat: add different width for different media for main content #473\nfix: the scrollbar on sidebar #474"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#documentation",
+        "title": "Release notes > Documentation",
+        "section": "Documentation",
+        "text": "chore: update CHANGELOG for v1.0.5 #470"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#105---2024-08-16",
+        "title": "Release notes > 1.0.5 - 2024-08-16",
+        "section": "1.0.5 - 2024-08-16",
+        "text": "feat: add default logo links for Ansys and PyAnsys logos #469\nbuild(deps): bump nbsphinx from 0.9.4 to 0.9.5 #465"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "feat: add default logo links for Ansys and PyAnsys logos #469"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "build(deps): bump nbsphinx from 0.9.4 to 0.9.5 #465"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#104---2024-08-13",
+        "title": "Release notes > 1.0.4 - 2024-08-13",
+        "section": "1.0.4 - 2024-08-13",
+        "text": "fix: tables and cell output #460\nci: bump ansys/actions from 6 to 7 #457\nbuild(deps): bump numpydoc from 1.7.0 to 1.8.0 #459"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: tables and cell output #460"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "ci: bump ansys/actions from 6 to 7 #457\nbuild(deps): bump numpydoc from 1.7.0 to 1.8.0 #459"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#103---2024-08-09",
+        "title": "Release notes > 1.0.3 - 2024-08-09",
+        "section": "1.0.3 - 2024-08-09",
+        "text": "fix: minor style changes #452\nfix: downgrade the autoapi and keep autoapi toctree to True by default #453\nfix: pygment_styles with dark and light theme and dark theme table #454"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: minor style changes #452\nfix: downgrade the autoapi and keep autoapi toctree to True by default #453\nfix: pygment_styles with dark and light theme and dark theme table #454"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#102---2024-08-08",
+        "title": "Release notes > 1.0.2 - 2024-08-08",
+        "section": "1.0.2 - 2024-08-08",
+        "text": "maint: update ansys actions #449\nfix: sphinx design image background #450"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#changed",
+        "title": "Release notes > Changed",
+        "section": "Changed",
+        "text": "maint: update ansys actions #449"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: sphinx design image background #450"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#101---2024-08-08",
+        "title": "Release notes > 1.0.1 - 2024-08-08",
+        "section": "1.0.1 - 2024-08-08",
+        "text": "fix: stable docs indexing package name #446"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: stable docs indexing package name #446"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#100---2024-08-08",
+        "title": "Release notes > 1.0.0 - 2024-08-08",
+        "section": "1.0.0 - 2024-08-08",
+        "text": "fix: update the github icon #401\nfeat: add default logo and update logo option with theme #425\nfeat: add quarto cheat sheet extension with cheat sheet option #428\nchore: update CHANGELOG for v0.16.2 #381\nchore: update CHANGELOG for v0.16.3 #389\nchore: update CHANGELOG for v0.16.4 #390\nchore: update CHANGELOG for v0.16.5 #394\nchore: update CHANGELOG for v0.16.6 #402\nfix: Align cheat sheet center #382\nfix: reformat the style files #406\nfix: reformat the table styles #408\nfix: reformat navigation bar and background #409\nfix: primary ,`secondary` sidebars and links #411\nfix: sphinx design reformat #412\nfix: update the breadcrumbs #419\nfix: admonitions style #424\nfix: sidebar borders and overflow #427\nfix: search bar styles #429\nfix: updated the logo options #431\nfix: add dropdown styles for the header navigation bar #437\nfix: dark theme variables #438\nfix: sphinx card box shadow on focus #439\nfix: focus links with keyboard #440\nfix: search bar style for dark theme, icons links #442\nbuild(deps-dev): update pydata-sphinx-theme requirement from <0.15,>=0.14 to >=0.15 #336\nchore: version 0.17.dev0 #386\nchore(deps): bump requests from 2.32.2 to 2.32.3 #391\ndocs: reformat the documentation #396\nchore(deps): bump sphinx-autoapi from 3.1.1 to 3.1.2 #405\nbuild(deps): bump pyvista[jupyter] from 0.43.10 to 0.44.0 #413\nbuild(deps): bump jupytext from 1.16.2 to 1.16.3 #415\nbuild(deps): bump sphinx from 7.3.7 to 7.4.4 #416\nbuild(deps): bump sphinx from 7.4.4 to 7.4.5 #417\nbuild(deps): bump sphinx from 7.4.5 to 7.4.6 #418\nbuild(deps): bump sphinx-autoapi from 3.1.2 to 3.2.0 #420\nbuild(deps): bump sphinx-gallery from 0.16.0 to 0.17.0 #421\nbuild(deps): bump pyvista[jupyter] from 0.44.0 to 0.44.1 #422\nbuild(deps): bump sphinx from 7.4.6 to 7.4.7 #423\nbuild(deps): bump sphinx-autoapi from 3.2.0 to 3.2.1 #426\nbuild(deps): bump sphinx-notfound-page from 1.0.2 to 1.0.3 #432\nbuild(deps): bump jupytext from 1.16.3 to 1.16.4 #433\nbuild(deps): bump sphinx-notfound-page from 1.0.3 to 1.0.4 #434\nbuild(deps): bump sphinx-design from 0.6.0 to 0.6.1 #435\nbuild(deps): bump sphinx from 7.4.7 to 8.0.2 #436\nbuild(deps): bump sphinx-gallery from 0.17.0 to 0.17.1 #441\nrefactor: remove function duplicate #407\ndocs: Update mail id in README.rst #414"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#added",
+        "title": "Release notes > Added",
+        "section": "Added",
+        "text": "fix: update the github icon #401\nfeat: add default logo and update logo option with theme #425\nfeat: add quarto cheat sheet extension with cheat sheet option #428"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#changed",
+        "title": "Release notes > Changed",
+        "section": "Changed",
+        "text": "chore: update CHANGELOG for v0.16.2 #381\nchore: update CHANGELOG for v0.16.3 #389\nchore: update CHANGELOG for v0.16.4 #390\nchore: update CHANGELOG for v0.16.5 #394\nchore: update CHANGELOG for v0.16.6 #402"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: Align cheat sheet center #382\nfix: reformat the style files #406\nfix: reformat the table styles #408\nfix: reformat navigation bar and background #409\nfix: primary ,`secondary` sidebars and links #411\nfix: sphinx design reformat #412\nfix: update the breadcrumbs #419\nfix: admonitions style #424\nfix: sidebar borders and overflow #427\nfix: search bar styles #429\nfix: updated the logo options #431\nfix: add dropdown styles for the header navigation bar #437\nfix: dark theme variables #438\nfix: sphinx card box shadow on focus #439\nfix: focus links with keyboard #440\nfix: search bar style for dark theme, icons links #442"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "build(deps-dev): update pydata-sphinx-theme requirement from <0.15,>=0.14 to >=0.15 #336\nchore: version 0.17.dev0 #386\nchore(deps): bump requests from 2.32.2 to 2.32.3 #391\ndocs: reformat the documentation #396\nchore(deps): bump sphinx-autoapi from 3.1.1 to 3.1.2 #405\nbuild(deps): bump pyvista[jupyter] from 0.43.10 to 0.44.0 #413\nbuild(deps): bump jupytext from 1.16.2 to 1.16.3 #415\nbuild(deps): bump sphinx from 7.3.7 to 7.4.4 #416\nbuild(deps): bump sphinx from 7.4.4 to 7.4.5 #417\nbuild(deps): bump sphinx from 7.4.5 to 7.4.6 #418\nbuild(deps): bump sphinx-autoapi from 3.1.2 to 3.2.0 #420\nbuild(deps): bump sphinx-gallery from 0.16.0 to 0.17.0 #421\nbuild(deps): bump pyvista[jupyter] from 0.44.0 to 0.44.1 #422\nbuild(deps): bump sphinx from 7.4.6 to 7.4.7 #423\nbuild(deps): bump sphinx-autoapi from 3.2.0 to 3.2.1 #426\nbuild(deps): bump sphinx-notfound-page from 1.0.2 to 1.0.3 #432\nbuild(deps): bump jupytext from 1.16.3 to 1.16.4 #433\nbuild(deps): bump sphinx-notfound-page from 1.0.3 to 1.0.4 #434\nbuild(deps): bump sphinx-design from 0.6.0 to 0.6.1 #435\nbuild(deps): bump sphinx from 7.4.7 to 8.0.2 #436\nbuild(deps): bump sphinx-gallery from 0.17.0 to 0.17.1 #441"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#miscellaneous",
+        "title": "Release notes > Miscellaneous",
+        "section": "Miscellaneous",
+        "text": "refactor: remove function duplicate #407\ndocs: Update mail id in README.rst #414"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0166---2024-06-18",
+        "title": "Release notes > 0.16.6 - 2024-06-18",
+        "section": "0.16.6 - 2024-06-18",
+        "text": "fix: wrong env var name for PACKAGE_NAME #395"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: wrong env var name for PACKAGE_NAME #395"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0165---2024-05-31",
+        "title": "Release notes > 0.16.5 - 2024-05-31",
+        "section": "0.16.5 - 2024-05-31",
+        "text": "fix:  sphinx design card font size #393"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix:  sphinx design card font size #393"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0164---2024-05-29",
+        "title": "Release notes > 0.16.4 - 2024-05-29",
+        "section": "0.16.4 - 2024-05-29",
+        "text": "feat: adapt package to general PyAnsys repository layout #387\nchore(deps): bump sphinx-design from 0.5.0 to 0.6.0 #383\nchore(deps): bump sphinx-notfound-page from 1.0.1 to 1.0.2 #384\nchore(deps): bump sphinx-autoapi from 3.1.0 to 3.1.1 #385"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#added",
+        "title": "Release notes > Added",
+        "section": "Added",
+        "text": "feat: adapt package to general PyAnsys repository layout #387"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "chore(deps): bump sphinx-design from 0.5.0 to 0.6.0 #383\nchore(deps): bump sphinx-notfound-page from 1.0.1 to 1.0.2 #384\nchore(deps): bump sphinx-autoapi from 3.1.0 to 3.1.1 #385"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0163---2024-05-29",
+        "title": "Release notes > 0.16.3 - 2024-05-29",
+        "section": "0.16.3 - 2024-05-29",
+        "text": "fix: update the sphinx design style to disable display of name #388"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: update the sphinx design style to disable display of name #388"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0162---2024-05-22",
+        "title": "Release notes > 0.16.2 - 2024-05-22",
+        "section": "0.16.2 - 2024-05-22",
+        "text": "chore: update CHANGELOG for v0.16.1 #379\ndocs: update changelog_template.jinja #380"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#changed",
+        "title": "Release notes > Changed",
+        "section": "Changed",
+        "text": "chore: update CHANGELOG for v0.16.1 #379"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#miscellaneous",
+        "title": "Release notes > Miscellaneous",
+        "section": "Miscellaneous",
+        "text": "docs: update changelog_template.jinja #380"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#0161---2024-05-22",
+        "title": "Release notes > 0.16.1 - 2024-05-22",
+        "section": "0.16.1 - 2024-05-22",
+        "text": "feat: add nerd fonts for autoapi templates icon #362\nfeat: add the changelog action #370\nfeat: add autoapi extension #372\nfix: add changelog action in ci-cd #378\nchore(deps): bump requests from 2.31.0 to 2.32.1 #374\nmaint: update the sphinx-autoapi version #375\nchore(deps): bump sphinx-notfound-page from 1.0.0 to 1.0.1 #376\nchore(deps): bump requests from 2.32.1 to 2.32.2 #377"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#added",
+        "title": "Release notes > Added",
+        "section": "Added",
+        "text": "feat: add nerd fonts for autoapi templates icon #362\nfeat: add the changelog action #370\nfeat: add autoapi extension #372"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#fixed",
+        "title": "Release notes > Fixed",
+        "section": "Fixed",
+        "text": "fix: add changelog action in ci-cd #378"
+    },
+    {
+        "objectID": "changelog",
+        "href": "changelog.html#dependencies",
+        "title": "Release notes > Dependencies",
+        "section": "Dependencies",
+        "text": "chore(deps): bump requests from 2.31.0 to 2.32.1 #374\nmaint: update the sphinx-autoapi version #375\nchore(deps): bump sphinx-notfound-page from 1.0.0 to 1.0.1 #376\nchore(deps): bump requests from 2.32.1 to 2.32.2 #377"
+    },
+    {
+        "objectID": "examples/api/index",
+        "href": "examples/api/index.html#api-reference",
+        "title": "Examples > API reference",
+        "section": "API reference",
+        "text": "This section describes ansys_sphinx_theme endpoints, their capabilities, and how\nto interact with them programmatically."
+    },
+    {
+        "objectID": "index",
+        "href": "index.html#ansys-sphinx-theme-documentation-117",
+        "title": "Ansys Sphinx Theme documentation 1.1.7",
+        "section": "Ansys Sphinx Theme documentation 1.1.7",
+        "text": "The Ansys Sphinx Theme is a custom Ansys-branded theme for use with Sphinx, a documentation\ngenerator for creating project documentation from reStructuredText source files.\nThis theme is specifically tailored for documentation related to Ansys projects\nhelping to ensure consistency in its look and feel. Various useful extensions\nare included in the theme to make documentation more appealing and user-friendly.\nLearn how to install the Ansys Sphinx Theme.\nLearn how to use the capabilities and features of this theme.\nExplore examples that show how to integrate third-party extensions with this theme."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#admonitions",
+        "title": "Examples > Admonitions",
+        "section": "Admonitions",
+        "text": "Admonitions are specially formatted blocks that highlight important information in the documentation.\nThis page shows how the Ansys Sphinx Theme renders admonitions.\nThe examples shown below are derived from the PyData Sphinx Theme project, copyrighted by pandas, 2018.\nOriginal examples can be found in Examples in\nthe PyData Sphinx Theme documentation.\nThese examples are licensed under the BSD 3-Clause License.\nThe examples included below in this page were originally copyrighted and licensed as follows:\nCopyright (c) 2021, Pradyun Gedam. Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License\n(SPDX-License-Identifier: CC-BY-SA-4.0), as specified by the PyData Sphinx Theme in their examples.\nSphinx provides several different types of admonitions.\nThis is what admonitions are a special case of, according to the docutils\ndocumentation.\nIt’s got a certain charm to it.\nClimate change is real.\nCliff ahead: Don’t drive off it.\nMad scientist at work!\nDoes not compute.\nInsulators insulate, until they are subject to ______ voltage.\nTech is not neutral, nor is it apolitical.\nThis is a note.\nOther relevant information.\n25% if the service is good.\nThis needs the sphinx.ext.todo extension.\nReader discretion is strongly advised.\nAdded in version v0.1.1: Here’s a version added message.\nChanged in version v0.1.1: Here’s a version changed message.\nDeprecated since version v0.1.1: Here’s a deprecation message."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#admonitions",
+        "title": "Examples > Admonitions",
+        "section": "Admonitions",
+        "text": "Sphinx provides several different types of admonitions.\nThis is what admonitions are a special case of, according to the docutils\ndocumentation.\nIt’s got a certain charm to it.\nClimate change is real.\nCliff ahead: Don’t drive off it.\nMad scientist at work!\nDoes not compute.\nInsulators insulate, until they are subject to ______ voltage.\nTech is not neutral, nor is it apolitical.\nThis is a note.\nOther relevant information.\n25% if the service is good.\nThis needs the sphinx.ext.todo extension.\nReader discretion is strongly advised.\nAdded in version v0.1.1: Here’s a version added message.\nChanged in version v0.1.1: Here’s a version changed message.\nDeprecated since version v0.1.1: Here’s a deprecation message."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#topic",
+        "title": "Examples > Admonitions > topic",
+        "section": "topic",
+        "text": "This is what admonitions are a special case of, according to the docutils\ndocumentation."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#admonition",
+        "title": "Examples > Admonitions > admonition",
+        "section": "admonition",
+        "text": "It’s got a certain charm to it."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#attention",
+        "title": "Examples > Admonitions > attention",
+        "section": "attention",
+        "text": "Climate change is real."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#caution",
+        "title": "Examples > Admonitions > caution",
+        "section": "caution",
+        "text": "Cliff ahead: Don’t drive off it."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#danger",
+        "title": "Examples > Admonitions > danger",
+        "section": "danger",
+        "text": "Mad scientist at work!"
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#error",
+        "title": "Examples > Admonitions > error",
+        "section": "error",
+        "text": "Does not compute."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#hint",
+        "title": "Examples > Admonitions > hint",
+        "section": "hint",
+        "text": "Insulators insulate, until they are subject to ______ voltage."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#important",
+        "title": "Examples > Admonitions > important",
+        "section": "important",
+        "text": "Tech is not neutral, nor is it apolitical."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#note",
+        "title": "Examples > Admonitions > note",
+        "section": "note",
+        "text": "This is a note."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#seealso",
+        "title": "Examples > Admonitions > seealso",
+        "section": "seealso",
+        "text": "Other relevant information."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#tip",
+        "title": "Examples > Admonitions > tip",
+        "section": "tip",
+        "text": "25% if the service is good."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#todo",
+        "title": "Examples > Admonitions > todo",
+        "section": "todo",
+        "text": "This needs the sphinx.ext.todo extension."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#warning",
+        "title": "Examples > Admonitions > warning",
+        "section": "warning",
+        "text": "Reader discretion is strongly advised."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#versionadded",
+        "title": "Examples > Admonitions > versionadded",
+        "section": "versionadded",
+        "text": "Added in version v0.1.1: Here’s a version added message."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#versionchanged",
+        "title": "Examples > Admonitions > versionchanged",
+        "section": "versionchanged",
+        "text": "Changed in version v0.1.1: Here’s a version changed message."
+    },
+    {
+        "objectID": "examples/admonitions",
+        "href": "examples/admonitions.html#deprecated",
+        "title": "Examples > Admonitions > deprecated",
+        "section": "deprecated",
+        "text": "Deprecated since version v0.1.1: Here’s a deprecation message."
+    },
+    {
+        "objectID": "examples/api/examples/samples/index",
+        "href": "examples/api/examples/samples/index.html#the-samplespy-module",
+        "title": "Examples > Examples > The samples.py module",
+        "section": "The samples.py module",
+        "text": "ExampleClass\nThe summary line for a class docstring should fit on one line.\nComplex\nCustom implementation of a complex number.\nSample classes and functions for ansys-sphinx-theme."
+    },
+    {
+        "objectID": "examples/api/examples/samples/index",
+        "href": "examples/api/examples/samples/index.html#summary",
+        "title": "Examples > Examples > The samples.py module > Summary",
+        "section": "Summary",
+        "text": "ExampleClass\nThe summary line for a class docstring should fit on one line.\nComplex\nCustom implementation of a complex number."
+    },
+    {
+        "objectID": "examples/api/examples/samples/index",
+        "href": "examples/api/examples/samples/index.html#description",
+        "title": "Examples > Examples > The samples.py module > Description",
+        "section": "Description",
+        "text": "Sample classes and functions for ansys-sphinx-theme."
+    },
+    {
+        "objectID": "user-guide",
+        "href": "user-guide.html#user-guide",
+        "title": "User guide",
+        "section": "User guide",
+        "text": "This section outlines the fundamental configurations of the Ansys Sphinx theme and how to integrate\nthird-party extensions with this theme to customize your documentation.\nConfigure the Ansys Sphinx Theme\nSet theme options\nSee how to use the linkcode extension with the Ansys Sphinx Theme.\nSee how to use Sphinx AutoAPI with the Ansys Sphinx Theme."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#admonitions",
+        "title": "Examples > Admonitions",
+        "section": "Admonitions",
+        "text": "Sphinx provides several different types of admonitions.\nThis is what admonitions are a special case of, according to the docutils\ndocumentation.\nIt’s got a certain charm to it.\nClimate change is real.\nCliff ahead: Don’t drive off it.\nMad scientist at work!\nDoes not compute.\nInsulators insulate, until they are subject to ______ voltage.\nTech is not neutral, nor is it apolitical.\nThis is a note.\nOther relevant information.\n25% if the service is good.\nThis needs the sphinx.ext.todo extension.\nReader discretion is strongly advised.\nAdded in version v0.1.1: Here’s a version added message.\nChanged in version v0.1.1: Here’s a version changed message.\nDeprecated since version v0.1.1: Here’s a deprecation message."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#topic",
+        "title": "Examples > Admonitions > topic",
+        "section": "topic",
+        "text": "This is what admonitions are a special case of, according to the docutils\ndocumentation."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#admonition",
+        "title": "Examples > Admonitions > admonition",
+        "section": "admonition",
+        "text": "It’s got a certain charm to it."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#attention",
+        "title": "Examples > Admonitions > attention",
+        "section": "attention",
+        "text": "Climate change is real."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#caution",
+        "title": "Examples > Admonitions > caution",
+        "section": "caution",
+        "text": "Cliff ahead: Don’t drive off it."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#danger",
+        "title": "Examples > Admonitions > danger",
+        "section": "danger",
+        "text": "Mad scientist at work!"
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#error",
+        "title": "Examples > Admonitions > error",
+        "section": "error",
+        "text": "Does not compute."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#hint",
+        "title": "Examples > Admonitions > hint",
+        "section": "hint",
+        "text": "Insulators insulate, until they are subject to ______ voltage."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#important",
+        "title": "Examples > Admonitions > important",
+        "section": "important",
+        "text": "Tech is not neutral, nor is it apolitical."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#note",
+        "title": "Examples > Admonitions > note",
+        "section": "note",
+        "text": "This is a note."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#seealso",
+        "title": "Examples > Admonitions > seealso",
+        "section": "seealso",
+        "text": "Other relevant information."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#tip",
+        "title": "Examples > Admonitions > tip",
+        "section": "tip",
+        "text": "25% if the service is good."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#todo",
+        "title": "Examples > Admonitions > todo",
+        "section": "todo",
+        "text": "This needs the sphinx.ext.todo extension."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#warning",
+        "title": "Examples > Admonitions > warning",
+        "section": "warning",
+        "text": "Reader discretion is strongly advised."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#versionadded",
+        "title": "Examples > Admonitions > versionadded",
+        "section": "versionadded",
+        "text": "Added in version v0.1.1: Here’s a version added message."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#versionchanged",
+        "title": "Examples > Admonitions > versionchanged",
+        "section": "versionchanged",
+        "text": "Changed in version v0.1.1: Here’s a version changed message."
+    },
+    {
+        "objectID": "examples/sphinx_examples/admonitions",
+        "href": "examples/sphinx_examples/admonitions.html#deprecated",
+        "title": "Examples > Admonitions > deprecated",
+        "section": "deprecated",
+        "text": "Deprecated since version v0.1.1: Here’s a deprecation message."
+    },
+    {
+        "objectID": "user-guide/autoapi",
+        "href": "user-guide/autoapi.html#sphinx-autoapi",
+        "title": "User guide > Sphinx AutoAPI",
+        "section": "Sphinx AutoAPI",
+        "text": "To use Sphinx AutoAPI with the Ansys Sphinx Theme, you must\nadd ansys_sphinx_theme.extension.autoapi to the extensions list in your conf.py file\nand set the ansys_sphinx_theme_autoapi theme options in the html_theme_options dictionary.\nproject: The name of the project.\noutput: The path to the directory where the generated files are placed.\nBy default, this is set to the api directory.\ntemplates: The path to the directory containing the custom templates for sphinx-autoapi.\nBy default, this is set to the autoapi_templates directory in the theme package.\ndirectory: The path to the directory containing the source code with respect to the conf.py file.\nBy default, this is set to the src/ansys directory.\nuse_implicit_namespaces: If set to True, the autoapi extension use implicit namespaces.\nBy default, this is set to True.\nkeep_files: If set to True, the autoapi extension keeps the generated files.\nBy default, this is set to True.\nown_page_level: The level of the page where the autoapi extension places the content of the class.\nBy default, this is set to class.\ntype: The type of the autoapi extension. By default, this is set to python.\noptions: The options to pass to the autoapi extension. By default,\nthis is set to [\"members\", \"undoc-members\", \"show-inheritance\", \"show-module-summary\", \"special-members\"].\nclass_content: The content of the class. By default this is set to class.\nignore: The list of directories to ignore. By default, this is empty.\nadd_toctree_entry: If set to True, the autoapi extension adds the generated files to the TOC tree.\nBy default, this is set to False.\npackage_depth: The depth of the package. By default, this is set to 3. This is the namespace depth of the package.\nFor example, if the package is ansys, the depth is 1. If the package is ansys.foo, the depth is 2.\nmember_order: The order to document members. By default, this is set to bysource. Other options include\nalphabetical, which orders members by their name (case sensitive), or groupwise, which orders members by their type\nand alphabetically.\nAll these options can be set in the conf.py file of your Sphinx project.\nYou need to add ansys_sphinx_theme.extension.autoapi to the extensions list in your conf.py file:\nThe complete configuration for sphinx-autoapi in your conf.py file should look like this:\nhtml_theme_options = {\n    \"ansys_sphinx_theme_autoapi\": {\n        \"project\": \"My Project\",\n        \"output\": \"api\",\n        \"directory\": \"src/ansys\",\n        \"use_implicit_namespaces\": True,\n        \"keep_files\": True,\n        \"own_page_level\": \"class\",\n        \"type\": \"python\",\n        \"options\": [\n            \"members\",\n            \"undoc-members\",\n            \"show-inheritance\",\n            \"show-module-summary\",\n            \"special-members\",\n        ],\n        \"class_content\": \"class\",\n        \"ignore\": [],\n        \"add_toctree_entry\": False,\n        \"package_depth\": 3,\n        \"member_order\": \"bysource\",\n    }\n}\nextensions = [\n    \"ansys_sphinx_theme.extension.autoapi\",\n]\nhtml_theme_options = {\n    \"ansys_sphinx_theme_autoapi\": {\n        \"project\": \"My Project\",\n        \"output\": \"api\",\n        \"use_implicit_namespaces\": True,\n        \"directory\": \"src/ansys\",\n        \"keep_files\": True,\n        \"own_page_level\": \"class\",\n        \"type\": \"python\",\n        \"options\": [\n            \"members\",\n            \"undoc-members\",\n            \"show-inheritance\",\n            \"show-module-summary\",\n            \"special-members\",\n        ],\n        \"class_content\": \"class\",\n    }\n}\n\nextensions = [\n    \"ansys_sphinx_theme.extension.autoapi\",\n]"
+    },
+    {
+        "objectID": "user-guide/pdf",
+        "href": "user-guide/pdf.html#pdf-cover-page",
+        "title": "User guide > PDF cover page",
+        "section": "PDF cover page",
+        "text": "For generating a PDF of your documentation, Sphinx uses a default cover\npage. However, you can use the generate_preamble function in the\nansys_sphinx_theme.latex module to create and use a custom cover page:\nGenerate the preamble for the PDF documentation.\nTitle of the document.\nName of the watermark image.\nDate of document generation. If not provided, today’s date is used.\nA string representing the LaTeX source code for the preamble.\nYou use this function to generate the value for the preamble key in the\nlatex_elements variable declared in the conf.py file:\nTo use the logo and watermark provided by Ansys on the cover page, you must\nimport them and then add them to the latex_additional_files dictionary:\nFor an example of a rendered PDF cover page, see the\nPDF documentation.\nlatex_elements = {\n    \"preamble\": ansys_sphinx_theme.latex.generate_preamble(\n        <title_of_coverpage>,\n        <watermark_for_titlepage>,\n        <date_to_be_printed>,\n    )\n}\nfrom ansys_sphinx_theme import (\n    ansys_logo_white,\n    ansys_logo_white_cropped,\n    watermark,\n)\nlatex_additional_files = [watermark, ansys_logo_white, ansys_logo_white_cropped]"
+    },
+    {
+        "objectID": "user-guide/linkcode",
+        "href": "user-guide/linkcode.html#the-linkcode-extension",
+        "title": "User guide > The linkcode extension",
+        "section": "The linkcode extension",
+        "text": "The linkcode extension automatically adds source links to the documentation for Python, C, C++,\nand JavaScript objects. It allows you to link to the source code hosted on GitHub.\nTo use the linkcode extension, you must add it to the extensions variable in your\nproject’s Sphinx conf.py file:\nThe Linkcode extension provides a way to configure its behavior by using certain options within your conf.py file.\nDepending on your preferred approach, you can utilize the direct\nconfiguration options or the html_context dictionary to streamline your settings.\nIf both sets of configuration options are given, the direct configuration options (that is, link_code_library,\nlink_code_source, link_code_branch) has\nprecedence over the corresponding settings in the html_context dictionary.\nlink_code_library :\nThe user/repository name where the source code is hosted. For example, ansys/ansys-sphinx-theme.\nlink_code_source (str, optional, default: ‘’):\nThe relative path of the source code file within the repository. For example, src.\nlink_code_branch (str, optional, default: ‘main’):\nThe GitHub branch. It can be a specific version like main or dev.\nIf the link_code_source and link_code_branch options are not provided in the configuration,\nthe following default values are used:\nlink_code_source: An empty string (''). This links to the root of the repository.\nlink_code_branch: main. This is the default branch name used if no branch is specified.\nYou also have the option to centralize your GitHub-related configuration by incorporating it\ndirectly into the html_context dictionary within your conf.py file. This approach allows you to\nminimize redundancy and manage the GitHub-related information more effectively for the extension:\nWith this setup, you can fine-tune your configuration according to your preferences and requirements,\nenhancing the integration of the linkcode extension into your documentation.\nextensions = [\"ansys_sphinx_theme.extension.linkcode\"]\n# Example of setting direct configuration in example\nlink_code_library = \"username/repo-name\"\nlink_code_source = \"src\"\nlink_code_branch = \"dev\"\n# Example of setting GitHub-related configuration in conf.py\nhtml_context = {\n    \"github_user\": \"<your-github-org>\",\n    \"github_repo\": \"<your-github-repo>\",\n    \"github_version\": \"<your-branch>\",\n    \"source_path\": \"<path-from-root-to-your-source_file>\",\n}"
+    },
+    {
+        "objectID": "user-guide/linkcode",
+        "href": "user-guide/linkcode.html#configuration-options",
+        "title": "User guide > The linkcode extension > Configuration options",
+        "section": "Configuration options",
+        "text": "The Linkcode extension provides a way to configure its behavior by using certain options within your conf.py file.\nDepending on your preferred approach, you can utilize the direct\nconfiguration options or the html_context dictionary to streamline your settings.\nIf both sets of configuration options are given, the direct configuration options (that is, link_code_library,\nlink_code_source, link_code_branch) has\nprecedence over the corresponding settings in the html_context dictionary.\nlink_code_library :\nThe user/repository name where the source code is hosted. For example, ansys/ansys-sphinx-theme.\nlink_code_source (str, optional, default: ‘’):\nThe relative path of the source code file within the repository. For example, src.\nlink_code_branch (str, optional, default: ‘main’):\nThe GitHub branch. It can be a specific version like main or dev.\nIf the link_code_source and link_code_branch options are not provided in the configuration,\nthe following default values are used:\nlink_code_source: An empty string (''). This links to the root of the repository.\nlink_code_branch: main. This is the default branch name used if no branch is specified.\nYou also have the option to centralize your GitHub-related configuration by incorporating it\ndirectly into the html_context dictionary within your conf.py file. This approach allows you to\nminimize redundancy and manage the GitHub-related information more effectively for the extension:\nWith this setup, you can fine-tune your configuration according to your preferences and requirements,\nenhancing the integration of the linkcode extension into your documentation.\n# Example of setting direct configuration in example\nlink_code_library = \"username/repo-name\"\nlink_code_source = \"src\"\nlink_code_branch = \"dev\"\n# Example of setting GitHub-related configuration in conf.py\nhtml_context = {\n    \"github_user\": \"<your-github-org>\",\n    \"github_repo\": \"<your-github-repo>\",\n    \"github_version\": \"<your-branch>\",\n    \"source_path\": \"<path-from-root-to-your-source_file>\",\n}"
+    },
+    {
+        "objectID": "user-guide/linkcode",
+        "href": "user-guide/linkcode.html#direct-configuration-options",
+        "title": "User guide > The linkcode extension > Direct configuration options",
+        "section": "Direct configuration options",
+        "text": "link_code_library :\nThe user/repository name where the source code is hosted. For example, ansys/ansys-sphinx-theme.\nlink_code_source (str, optional, default: ‘’):\nThe relative path of the source code file within the repository. For example, src.\nlink_code_branch (str, optional, default: ‘main’):\nThe GitHub branch. It can be a specific version like main or dev.\nIf the link_code_source and link_code_branch options are not provided in the configuration,\nthe following default values are used:\nlink_code_source: An empty string (''). This links to the root of the repository.\nlink_code_branch: main. This is the default branch name used if no branch is specified.\n# Example of setting direct configuration in example\nlink_code_library = \"username/repo-name\"\nlink_code_source = \"src\"\nlink_code_branch = \"dev\""
+    },
+    {
+        "objectID": "user-guide/linkcode",
+        "href": "user-guide/linkcode.html#using-html_context-dictionary",
+        "title": "User guide > The linkcode extension > Using html_context dictionary",
+        "section": "Using html_context dictionary",
+        "text": "You also have the option to centralize your GitHub-related configuration by incorporating it\ndirectly into the html_context dictionary within your conf.py file. This approach allows you to\nminimize redundancy and manage the GitHub-related information more effectively for the extension:\nWith this setup, you can fine-tune your configuration according to your preferences and requirements,\nenhancing the integration of the linkcode extension into your documentation.\n# Example of setting GitHub-related configuration in conf.py\nhtml_context = {\n    \"github_user\": \"<your-github-org>\",\n    \"github_repo\": \"<your-github-repo>\",\n    \"github_version\": \"<your-branch>\",\n    \"source_path\": \"<path-from-root-to-your-source_file>\",\n}"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#html-theme-options",
+        "title": "User guide > HTML theme options",
+        "section": "HTML theme options",
+        "text": "In the Sphinx configuration (conf.py) file in the doc directory, you can use the\nhtml_theme_options dictionary to customize the Ansys Sphinx theme.\nShowing breadcrumbs at the top of your documentation pages makes navigation easier.\nBreadcrumbs are shown by setting \"show_breadcrumbs\": True. To add additional\nroot breadcrumbs, \"additional_breadcrumbs\" is set to a list of tuples in\nthis form: (\"Link text\", \"url\").\nThis html_theme_options dictionary show breadcrumbs, including a root breadcrumb\nfor the documentation landing page for the Ansys repository:\nWhen you are on the landing page for your documentation, the breadcrumb shows the title for this\npage. However, Sphinx cannot access this title from other documentation pages. Thus, after\nhtml_theme_options dictionary, you must set html_short_title to the display text to\nuse for this breadcrumb.\nTo ensure a consistent user experience, always set the html_short_title\n(or optionally html_title if html_short_title is not used) to the library name.\nFor example, in the conf.py file for the Ansys Sphinx Theme, this line is added\nafter the html_theme_options dictionary:\nIf you want the title for your documentation’s main index.rst file to show the version,\ninclude |version| in the title:\nThe navigation bar shows two icons on the right by default. The first is for\nswitching between light and dark modes. The second is for going to the library’s\nGitHub repository.\nFor comprehensive information on adding custom link behavior, see\nAdd custom attributes to icon links\nin the PyData Theme documentation.\nFor comprehensive information on how to use Font Awesome to add icons, see How To Add Icons\nin the Font Awesome documentation.\nThe following sections explain how to add icons and hide icons.\nIn the conf.py file, the html_theme_options dictionary has a child icon_links\ndictionary. To add icons to the navigation bar, add them to the icon_links\ndictionary. For each icon to add, specify its name, the associated url,\nthe icon, and the type.\nThis example adds an icon for sending an email:\nTo hide icons so that they do not show in the navigation bar, add their names\nto the hidden_icons dictionary:\nIf you want to hide all icons, use the show_icons Boolean variable:\nThe Ansys Sphinx theme supports static search options to customize the search\nexperience.\nThe static search bar is created using Fuse.js. You can provide all\noptions supported by Fuse.js\nthrough the static_search dictionary in the html_theme_options.\nTo improve the search performance, a debounce function is available. By\ndefault, a delay of 300 milliseconds is applied. To modify this value, declare\nthe delay key in the static_search dictionary with a value specifying\nthe amount of milliseconds to wait before executing the search. A value of\n0 disables the debounce function.\nAll other options are available in the Fuse.js documentation.\nHere is an example of how to add the static_search dictionary to the\nhtml_theme_options dictionary:\nServe locally your documentation using the python -m http.server -d\n/path/to/docs/html/ to have a live-preview of your search results. This\nmethod is compliant with the CORS policy and allows to\nload the generated resource files containing the indices of your\ndocumentation. The search bar does not work if you open the HTML files\ndirectly in the browser.\nTo open the documentation in a local server, run the following command in\nthe directory where the HTML files are located:\nThen, open the browser and go to http://localhost:8000.\nIf a cheat sheet has been created for your PyAnsys library, with quarto, you can\nadd it to the left navigation pane of your documentation.\nIn the html_theme_options dictionary, you add a child dictionary named cheatsheet\nthat contain these keys, in the order given:\nfile: File name including the extension of the cheat sheet. If the file is inside a directory,\ninclude the directory name relative to the root of the documentation. For example, if the cheat sheet\nis in the getting_started directory, the file name is getting_started/cheat_sheet.qmd.\ntitle: Title of the cheat sheet to be displayed in the left navigation pane.\npages: List of names for the pages to include the cheat sheet on. If no value is provided,\nthe cheat sheet is displayed only on the main index.html file.\nversion: Version of the cheat sheet. If no value is provided, the version is main by default.\nHere is an example of how to add the cheatsheet dictionary to the html_theme_options` dictionary:\nHere is an example of how to show a thumbnail of a PyMAPDL cheat sheet in the left navigation pane of its\nmain index.rst file and the learning.rst file in its “Getting started” section:\nTo use this feature, you must have the quarto <https://quarto.org/> package installed. To create thumbnails of generated PDF files,\nthe theme is using pdf2image. So you should have the poppler package installed in your system.\nFor more information, see the pdf2image documentation.\nhtml_theme_options = {\n    \"github_url\": \"https://github.com/ansys/ansys-sphinx-theme\",\n    \"show_prev_next\": False,\n    \"show_breadcrumbs\": True,\n    \"additional_breadcrumbs\": [\n        (\"PyAnsys\", \"https://docs.pyansys.com/\"),\n    ],\n}\nhtml_short_title = html_title = \"Ansys Sphinx Theme\"\nhtml_short_title = html_title = \"Ansys Sphinx Theme |version|\"\nhtml_theme_options = {\n \"icon_links\": [\n     dict(name=\"Mail\", url=\"mailto:me\", icon=\"fas fa-envelope\")\n ],\n ...\n}\nhtml_theme_options = {\n    \"hidden_icons\": [\"GitHub\"],\n    ...\n}\nhtml_theme_options = {\n    \"show_icons\": False,\n    ...\n}\nhtml_theme_options = {\n    \"static_search\": {\n        \"threshold\": 0.5,\n        \"limit\": 10,\n        \"minMatchCharLength\": 1,\n        \"delay\": 300,\n    },\n}\npython -m http.server\nhtml_theme_options = (\n    {\n        \"cheatsheet\": {\n            \"file\": \"<file name including the extension of the cheat sheet>\",\n            \"version\": \"<version of the cheat sheet>\",\n            \"pages\": \"<list of names for the pages to include the cheat sheet on>\",  # Optional\n        },\n    },\n)\nhtml_theme_options = (\n    {\n        \"cheatsheet\": {\n            \"file\": \"getting_started/cheat_sheet.qmd\",\n            \"version\": f\"{version}\",\n            \"pages\": [\"index\", \"getting_started/learning\"],\n        },\n    },\n)"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#show-breadcrumbs",
+        "title": "User guide > HTML theme options > Show breadcrumbs",
+        "section": "Show breadcrumbs",
+        "text": "Showing breadcrumbs at the top of your documentation pages makes navigation easier.\nBreadcrumbs are shown by setting \"show_breadcrumbs\": True. To add additional\nroot breadcrumbs, \"additional_breadcrumbs\" is set to a list of tuples in\nthis form: (\"Link text\", \"url\").\nThis html_theme_options dictionary show breadcrumbs, including a root breadcrumb\nfor the documentation landing page for the Ansys repository:\nWhen you are on the landing page for your documentation, the breadcrumb shows the title for this\npage. However, Sphinx cannot access this title from other documentation pages. Thus, after\nhtml_theme_options dictionary, you must set html_short_title to the display text to\nuse for this breadcrumb.\nTo ensure a consistent user experience, always set the html_short_title\n(or optionally html_title if html_short_title is not used) to the library name.\nFor example, in the conf.py file for the Ansys Sphinx Theme, this line is added\nafter the html_theme_options dictionary:\nIf you want the title for your documentation’s main index.rst file to show the version,\ninclude |version| in the title:\nhtml_theme_options = {\n    \"github_url\": \"https://github.com/ansys/ansys-sphinx-theme\",\n    \"show_prev_next\": False,\n    \"show_breadcrumbs\": True,\n    \"additional_breadcrumbs\": [\n        (\"PyAnsys\", \"https://docs.pyansys.com/\"),\n    ],\n}\nhtml_short_title = html_title = \"Ansys Sphinx Theme\"\nhtml_short_title = html_title = \"Ansys Sphinx Theme |version|\""
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#add-and-hide-icons-in-the-navigation-bar",
+        "title": "User guide > HTML theme options > Add and hide icons in the navigation bar",
+        "section": "Add and hide icons in the navigation bar",
+        "text": "The navigation bar shows two icons on the right by default. The first is for\nswitching between light and dark modes. The second is for going to the library’s\nGitHub repository.\nFor comprehensive information on adding custom link behavior, see\nAdd custom attributes to icon links\nin the PyData Theme documentation.\nFor comprehensive information on how to use Font Awesome to add icons, see How To Add Icons\nin the Font Awesome documentation.\nThe following sections explain how to add icons and hide icons.\nIn the conf.py file, the html_theme_options dictionary has a child icon_links\ndictionary. To add icons to the navigation bar, add them to the icon_links\ndictionary. For each icon to add, specify its name, the associated url,\nthe icon, and the type.\nThis example adds an icon for sending an email:\nTo hide icons so that they do not show in the navigation bar, add their names\nto the hidden_icons dictionary:\nIf you want to hide all icons, use the show_icons Boolean variable:\nhtml_theme_options = {\n \"icon_links\": [\n     dict(name=\"Mail\", url=\"mailto:me\", icon=\"fas fa-envelope\")\n ],\n ...\n}\nhtml_theme_options = {\n    \"hidden_icons\": [\"GitHub\"],\n    ...\n}\nhtml_theme_options = {\n    \"show_icons\": False,\n    ...\n}"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#add-icons",
+        "title": "User guide > HTML theme options > Add icons",
+        "section": "Add icons",
+        "text": "In the conf.py file, the html_theme_options dictionary has a child icon_links\ndictionary. To add icons to the navigation bar, add them to the icon_links\ndictionary. For each icon to add, specify its name, the associated url,\nthe icon, and the type.\nThis example adds an icon for sending an email:\nhtml_theme_options = {\n \"icon_links\": [\n     dict(name=\"Mail\", url=\"mailto:me\", icon=\"fas fa-envelope\")\n ],\n ...\n}"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#hide-icons",
+        "title": "User guide > HTML theme options > Hide icons",
+        "section": "Hide icons",
+        "text": "To hide icons so that they do not show in the navigation bar, add their names\nto the hidden_icons dictionary:\nIf you want to hide all icons, use the show_icons Boolean variable:\nhtml_theme_options = {\n    \"hidden_icons\": [\"GitHub\"],\n    ...\n}\nhtml_theme_options = {\n    \"show_icons\": False,\n    ...\n}"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#static-search-options",
+        "title": "User guide > HTML theme options > Static search options",
+        "section": "Static search options",
+        "text": "The Ansys Sphinx theme supports static search options to customize the search\nexperience.\nThe static search bar is created using Fuse.js. You can provide all\noptions supported by Fuse.js\nthrough the static_search dictionary in the html_theme_options.\nTo improve the search performance, a debounce function is available. By\ndefault, a delay of 300 milliseconds is applied. To modify this value, declare\nthe delay key in the static_search dictionary with a value specifying\nthe amount of milliseconds to wait before executing the search. A value of\n0 disables the debounce function.\nAll other options are available in the Fuse.js documentation.\nHere is an example of how to add the static_search dictionary to the\nhtml_theme_options dictionary:\nServe locally your documentation using the python -m http.server -d\n/path/to/docs/html/ to have a live-preview of your search results. This\nmethod is compliant with the CORS policy and allows to\nload the generated resource files containing the indices of your\ndocumentation. The search bar does not work if you open the HTML files\ndirectly in the browser.\nTo open the documentation in a local server, run the following command in\nthe directory where the HTML files are located:\nThen, open the browser and go to http://localhost:8000.\nhtml_theme_options = {\n    \"static_search\": {\n        \"threshold\": 0.5,\n        \"limit\": 10,\n        \"minMatchCharLength\": 1,\n        \"delay\": 300,\n    },\n}\npython -m http.server"
+    },
+    {
+        "objectID": "user-guide/options",
+        "href": "user-guide/options.html#cheat-sheets",
+        "title": "User guide > HTML theme options > Cheat sheets",
+        "section": "Cheat sheets",
+        "text": "If a cheat sheet has been created for your PyAnsys library, with quarto, you can\nadd it to the left navigation pane of your documentation.\nIn the html_theme_options dictionary, you add a child dictionary named cheatsheet\nthat contain these keys, in the order given:\nfile: File name including the extension of the cheat sheet. If the file is inside a directory,\ninclude the directory name relative to the root of the documentation. For example, if the cheat sheet\nis in the getting_started directory, the file name is getting_started/cheat_sheet.qmd.\ntitle: Title of the cheat sheet to be displayed in the left navigation pane.\npages: List of names for the pages to include the cheat sheet on. If no value is provided,\nthe cheat sheet is displayed only on the main index.html file.\nversion: Version of the cheat sheet. If no value is provided, the version is main by default.\nHere is an example of how to add the cheatsheet dictionary to the html_theme_options` dictionary:\nHere is an example of how to show a thumbnail of a PyMAPDL cheat sheet in the left navigation pane of its\nmain index.rst file and the learning.rst file in its “Getting started” section:\nTo use this feature, you must have the quarto <https://quarto.org/> package installed. To create thumbnails of generated PDF files,\nthe theme is using pdf2image. So you should have the poppler package installed in your system.\nFor more information, see the pdf2image documentation.\nhtml_theme_options = (\n    {\n        \"cheatsheet\": {\n            \"file\": \"<file name including the extension of the cheat sheet>\",\n            \"version\": \"<version of the cheat sheet>\",\n            \"pages\": \"<list of names for the pages to include the cheat sheet on>\",  # Optional\n        },\n    },\n)\nhtml_theme_options = (\n    {\n        \"cheatsheet\": {\n            \"file\": \"getting_started/cheat_sheet.qmd\",\n            \"version\": f\"{version}\",\n            \"pages\": [\"index\", \"getting_started/learning\"],\n        },\n    },\n)"
+    },
+    {
+        "objectID": "examples/api/examples/type_hint_example/index",
+        "href": "examples/api/examples/type_hint_example/index.html#the-type_hint_examplepy-module",
+        "title": "Examples > Examples > The type_hint_example.py module",
+        "section": "The type_hint_example.py module",
+        "text": "type_hint_func\nSummary containing the function description.\nModule containing an example function using type hinting."
+    },
+    {
+        "objectID": "examples/api/examples/type_hint_example/index",
+        "href": "examples/api/examples/type_hint_example/index.html#summary",
+        "title": "Examples > Examples > The type_hint_example.py module > Summary",
+        "section": "Summary",
+        "text": "type_hint_func\nSummary containing the function description."
+    },
+    {
+        "objectID": "examples/api/examples/type_hint_example/index",
+        "href": "examples/api/examples/type_hint_example/index.html#description",
+        "title": "Examples > Examples > The type_hint_example.py module > Description",
+        "section": "Description",
+        "text": "Module containing an example function using type hinting."
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#basic-configuration",
+        "title": "User guide > Basic configuration",
+        "section": "Basic configuration",
+        "text": "To use the Ansys Sphinx Theme, add the following line to your project’s Sphinx conf.py file:\nThe Ansys Sphinx Theme provides these features:\nPyAnsys and Ansys logos\nVersion switcher\nPDF cover page\nCustom CSS\nThe Ansys Sphinx Theme includes the PyAnsys and Ansys logos. All the logos\nare available in the\nansys_sphinx_theme/static/\ndirectory.\nTo use the logo in both dark and light modes, add the following code to the``html_theme_options`` dictionary in your project’s Sphinx conf.py file:\nBy default, if ansys logo is displayed, the logo links to the Ansys website. If the PyAnsys logo is displayed, the logo links to the PyAnsys website.\nIf you want to change the link, you can set the logo_link option in the conf.py file.\nFor example:\nIf you use the logo option, make sure to remove the html_logo option from the conf.py file.\nlogo option overrides the html_logo option and display the specified logo.\nYou can also add a custom logo by specifying the path to the logo file as specified in pydata-sphinx-theme.\nFor example:\nThe favicon setting specifies the icon that appears in the browser tab. To use the Ansys favicon, add the following code to your project’s Sphinx conf.py file:\nThe Ansys Sphinx Theme includes a version switcher for switching between different versions of the documentation.\nTo show the version switcher in your documentation, add the following code to your project’s Sphinx conf.py file:\nThe switcher requires a versions.json file that contains the versions of the documentation and their URLs in the given json_url.\nFor more information, see PyAnsys multi-version documentation in the\nPyAnsys developer’s guide.\nThe Ansys Sphinx Theme includes a PDF cover page that you can customize.\nTo customize the PDF cover page, see ref_user_guide_pdf_cover.\nYou can add custom CSS to the Ansys Sphinx Theme by creating a directory named _static/css in\nyour documentation and adding the following code to your project’s Sphinx conf.py file:\nHere is an example of a custom CSS file that changes the background color\nof the body to black and the text color to white:\nhtml_theme = \"ansys_sphinx_theme\"\nhtml_theme_options = {\n    \"logo\": \"ansys\",\n}\nhtml_theme_options = {\n    \"logo\": \"pyansys\",\n}\nhtml_theme_options = {\n    \"logo\": \"no_logo\",\n}\nhtml_theme_options = {\n    \"logo\": \"ansys\",\n    \"logo_link\": \"https://www.example.com\",\n}\nhtml_theme_options = {\n    \"logo\": {\n        \"image_light\": \"_static/logo-light.png\",\n        \"image_dark\": \"_static/logo-dark.png\",\n    }\n}\nhtml_favicon = ansys_favicon\nfrom ansys_sphinx_theme import get_version_match\n\nversion = \"0.1.0\"\nswitcher_versions = get_version_match(version)\ncname = \"your_name\"\nhtml_theme_options = {\n    \"switcher\": {\n        \"json_url\": f\"https://{cname}/versions.json\",\n        \"version_match\": switcher_version,\n    },\n}\nhtml_static_path = [\"_static\"]\nhtml_css_files = [\"css/custom.css\"]\n.body {\n    background-color: black;\n   color: white;\n}"
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#pyansys-and-ansys-logos",
+        "title": "User guide > Basic configuration > PyAnsys and Ansys logos",
+        "section": "PyAnsys and Ansys logos",
+        "text": "The Ansys Sphinx Theme includes the PyAnsys and Ansys logos. All the logos\nare available in the\nansys_sphinx_theme/static/\ndirectory.\nTo use the logo in both dark and light modes, add the following code to the``html_theme_options`` dictionary in your project’s Sphinx conf.py file:\nBy default, if ansys logo is displayed, the logo links to the Ansys website. If the PyAnsys logo is displayed, the logo links to the PyAnsys website.\nIf you want to change the link, you can set the logo_link option in the conf.py file.\nFor example:\nIf you use the logo option, make sure to remove the html_logo option from the conf.py file.\nlogo option overrides the html_logo option and display the specified logo.\nYou can also add a custom logo by specifying the path to the logo file as specified in pydata-sphinx-theme.\nFor example:\nhtml_theme_options = {\n    \"logo\": \"ansys\",\n}\nhtml_theme_options = {\n    \"logo\": \"pyansys\",\n}\nhtml_theme_options = {\n    \"logo\": \"no_logo\",\n}\nhtml_theme_options = {\n    \"logo\": \"ansys\",\n    \"logo_link\": \"https://www.example.com\",\n}\nhtml_theme_options = {\n    \"logo\": {\n        \"image_light\": \"_static/logo-light.png\",\n        \"image_dark\": \"_static/logo-dark.png\",\n    }\n}"
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#favicon",
+        "title": "User guide > Basic configuration > favicon",
+        "section": "favicon",
+        "text": "The favicon setting specifies the icon that appears in the browser tab. To use the Ansys favicon, add the following code to your project’s Sphinx conf.py file:\nhtml_favicon = ansys_favicon"
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#version-switcher",
+        "title": "User guide > Basic configuration > Version switcher",
+        "section": "Version switcher",
+        "text": "The Ansys Sphinx Theme includes a version switcher for switching between different versions of the documentation.\nTo show the version switcher in your documentation, add the following code to your project’s Sphinx conf.py file:\nThe switcher requires a versions.json file that contains the versions of the documentation and their URLs in the given json_url.\nFor more information, see PyAnsys multi-version documentation in the\nPyAnsys developer’s guide.\nfrom ansys_sphinx_theme import get_version_match\n\nversion = \"0.1.0\"\nswitcher_versions = get_version_match(version)\ncname = \"your_name\"\nhtml_theme_options = {\n    \"switcher\": {\n        \"json_url\": f\"https://{cname}/versions.json\",\n        \"version_match\": switcher_version,\n    },\n}"
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#pdf-cover-page",
+        "title": "User guide > Basic configuration > PDF cover page",
+        "section": "PDF cover page",
+        "text": "The Ansys Sphinx Theme includes a PDF cover page that you can customize.\nTo customize the PDF cover page, see ref_user_guide_pdf_cover."
+    },
+    {
+        "objectID": "user-guide/configuration",
+        "href": "user-guide/configuration.html#custom-css",
+        "title": "User guide > Basic configuration > Custom CSS",
+        "section": "Custom CSS",
+        "text": "You can add custom CSS to the Ansys Sphinx Theme by creating a directory named _static/css in\nyour documentation and adding the following code to your project’s Sphinx conf.py file:\nHere is an example of a custom CSS file that changes the background color\nof the body to black and the text color to white:\nhtml_static_path = [\"_static\"]\nhtml_css_files = [\"css/custom.css\"]\n.body {\n    background-color: black;\n   color: white;\n}"
+    },
+    {
+        "objectID": "examples/api/examples/index",
+        "href": "examples/api/examples/index.html#the-examples-package",
+        "title": "Examples > Examples > The examples package",
+        "section": "The examples package",
+        "text": "sample_func\nSample functions for ansys-sphinx-theme.\nsamples\nSample classes and functions for ansys-sphinx-theme.\ntype_hint_example\nModule containing an example function using type hinting.\nA sub-package containing various examples for checking their rendering."
+    },
+    {
+        "objectID": "examples/api/examples/index",
+        "href": "examples/api/examples/index.html#summary",
+        "title": "Examples > Examples > The examples package > Summary",
+        "section": "Summary",
+        "text": "sample_func\nSample functions for ansys-sphinx-theme.\nsamples\nSample classes and functions for ansys-sphinx-theme.\ntype_hint_example\nModule containing an example function using type hinting."
+    },
+    {
+        "objectID": "examples/api/examples/index",
+        "href": "examples/api/examples/index.html#description",
+        "title": "Examples > Examples > The examples package > Description",
+        "section": "Description",
+        "text": "A sub-package containing various examples for checking their rendering."
+    },
+    {
+        "objectID": "examples/api/examples/type_hint_example/type_hint_func",
+        "href": "examples/api/examples/type_hint_example/type_hint_func.html#examplestype_hint_exampletype_hint_func",
+        "title": "Examples > Examples > examples.type_hint_example.type_hint_func",
+        "section": "examples.type_hint_example.type_hint_func",
+        "text": "Summary containing the function description.\nExtended description of the function. Can span multiple lines and\nprovides a general overview of the function.\nDescription of an integer parameter.\nDescription of a string parameter.\nParameter that can be either int or float using Union (typing).\nDescription of the returned value."
+    }
+]
